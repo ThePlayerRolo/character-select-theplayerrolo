@@ -1,0 +1,2705 @@
+Lights1 theplayerrolo_yoshi_TorsoMiddle_lights = gdSPDefLights1(
+	0x8, 0xF, 0x15,
+	0x1B, 0x2A, 0x35, 0x28, 0x28, 0x28);
+
+Lights1 theplayerrolo_yoshi_body_v3_lights = gdSPDefLights1(
+	0x60, 0xE, 0x8,
+	0xC4, 0x28, 0x1C, 0x28, 0x28, 0x28);
+
+Lights1 theplayerrolo_yoshi_hair_v3_001_lights = gdSPDefLights1(
+	0x8, 0xF, 0x15,
+	0x1B, 0x2A, 0x35, 0x28, 0x28, 0x28);
+
+Lights1 theplayerrolo_yoshi_SFOTHEggMiddle_lights = gdSPDefLights1(
+	0x7F, 0x7F, 0x7F,
+	0xFF, 0xFF, 0xFF, 0x28, 0x28, 0x28);
+
+Lights1 theplayerrolo_yoshi_SFOTHEggTop_lights = gdSPDefLights1(
+	0x7F, 0x7F, 0x7F,
+	0xFF, 0xFF, 0xFF, 0x28, 0x28, 0x28);
+
+Lights1 theplayerrolo_yoshi_face_1___eye_half_v3_001_lights = gdSPDefLights1(
+	0x60, 0xE, 0x8,
+	0xC4, 0x28, 0x1C, 0x28, 0x28, 0x28);
+
+Lights1 theplayerrolo_yoshi_face_2___eye_closed_v3_001_lights = gdSPDefLights1(
+	0x60, 0xE, 0x8,
+	0xC4, 0x28, 0x1C, 0x28, 0x28, 0x28);
+
+Lights1 theplayerrolo_yoshi_saturn_eyes_lights = gdSPDefLights1(
+	0x60, 0xE, 0x8,
+	0xC4, 0x28, 0x1C, 0x28, 0x28, 0x28);
+
+Lights1 theplayerrolo_yoshi_face_7___eye_X_v3_001_lights = gdSPDefLights1(
+	0x60, 0xE, 0x8,
+	0xC4, 0x28, 0x1C, 0x28, 0x28, 0x28);
+
+Lights1 theplayerrolo_yoshi_gloves_v3_001_lights = gdSPDefLights1(
+	0x7F, 0x7F, 0x7F,
+	0xFF, 0xFF, 0xFF, 0x28, 0x28, 0x28);
+
+Lights1 theplayerrolo_yoshi_Nostrils_lights = gdSPDefLights1(
+	0x60, 0xE, 0x8,
+	0xC4, 0x28, 0x1C, 0x28, 0x28, 0x28);
+
+Lights1 theplayerrolo_yoshi_Spines_lights = gdSPDefLights1(
+	0x8, 0xF, 0x15,
+	0x1B, 0x2A, 0x35, 0x28, 0x28, 0x28);
+
+Lights1 theplayerrolo_yoshi_face_0___eye_open_v3_001_lights = gdSPDefLights1(
+	0x60, 0xE, 0x8,
+	0xC4, 0x28, 0x1C, 0x28, 0x28, 0x28);
+
+Lights1 theplayerrolo_yoshi_cap_v3_lights = gdSPDefLights1(
+	0x7A, 0x65, 0x1D,
+	0xF4, 0xCC, 0x43, 0x28, 0x28, 0x28);
+
+Lights1 theplayerrolo_yoshi_shoes_v3_001_lights = gdSPDefLights1(
+	0x35, 0x35, 0x35,
+	0x71, 0x71, 0x71, 0x28, 0x28, 0x28);
+
+Texture theplayerrolo_yoshi_BlazikenTShirt64_rgba16[] = {
+	#include "actors/theplayerrolo_yoshi/BlazikenTShirt64.rgba16.inc.c"
+};
+
+Texture theplayerrolo_yoshi_metal_rgba16[] = {
+	#include "actors/theplayerrolo_yoshi/metal.rgba16.inc.c"
+};
+
+Texture theplayerrolo_yoshi_Shell_rgba16[] = {
+	#include "actors/theplayerrolo_yoshi/Shell.rgba16.inc.c"
+};
+
+Texture theplayerrolo_yoshi_SFOTHEggMiddle_rgba16[] = {
+	#include "actors/theplayerrolo_yoshi/SFOTHEggMiddle.rgba16.inc.c"
+};
+
+Texture theplayerrolo_yoshi_SFOTHEggTop_rgba16[] = {
+	#include "actors/theplayerrolo_yoshi/SFOTHEggTop.rgba16.inc.c"
+};
+
+Texture theplayerrolo_yoshi_Blink1_rgba16[] = {
+	#include "actors/theplayerrolo_yoshi/Blink1.rgba16.inc.c"
+};
+
+Texture theplayerrolo_yoshi_Blink2_rgba16[] = {
+	#include "actors/theplayerrolo_yoshi/Blink2.rgba16.inc.c"
+};
+
+Texture theplayerrolo_yoshi_saturn_eyes_rgba16[] = {
+	#include "actors/theplayerrolo_yoshi/saturn_eyes.rgba16.inc.c"
+};
+
+Texture theplayerrolo_yoshi_DeadEyes_rgba16[] = {
+	#include "actors/theplayerrolo_yoshi/DeadEyes.rgba16.inc.c"
+};
+
+Texture theplayerrolo_yoshi_Nostrils_rgba16[] = {
+	#include "actors/theplayerrolo_yoshi/Nostrils.rgba16.inc.c"
+};
+
+Texture theplayerrolo_yoshi_Eyes_rgba16[] = {
+	#include "actors/theplayerrolo_yoshi/Eyes.rgba16.inc.c"
+};
+
+Texture theplayerrolo_yoshi_wing_2_rgba16[] = {
+	#include "actors/theplayerrolo_yoshi/wing_2.rgba16.inc.c"
+};
+
+Texture theplayerrolo_yoshi_wing1_rgba16[] = {
+	#include "actors/theplayerrolo_yoshi/wing1.rgba16.inc.c"
+};
+
+Vtx theplayerrolo_yoshi_000_offset_mesh_layer_1_vtx_0[17] = {
+	{{{41, 52, 88}, 0, {2154, 1089}, {0x09, 0x4F, 0x63, 0xFF}}},
+	{{{-56, 19, 1}, 0, {972, 2470}, {0x90, 0x3C, 0x00, 0xFF}}},
+	{{{-42, 6, 66}, 0, {1869, 2260}, {0xA3, 0x28, 0x4C, 0xFF}}},
+	{{{40, 89, 1}, 0, {950, 1129}, {0xFA, 0x7F, 0xFF, 0xFF}}},
+	{{{124, 40, 2}, 0, {932, -46}, {0x76, 0x2E, 0x00, 0xFF}}},
+	{{{41, 51, -85}, 0, {-251, 1131}, {0x09, 0x4E, 0x9C, 0xFF}}},
+	{{{-43, 5, -63}, 0, {70, 2291}, {0xA3, 0x27, 0xB3, 0xFF}}},
+	{{{-56, 19, 1}, 0, {-1037, 4808}, {0x90, 0x3C, 0x00, 0xFF}}},
+	{{{-55, -86, 2}, 0, {-447, 4506}, {0x86, 0xDC, 0xFF, 0xFF}}},
+	{{{-38, -91, 62}, 0, {39, 4318}, {0xA7, 0xED, 0x59, 0xFF}}},
+	{{{-37, -91, -58}, 0, {-954, 4152}, {0xA8, 0xEC, 0xA6, 0xFF}}},
+	{{{-43, 5, -63}, 0, {-1498, 4431}, {0xA3, 0x27, 0xB3, 0xFF}}},
+	{{{-42, 6, 66}, 0, {-359, 4611}, {0xA3, 0x28, 0x4C, 0xFF}}},
+	{{{-38, -91, 62}, 0, {-16, 2032}, {0xA7, 0xED, 0x59, 0xFF}}},
+	{{{-55, -86, 2}, 0, {-16, 2032}, {0x86, 0xDC, 0xFF, 0xFF}}},
+	{{{34, -208, 3}, 0, {-16, 2032}, {0x11, 0x82, 0x00, 0xFF}}},
+	{{{-37, -91, -58}, 0, {-16, 2032}, {0xA8, 0xEC, 0xA6, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_000_offset_mesh_layer_1_tri_0[] = {
+	gsSPVertex(theplayerrolo_yoshi_000_offset_mesh_layer_1_vtx_0 + 0, 17, 0),
+	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
+	gsSP2Triangles(4, 3, 0, 0, 5, 3, 4, 0),
+	gsSP2Triangles(1, 3, 5, 0, 5, 6, 1, 0),
+	gsSP2Triangles(7, 8, 9, 0, 7, 10, 8, 0),
+	gsSP2Triangles(7, 11, 10, 0, 9, 12, 7, 0),
+	gsSP2Triangles(13, 14, 15, 0, 14, 16, 15, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_000_offset_001_skinned_mesh_layer_1_vtx_0[13] = {
+	{{{-37, -91, -58}, 0, {-485, 2068}, {0xA8, 0xEC, 0xA6, 0xFF}}},
+	{{{124, 40, 2}, 0, {-545, 1420}, {0x76, 0x2E, 0x00, 0xFF}}},
+	{{{34, -208, 3}, 0, {-16, 1008}, {0x11, 0x82, 0x00, 0xFF}}},
+	{{{-37, -91, -58}, 0, {-16, 1008}, {0xA8, 0xEC, 0xA6, 0xFF}}},
+	{{{56, 13, 2}, 0, {-763, 1994}, {0xDA, 0x79, 0xFF, 0xFF}}},
+	{{{-37, -91, -58}, 0, {-704, 2205}, {0xA8, 0xEC, 0xA6, 0xFF}}},
+	{{{-38, -91, 62}, 0, {11, 2151}, {0xA7, 0xED, 0x59, 0xFF}}},
+	{{{-38, -91, 62}, 0, {-16, 1008}, {0xA7, 0xED, 0x59, 0xFF}}},
+	{{{-38, -91, 62}, 0, {-143, 2294}, {0xA7, 0xED, 0x59, 0xFF}}},
+	{{{-43, 5, -63}, 0, {-757, 2208}, {0xA3, 0x27, 0xB3, 0xFF}}},
+	{{{41, 51, -85}, 0, {-947, 1979}, {0x09, 0x4E, 0x9C, 0xFF}}},
+	{{{-42, 6, 66}, 0, {-187, 2297}, {0xA3, 0x28, 0x4C, 0xFF}}},
+	{{{41, 52, 88}, 0, {-380, 2069}, {0x09, 0x4F, 0x63, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_000_offset_001_skinned_mesh_layer_1_tri_0[] = {
+	gsSPVertex(theplayerrolo_yoshi_000_offset_001_skinned_mesh_layer_1_vtx_0 + 0, 13, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_000_offset_001_mesh_layer_1_vtx_0[11] = {
+	{{{-16, -108, -94}, 0, {-16, 1008}, {0xF8, 0xD3, 0x89, 0xFF}}},
+	{{{-16, -108, -94}, 0, {-754, 1521}, {0xF8, 0xD3, 0x89, 0xFF}}},
+	{{{-17, -108, 98}, 0, {16, 1613}, {0xF7, 0xD3, 0x77, 0xFF}}},
+	{{{-17, -108, 98}, 0, {-103, 1624}, {0xF7, 0xD3, 0x77, 0xFF}}},
+	{{{-11, -133, 2}, 0, {-16, 1008}, {0x16, 0x83, 0x00, 0xFF}}},
+	{{{-16, -108, -94}, 0, {842, 92}, {0xF8, 0xD3, 0x89, 0xFF}}},
+	{{{-17, -108, 98}, 0, {-16, 1008}, {0xF7, 0xD3, 0x77, 0xFF}}},
+	{{{-9, -68, -102}, 0, {-838, 1758}, {0x06, 0xED, 0x83, 0xFF}}},
+	{{{-16, -108, -94}, 0, {-532, 1526}, {0xF8, 0xD3, 0x89, 0xFF}}},
+	{{{-11, -133, 2}, 0, {-158, 1525}, {0x16, 0x83, 0x00, 0xFF}}},
+	{{{-9, -68, 107}, 0, {-25, 1891}, {0x05, 0xED, 0x7D, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_000_offset_001_mesh_layer_1_tri_0[] = {
+	gsSPVertex(theplayerrolo_yoshi_000_offset_001_mesh_layer_1_vtx_0 + 0, 11, 13),
+	gsSP2Triangles(2, 3, 13, 0, 4, 14, 5, 0),
+	gsSP2Triangles(7, 2, 15, 0, 16, 4, 8, 0),
+	gsSP2Triangles(17, 2, 18, 0, 17, 19, 2, 0),
+	gsSP2Triangles(20, 21, 0, 0, 1, 21, 20, 0),
+	gsSP2Triangles(1, 20, 10, 0, 9, 10, 20, 0),
+	gsSP2Triangles(20, 0, 9, 0, 1, 22, 21, 0),
+	gsSP2Triangles(1, 15, 22, 0, 1, 23, 15, 0),
+	gsSP2Triangles(1, 12, 23, 0, 23, 12, 11, 0),
+	gsSP2Triangles(23, 11, 6, 0, 23, 6, 15, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_000_offset_001_mesh_layer_1_vtx_1[52] = {
+	{{{37, -153, 43}, 0, {303, -151}, {0x0B, 0x8D, 0x35, 0xFF}}},
+	{{{48, -81, 74}, 0, {78, -124}, {0x3F, 0xE9, 0x6C, 0xFF}}},
+	{{{-17, -108, 98}, 0, {212, 143}, {0xF7, 0xD3, 0x77, 0xFF}}},
+	{{{37, -153, 43}, 0, {403, -125}, {0x0B, 0x8D, 0x35, 0xFF}}},
+	{{{-11, -133, 2}, 0, {511, 98}, {0x16, 0x83, 0x00, 0xFF}}},
+	{{{37, -153, -39}, 0, {604, -129}, {0x0A, 0x8D, 0xCB, 0xFF}}},
+	{{{95, -124, -32}, 0, {353, -139}, {0x59, 0xBC, 0xC4, 0xFF}}},
+	{{{47, -81, -69}, 0, {152, -102}, {0x3F, 0xE9, 0x94, 0xFF}}},
+	{{{76, -29, -53}, 0, {186, 118}, {0x53, 0xF5, 0xA1, 0xFF}}},
+	{{{37, -153, -39}, 0, {651, -150}, {0x0A, 0x8D, 0xCB, 0xFF}}},
+	{{{-16, -108, -94}, 0, {769, 132}, {0xF8, 0xD3, 0x89, 0xFF}}},
+	{{{47, -81, -69}, 0, {874, -148}, {0x3F, 0xE9, 0x94, 0xFF}}},
+	{{{47, -81, -69}, 0, {904, -132}, {0x3F, 0xE9, 0x94, 0xFF}}},
+	{{{-16, -108, -94}, 0, {734, 114}, {0xF8, 0xD3, 0x89, 0xFF}}},
+	{{{-9, -68, -102}, 0, {892, 141}, {0x06, 0xED, 0x83, 0xFF}}},
+	{{{-9, -68, -102}, 0, {435, 118}, {0x06, 0xED, 0x83, 0xFF}}},
+	{{{16, -26, -89}, 0, {656, 106}, {0x2F, 0x09, 0x8A, 0xFF}}},
+	{{{47, -81, -69}, 0, {576, -116}, {0x3F, 0xE9, 0x94, 0xFF}}},
+	{{{47, -81, -69}, 0, {334, -92}, {0x3F, 0xE9, 0x94, 0xFF}}},
+	{{{16, -26, -89}, 0, {165, 74}, {0x2F, 0x09, 0x8A, 0xFF}}},
+	{{{76, -29, -53}, 0, {437, 105}, {0x53, 0xF5, 0xA1, 0xFF}}},
+	{{{-11, -133, 2}, 0, {467, 82}, {0x16, 0x83, 0x00, 0xFF}}},
+	{{{-16, -108, -94}, 0, {842, 92}, {0xF8, 0xD3, 0x89, 0xFF}}},
+	{{{37, -153, -39}, 0, {616, -114}, {0x0A, 0x8D, 0xCB, 0xFF}}},
+	{{{76, -29, 57}, 0, {696, 64}, {0x54, 0xF5, 0x5F, 0xFF}}},
+	{{{17, -26, 93}, 0, {963, 117}, {0x2F, 0x09, 0x76, 0xFF}}},
+	{{{48, -81, 74}, 0, {855, -92}, {0x3F, 0xE9, 0x6C, 0xFF}}},
+	{{{48, -81, 74}, 0, {141, -99}, {0x3F, 0xE9, 0x6C, 0xFF}}},
+	{{{17, -26, 93}, 0, {67, 125}, {0x2F, 0x09, 0x76, 0xFF}}},
+	{{{-9, -68, 107}, 0, {289, 131}, {0x05, 0xED, 0x7D, 0xFF}}},
+	{{{-9, -68, 107}, 0, {53, 158}, {0x05, 0xED, 0x7D, 0xFF}}},
+	{{{-17, -108, 98}, 0, {211, 126}, {0xF7, 0xD3, 0x77, 0xFF}}},
+	{{{48, -81, 74}, 0, {32, -114}, {0x3F, 0xE9, 0x6C, 0xFF}}},
+	{{{37, -153, 43}, 0, {357, 720}, {0x0B, 0x8D, 0x35, 0xFF}}},
+	{{{95, -124, 37}, 0, {262, 774}, {0x5A, 0xBC, 0x3C, 0xFF}}},
+	{{{48, -81, 74}, 0, {357, 853}, {0x3F, 0xE9, 0x6C, 0xFF}}},
+	{{{37, -153, -39}, 0, {277, 607}, {0x0A, 0x8D, 0xCB, 0xFF}}},
+	{{{37, -153, 43}, 0, {374, -109}, {0x0B, 0x8D, 0x35, 0xFF}}},
+	{{{-17, -108, 98}, 0, {144, 96}, {0xF7, 0xD3, 0x77, 0xFF}}},
+	{{{-11, -133, 2}, 0, {473, 83}, {0x16, 0x83, 0x00, 0xFF}}},
+	{{{95, -124, 37}, 0, {216, 442}, {0x5A, 0xBC, 0x3C, 0xFF}}},
+	{{{37, -153, -39}, 0, {182, 511}, {0x0A, 0x8D, 0xCB, 0xFF}}},
+	{{{95, -124, -32}, 0, {229, 493}, {0x59, 0xBC, 0xC4, 0xFF}}},
+	{{{47, -81, -69}, 0, {229, 550}, {0x3F, 0xE9, 0x94, 0xFF}}},
+	{{{95, -124, -32}, 0, {379, -117}, {0x59, 0xBC, 0xC4, 0xFF}}},
+	{{{121, -64, 2}, 0, {463, 96}, {0x7F, 0xFA, 0xFF, 0xFF}}},
+	{{{95, -124, 37}, 0, {535, -118}, {0x5A, 0xBC, 0x3C, 0xFF}}},
+	{{{76, -29, -53}, 0, {158, 96}, {0x53, 0xF5, 0xA1, 0xFF}}},
+	{{{95, -124, 37}, 0, {554, -115}, {0x5A, 0xBC, 0x3C, 0xFF}}},
+	{{{76, -29, 57}, 0, {768, 99}, {0x54, 0xF5, 0x5F, 0xFF}}},
+	{{{48, -81, 74}, 0, {756, -123}, {0x3F, 0xE9, 0x6C, 0xFF}}},
+	{{{121, -64, 2}, 0, {462, 90}, {0x7F, 0xFA, 0xFF, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_000_offset_001_mesh_layer_1_tri_1[] = {
+	gsSPVertex(theplayerrolo_yoshi_000_offset_001_mesh_layer_1_vtx_1 + 0, 52, 0),
+	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
+	gsSP2Triangles(6, 7, 8, 0, 9, 10, 11, 0),
+	gsSP2Triangles(12, 13, 14, 0, 15, 16, 17, 0),
+	gsSP2Triangles(18, 19, 20, 0, 21, 22, 23, 0),
+	gsSP2Triangles(24, 25, 26, 0, 27, 28, 29, 0),
+	gsSP2Triangles(30, 31, 32, 0, 33, 34, 35, 0),
+	gsSP2Triangles(34, 33, 36, 0, 37, 38, 39, 0),
+	gsSP2Triangles(40, 41, 42, 0, 41, 43, 42, 0),
+	gsSP2Triangles(44, 45, 46, 0, 44, 47, 45, 0),
+	gsSP2Triangles(48, 49, 50, 0, 48, 51, 49, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_000_offset_001_mesh_layer_1_vtx_2[16] = {
+	{{{-9, -68, -102}, 0, {-604, 2107}, {0x06, 0xED, 0x83, 0xFF}}},
+	{{{-16, -108, -94}, 0, {842, 92}, {0xF8, 0xD3, 0x89, 0xFF}}},
+	{{{-11, -133, 2}, 0, {473, 83}, {0x16, 0x83, 0x00, 0xFF}}},
+	{{{-9, -68, 107}, 0, {-14, 2199}, {0x05, 0xED, 0x7D, 0xFF}}},
+	{{{-17, -108, 98}, 0, {144, 96}, {0xF7, 0xD3, 0x77, 0xFF}}},
+	{{{-76, 2, 2}, 0, {-397, 2386}, {0x81, 0x02, 0x00, 0xFF}}},
+	{{{-12, 49, 87}, 0, {-299, 2162}, {0xD7, 0x48, 0x60, 0xFF}}},
+	{{{17, -26, 93}, 0, {-97, 1806}, {0x2F, 0x09, 0x76, 0xFF}}},
+	{{{90, 41, 61}, 0, {-269, 1816}, {0x55, 0x37, 0x4D, 0xFF}}},
+	{{{76, -29, 57}, 0, {-42, 1653}, {0x54, 0xF5, 0x5F, 0xFF}}},
+	{{{118, -15, 2}, 0, {-550, 1426}, {0x7F, 0x0B, 0xFF, 0xFF}}},
+	{{{121, -64, 2}, 0, {-226, 1427}, {0x7F, 0xFA, 0xFF, 0xFF}}},
+	{{{76, -29, -53}, 0, {-726, 1545}, {0x53, 0xF5, 0xA1, 0xFF}}},
+	{{{90, 41, -57}, 0, {-926, 1711}, {0x54, 0x37, 0xB3, 0xFF}}},
+	{{{16, -26, -89}, 0, {-871, 1683}, {0x2F, 0x09, 0x8A, 0xFF}}},
+	{{{-12, 49, -83}, 0, {-917, 2064}, {0xD6, 0x48, 0xA0, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_000_offset_001_mesh_layer_1_tri_2[] = {
+	gsSPVertex(theplayerrolo_yoshi_000_offset_001_mesh_layer_1_vtx_2 + 0, 16, 0),
+	gsSP2Triangles(0, 1, 2, 0, 2, 3, 0, 0),
+	gsSP2Triangles(2, 4, 3, 0, 0, 3, 5, 0),
+	gsSP2Triangles(3, 6, 5, 0, 7, 6, 3, 0),
+	gsSP2Triangles(8, 6, 7, 0, 7, 9, 8, 0),
+	gsSP2Triangles(9, 10, 8, 0, 11, 10, 9, 0),
+	gsSP2Triangles(12, 10, 11, 0, 13, 10, 12, 0),
+	gsSP2Triangles(13, 12, 14, 0, 14, 15, 13, 0),
+	gsSP2Triangles(0, 15, 14, 0, 5, 15, 0, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_000_offset_001_mesh_layer_1_vtx_3[14] = {
+	{{{76, 71, 2}, 0, {936, -321}, {0x40, 0x6D, 0x00, 0xFF}}},
+	{{{-12, 49, 87}, 0, {2146, 882}, {0xD7, 0x48, 0x60, 0xFF}}},
+	{{{90, 41, 61}, 0, {1758, -539}, {0x55, 0x37, 0x4D, 0xFF}}},
+	{{{-7, 85, 2}, 0, {958, 834}, {0xDA, 0x79, 0x00, 0xFF}}},
+	{{{-12, 49, -83}, 0, {-228, 927}, {0xD6, 0x48, 0xA0, 0xFF}}},
+	{{{90, 41, -57}, 0, {106, -508}, {0x54, 0x37, 0xB3, 0xFF}}},
+	{{{90, 41, 61}, 0, {-521, 3647}, {0x55, 0x37, 0x4D, 0xFF}}},
+	{{{118, -15, 2}, 0, {-1084, 2867}, {0x7F, 0x0B, 0xFF, 0xFF}}},
+	{{{76, 71, 2}, 0, {-1510, 3939}, {0x40, 0x6D, 0x00, 0xFF}}},
+	{{{90, 41, -57}, 0, {-1836, 3438}, {0x54, 0x37, 0xB3, 0xFF}}},
+	{{{-12, 49, 87}, 0, {486, 1294}, {0xD7, 0x48, 0x60, 0xFF}}},
+	{{{-7, 85, 2}, 0, {411, 1102}, {0xDA, 0x79, 0x00, 0xFF}}},
+	{{{-76, 2, 2}, 0, {231, 1259}, {0x81, 0x02, 0x00, 0xFF}}},
+	{{{-12, 49, -83}, 0, {231, 1002}, {0xD6, 0x48, 0xA0, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_000_offset_001_mesh_layer_1_tri_3[] = {
+	gsSPVertex(theplayerrolo_yoshi_000_offset_001_mesh_layer_1_vtx_3 + 0, 14, 0),
+	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
+	gsSP2Triangles(4, 3, 0, 0, 0, 5, 4, 0),
+	gsSP2Triangles(6, 7, 8, 0, 8, 7, 9, 0),
+	gsSP2Triangles(10, 11, 12, 0, 11, 13, 12, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_000_displaylist_mesh_layer_1_vtx_0[48] = {
+	{{{139, 0, -139}, 0, {810, 26}, {0xFC, 0xF7, 0x81, 0xFF}}},
+	{{{275, 0, -90}, 0, {126, 263}, {0x4D, 0xF7, 0x9B, 0xFF}}},
+	{{{275, -51, -56}, 0, {133, 802}, {0x4C, 0xB7, 0xB9, 0xFF}}},
+	{{{139, -86, -90}, 0, {766, 1025}, {0xFC, 0xA5, 0xA7, 0xFF}}},
+	{{{26, 0, -90}, 0, {1460, 236}, {0xB0, 0xF8, 0x9E, 0xFF}}},
+	{{{26, -51, -56}, 0, {1453, 893}, {0xB1, 0xB9, 0xBB, 0xFF}}},
+	{{{139, -86, -90}, 0, {810, 26}, {0xFC, 0xA5, 0xA7, 0xFF}}},
+	{{{275, -51, -56}, 0, {126, 263}, {0x4C, 0xB7, 0xB9, 0xFF}}},
+	{{{275, -86, 0}, 0, {133, 802}, {0x4C, 0x9A, 0xFC, 0xFF}}},
+	{{{139, -134, 0}, 0, {766, 1025}, {0xFC, 0x81, 0xFC, 0xFF}}},
+	{{{26, -51, -56}, 0, {1460, 236}, {0xB1, 0xB9, 0xBB, 0xFF}}},
+	{{{26, -86, 0}, 0, {1453, 893}, {0xB0, 0x9D, 0xFC, 0xFF}}},
+	{{{139, -134, 0}, 0, {810, 26}, {0xFC, 0x81, 0xFC, 0xFF}}},
+	{{{275, -86, 0}, 0, {126, 263}, {0x4C, 0x9A, 0xFC, 0xFF}}},
+	{{{275, -51, 70}, 0, {133, 802}, {0x4E, 0xB5, 0x43, 0xFF}}},
+	{{{139, -86, 105}, 0, {766, 1025}, {0xFC, 0xA2, 0x55, 0xFF}}},
+	{{{26, -86, 0}, 0, {1460, 236}, {0xB0, 0x9D, 0xFC, 0xFF}}},
+	{{{26, -51, 70}, 0, {1453, 893}, {0xAF, 0xB7, 0x42, 0xFF}}},
+	{{{139, -86, 105}, 0, {810, 832}, {0xFC, 0xA2, 0x55, 0xFF}}},
+	{{{275, -51, 70}, 0, {126, 788}, {0x4E, 0xB5, 0x43, 0xFF}}},
+	{{{275, 0, 105}, 0, {133, 250}, {0x4F, 0xF8, 0x63, 0xFF}}},
+	{{{139, 0, 154}, 0, {766, 26}, {0xFC, 0xF7, 0x7F, 0xFF}}},
+	{{{26, -51, 70}, 0, {1460, 816}, {0xAF, 0xB7, 0x42, 0xFF}}},
+	{{{26, 0, 105}, 0, {1453, 159}, {0xAD, 0xF8, 0x60, 0xFF}}},
+	{{{139, 0, 154}, 0, {810, 26}, {0xFC, 0xF7, 0x7F, 0xFF}}},
+	{{{275, 0, 105}, 0, {126, 263}, {0x4F, 0xF8, 0x63, 0xFF}}},
+	{{{275, 83, 70}, 0, {133, 802}, {0x51, 0x44, 0x47, 0xFF}}},
+	{{{139, 118, 105}, 0, {766, 1025}, {0xFC, 0x58, 0x5C, 0xFF}}},
+	{{{26, 0, 105}, 0, {1460, 236}, {0xAD, 0xF8, 0x60, 0xFF}}},
+	{{{26, 83, 70}, 0, {1453, 893}, {0xAC, 0x42, 0x45, 0xFF}}},
+	{{{139, 118, 105}, 0, {810, 26}, {0xFC, 0x58, 0x5C, 0xFF}}},
+	{{{275, 83, 70}, 0, {126, 263}, {0x51, 0x44, 0x47, 0xFF}}},
+	{{{275, 118, 0}, 0, {133, 802}, {0x51, 0x62, 0xFC, 0xFF}}},
+	{{{139, 167, 0}, 0, {782, 883}, {0xFC, 0x7F, 0xFC, 0xFF}}},
+	{{{26, 83, 70}, 0, {1460, 236}, {0xAC, 0x42, 0x45, 0xFF}}},
+	{{{26, 118, 0}, 0, {1453, 893}, {0xAC, 0x5F, 0xFC, 0xFF}}},
+	{{{139, 167, 0}, 0, {810, 1025}, {0xFC, 0x7F, 0xFC, 0xFF}}},
+	{{{275, 118, 0}, 0, {126, 788}, {0x51, 0x62, 0xFC, 0xFF}}},
+	{{{275, 83, -56}, 0, {133, 250}, {0x4F, 0x42, 0xB6, 0xFF}}},
+	{{{139, 118, -90}, 0, {766, 26}, {0xFC, 0x54, 0xA1, 0xFF}}},
+	{{{26, 118, 0}, 0, {1460, 816}, {0xAC, 0x5F, 0xFC, 0xFF}}},
+	{{{26, 83, -56}, 0, {1453, 159}, {0xAD, 0x40, 0xB8, 0xFF}}},
+	{{{139, 118, -90}, 0, {820, 26}, {0xFC, 0x54, 0xA1, 0xFF}}},
+	{{{275, 83, -56}, 0, {133, 159}, {0x4F, 0x42, 0xB6, 0xFF}}},
+	{{{275, 0, -90}, 0, {126, 816}, {0x4D, 0xF7, 0x9B, 0xFF}}},
+	{{{139, 0, -139}, 0, {775, 1025}, {0xFC, 0xF7, 0x81, 0xFF}}},
+	{{{26, 83, -56}, 0, {1453, 250}, {0xAD, 0x40, 0xB8, 0xFF}}},
+	{{{26, 0, -90}, 0, {1460, 788}, {0xB0, 0xF8, 0x9E, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_000_displaylist_mesh_layer_1_tri_0[] = {
+	gsSPVertex(theplayerrolo_yoshi_000_displaylist_mesh_layer_1_vtx_0 + 0, 48, 0),
+	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
+	gsSP2Triangles(4, 0, 3, 0, 4, 3, 5, 0),
+	gsSP2Triangles(6, 7, 8, 0, 6, 8, 9, 0),
+	gsSP2Triangles(10, 6, 9, 0, 10, 9, 11, 0),
+	gsSP2Triangles(12, 13, 14, 0, 12, 14, 15, 0),
+	gsSP2Triangles(16, 12, 15, 0, 16, 15, 17, 0),
+	gsSP2Triangles(18, 19, 20, 0, 18, 20, 21, 0),
+	gsSP2Triangles(22, 18, 21, 0, 22, 21, 23, 0),
+	gsSP2Triangles(24, 25, 26, 0, 24, 26, 27, 0),
+	gsSP2Triangles(28, 24, 27, 0, 28, 27, 29, 0),
+	gsSP2Triangles(30, 31, 32, 0, 30, 32, 33, 0),
+	gsSP2Triangles(34, 30, 33, 0, 34, 33, 35, 0),
+	gsSP2Triangles(36, 37, 38, 0, 36, 38, 39, 0),
+	gsSP2Triangles(40, 36, 39, 0, 40, 39, 41, 0),
+	gsSP2Triangles(42, 43, 44, 0, 42, 44, 45, 0),
+	gsSP2Triangles(46, 42, 45, 0, 46, 45, 47, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_000_displaylist_mesh_layer_1_vtx_1[26] = {
+	{{{-23, 0, 0}, 0, {702, 681}, {0x81, 0xF7, 0xFC, 0xFF}}},
+	{{{26, 0, -90}, 0, {1248, 798}, {0xB0, 0xF8, 0x9E, 0xFF}}},
+	{{{26, -51, -56}, 0, {1190, 317}, {0xB1, 0xB9, 0xBB, 0xFF}}},
+	{{{26, -51, -56}, 0, {984, 1143}, {0xB1, 0xB9, 0xBB, 0xFF}}},
+	{{{26, -86, 0}, 0, {1248, 798}, {0xB0, 0x9D, 0xFC, 0xFF}}},
+	{{{26, -86, 0}, 0, {559, 1226}, {0xB0, 0x9D, 0xFC, 0xFF}}},
+	{{{26, -51, 70}, 0, {984, 1143}, {0xAF, 0xB7, 0x42, 0xFF}}},
+	{{{26, -51, 70}, 0, {189, 1063}, {0xAF, 0xB7, 0x42, 0xFF}}},
+	{{{26, 0, 105}, 0, {559, 1226}, {0xAD, 0xF8, 0x60, 0xFF}}},
+	{{{26, 0, 105}, 0, {0, 434}, {0xAD, 0xF8, 0x60, 0xFF}}},
+	{{{26, 83, 70}, 0, {186, 1060}, {0xAC, 0x42, 0x45, 0xFF}}},
+	{{{26, 83, 70}, 0, {360, 22}, {0xAC, 0x42, 0x45, 0xFF}}},
+	{{{26, 118, 0}, 0, {25, 454}, {0xAC, 0x5F, 0xFC, 0xFF}}},
+	{{{26, 118, 0}, 0, {746, -6}, {0xAC, 0x5F, 0xFC, 0xFF}}},
+	{{{26, 83, -56}, 0, {361, 18}, {0xAD, 0x40, 0xB8, 0xFF}}},
+	{{{26, 83, -56}, 0, {1190, 317}, {0xAD, 0x40, 0xB8, 0xFF}}},
+	{{{26, 0, -90}, 0, {746, -6}, {0xB0, 0xF8, 0x9E, 0xFF}}},
+	{{{275, 0, -90}, 0, {1190, 317}, {0x4D, 0xF7, 0x9B, 0xFF}}},
+	{{{324, 0, 0}, 0, {702, 681}, {0x7F, 0xF7, 0xFC, 0xFF}}},
+	{{{275, -51, -56}, 0, {1248, 798}, {0x4C, 0xB7, 0xB9, 0xFF}}},
+	{{{275, 83, -56}, 0, {746, -6}, {0x4F, 0x42, 0xB6, 0xFF}}},
+	{{{275, 118, 0}, 0, {401, 19}, {0x51, 0x62, 0xFC, 0xFF}}},
+	{{{275, 83, 70}, 0, {25, 454}, {0x51, 0x44, 0x47, 0xFF}}},
+	{{{275, 0, 105}, 0, {189, 1063}, {0x4F, 0xF8, 0x63, 0xFF}}},
+	{{{275, -51, 70}, 0, {559, 1226}, {0x4E, 0xB5, 0x43, 0xFF}}},
+	{{{275, -86, 0}, 0, {984, 1143}, {0x4C, 0x9A, 0xFC, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_000_displaylist_mesh_layer_1_tri_1[] = {
+	gsSPVertex(theplayerrolo_yoshi_000_displaylist_mesh_layer_1_vtx_1 + 0, 26, 0),
+	gsSP2Triangles(0, 1, 2, 0, 0, 3, 4, 0),
+	gsSP2Triangles(0, 5, 6, 0, 0, 7, 8, 0),
+	gsSP2Triangles(0, 9, 10, 0, 0, 11, 12, 0),
+	gsSP2Triangles(0, 13, 14, 0, 0, 15, 16, 0),
+	gsSP2Triangles(17, 18, 19, 0, 20, 18, 17, 0),
+	gsSP2Triangles(21, 18, 20, 0, 22, 18, 21, 0),
+	gsSP2Triangles(23, 18, 22, 0, 24, 18, 23, 0),
+	gsSP2Triangles(25, 18, 24, 0, 19, 18, 25, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_vtx_0[23] = {
+	{{{45, 51, 82}, 0, {-16, 1008}, {0x02, 0x67, 0x4A, 0xFF}}},
+	{{{93, 5, 120}, 0, {-16, 1008}, {0x00, 0x1B, 0x7C, 0xFF}}},
+	{{{106, 45, 87}, 0, {-16, 1008}, {0x42, 0x14, 0x6B, 0xFF}}},
+	{{{39, 10, 100}, 0, {-16, 1008}, {0xB4, 0x14, 0x64, 0xFF}}},
+	{{{6, 20, 55}, 0, {-16, 1008}, {0x8F, 0x02, 0x39, 0xFF}}},
+	{{{-12, 43, -2}, 0, {-16, 1008}, {0x87, 0x27, 0x01, 0xFF}}},
+	{{{28, 55, -2}, 0, {-16, 1008}, {0x38, 0x72, 0x06, 0xFF}}},
+	{{{45, 49, -84}, 0, {-16, 1008}, {0x05, 0x65, 0xB3, 0xFF}}},
+	{{{6, 18, -58}, 0, {-16, 1008}, {0x8F, 0x01, 0xC7, 0xFF}}},
+	{{{38, 7, -105}, 0, {-16, 1008}, {0xB3, 0x14, 0x9D, 0xFF}}},
+	{{{93, 1, -125}, 0, {-16, 1008}, {0xFF, 0x1A, 0x84, 0xFF}}},
+	{{{106, 43, -89}, 0, {-16, 1008}, {0xFD, 0x34, 0x8C, 0xFF}}},
+	{{{136, 5, -112}, 0, {-16, 1008}, {0x48, 0x1C, 0x9B, 0xFF}}},
+	{{{123, -42, -111}, 0, {-16, 1008}, {0x12, 0xD1, 0x8C, 0xFF}}},
+	{{{53, -54, -108}, 0, {-16, 1008}, {0xCB, 0xBC, 0xA3, 0xFF}}},
+	{{{80, -76, -78}, 0, {-16, 1008}, {0xEF, 0x8B, 0xD2, 0xFF}}},
+	{{{24, -55, -60}, 0, {-16, 1008}, {0x94, 0xD3, 0xCE, 0xFF}}},
+	{{{6, -22, -1}, 0, {-16, 1008}, {0x8A, 0xD0, 0x01, 0xFF}}},
+	{{{24, -53, 60}, 0, {-16, 1008}, {0x95, 0xD6, 0x36, 0xFF}}},
+	{{{53, -51, 106}, 0, {-16, 1008}, {0xCB, 0xC0, 0x60, 0xFF}}},
+	{{{80, -74, 78}, 0, {-16, 1008}, {0xF0, 0x8D, 0x32, 0xFF}}},
+	{{{123, -39, 107}, 0, {-16, 1008}, {0x13, 0xD6, 0x76, 0xFF}}},
+	{{{137, 9, 107}, 0, {-16, 1008}, {0x45, 0x1D, 0x67, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_tri_0[] = {
+	gsSPVertex(theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_vtx_0 + 0, 23, 0),
+	gsSP2Triangles(0, 1, 2, 0, 3, 1, 0, 0),
+	gsSP2Triangles(4, 3, 0, 0, 4, 0, 5, 0),
+	gsSP2Triangles(5, 0, 6, 0, 5, 6, 7, 0),
+	gsSP2Triangles(7, 8, 5, 0, 7, 9, 8, 0),
+	gsSP2Triangles(9, 7, 10, 0, 11, 10, 7, 0),
+	gsSP2Triangles(10, 11, 12, 0, 12, 13, 10, 0),
+	gsSP2Triangles(14, 10, 13, 0, 13, 15, 14, 0),
+	gsSP2Triangles(15, 16, 14, 0, 9, 14, 16, 0),
+	gsSP2Triangles(16, 8, 9, 0, 16, 17, 8, 0),
+	gsSP2Triangles(5, 8, 17, 0, 17, 4, 5, 0),
+	gsSP2Triangles(4, 17, 18, 0, 4, 18, 3, 0),
+	gsSP2Triangles(19, 3, 18, 0, 19, 18, 20, 0),
+	gsSP2Triangles(19, 20, 21, 0, 21, 1, 19, 0),
+	gsSP2Triangles(1, 21, 22, 0, 22, 2, 1, 0),
+	gsSP2Triangles(19, 1, 3, 0, 10, 14, 9, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_vtx_1[64] = {
+	{{{141, 189, 48}, 0, {453, 122}, {0x32, 0x64, 0x3D, 0xFF}}},
+	{{{166, 136, 70}, 0, {262, 625}, {0x5A, 0x1B, 0x55, 0xFF}}},
+	{{{189, 140, -4}, 0, {777, 446}, {0x69, 0x48, 0xFE, 0xFF}}},
+	{{{166, 133, -76}, 0, {262, 625}, {0x5B, 0x18, 0xAA, 0xFF}}},
+	{{{141, 187, -55}, 0, {453, 122}, {0x33, 0x62, 0xC1, 0xFF}}},
+	{{{106, 43, -89}, 0, {-16, 752}, {0xFD, 0x34, 0x8C, 0xFF}}},
+	{{{163, 21, -86}, 0, {-16, 752}, {0x2C, 0x28, 0x90, 0xFF}}},
+	{{{136, 5, -112}, 0, {-16, 752}, {0x48, 0x1C, 0x9B, 0xFF}}},
+	{{{180, -27, -73}, 0, {-16, 752}, {0x49, 0xCF, 0xA4, 0xFF}}},
+	{{{248, 6, -61}, 0, {-16, 752}, {0x44, 0xD2, 0x9F, 0xFF}}},
+	{{{242, 40, -69}, 0, {-16, 752}, {0x31, 0x27, 0x92, 0xFF}}},
+	{{{276, 21, -31}, 0, {-16, 752}, {0x7D, 0xF1, 0xF1, 0xFF}}},
+	{{{266, 57, -41}, 0, {-16, 752}, {0x59, 0x52, 0xDB, 0xFF}}},
+	{{{267, 22, -2}, 0, {-16, 752}, {0x7F, 0xF6, 0x00, 0xFF}}},
+	{{{250, 56, -2}, 0, {-16, 752}, {0x4B, 0x67, 0xFE, 0xFF}}},
+	{{{266, 59, 37}, 0, {-16, 752}, {0x5A, 0x53, 0x23, 0xFF}}},
+	{{{276, 22, 28}, 0, {-16, 752}, {0x7D, 0xF1, 0x10, 0xFF}}},
+	{{{242, 42, 65}, 0, {-16, 752}, {0x32, 0x2A, 0x6D, 0xFF}}},
+	{{{248, 8, 58}, 0, {-16, 752}, {0x44, 0xD6, 0x63, 0xFF}}},
+	{{{163, 24, 83}, 0, {-16, 752}, {0x2C, 0x28, 0x70, 0xFF}}},
+	{{{180, -25, 72}, 0, {-16, 752}, {0x47, 0xD2, 0x5E, 0xFF}}},
+	{{{137, 9, 107}, 0, {-16, 752}, {0x45, 0x1D, 0x67, 0xFF}}},
+	{{{106, 45, 87}, 0, {-16, 752}, {0x42, 0x14, 0x6B, 0xFF}}},
+	{{{123, -39, 107}, 0, {-16, 752}, {0x13, 0xD6, 0x76, 0xFF}}},
+	{{{154, -75, 65}, 0, {-16, 752}, {0x39, 0xA2, 0x3F, 0xFF}}},
+	{{{80, -74, 78}, 0, {-16, 752}, {0xF0, 0x8D, 0x32, 0xFF}}},
+	{{{104, -102, 0}, 0, {-16, 752}, {0xF7, 0x81, 0x02, 0xFF}}},
+	{{{29, -74, 0}, 0, {-16, 752}, {0xAD, 0x9F, 0x02, 0xFF}}},
+	{{{24, -53, 60}, 0, {-16, 752}, {0x95, 0xD6, 0x36, 0xFF}}},
+	{{{6, -22, -1}, 0, {-16, 752}, {0x8A, 0xD0, 0x01, 0xFF}}},
+	{{{24, -55, -60}, 0, {-16, 752}, {0x94, 0xD3, 0xCE, 0xFF}}},
+	{{{80, -76, -78}, 0, {-16, 752}, {0xEF, 0x8B, 0xD2, 0xFF}}},
+	{{{154, -77, -65}, 0, {-16, 752}, {0x3A, 0xA0, 0xC5, 0xFF}}},
+	{{{123, -42, -111}, 0, {-16, 752}, {0x12, 0xD1, 0x8C, 0xFF}}},
+	{{{200, -37, -31}, 0, {-16, 752}, {0x4D, 0x9D, 0xEE, 0xFF}}},
+	{{{153, -92, 0}, 0, {-16, 752}, {0x3D, 0x91, 0x02, 0xFF}}},
+	{{{199, -29, -1}, 0, {-16, 752}, {0x49, 0x98, 0x02, 0xFF}}},
+	{{{252, -20, -33}, 0, {-16, 752}, {0x4C, 0x9D, 0xE8, 0xFF}}},
+	{{{245, -13, -1}, 0, {-16, 752}, {0x4E, 0x9C, 0x02, 0xFF}}},
+	{{{253, -19, 31}, 0, {-16, 752}, {0x4C, 0x9E, 0x1B, 0xFF}}},
+	{{{200, -36, 30}, 0, {-16, 752}, {0x4D, 0x9D, 0x16, 0xFF}}},
+	{{{45, 51, 82}, 0, {-16, 752}, {0x02, 0x67, 0x4A, 0xFF}}},
+	{{{91, 123, 104}, 0, {-16, 752}, {0x02, 0x17, 0x7D, 0xFF}}},
+	{{{166, 136, 70}, 0, {-16, 752}, {0x5A, 0x1B, 0x55, 0xFF}}},
+	{{{164, 62, 57}, 0, {-16, 752}, {0x3E, 0x32, 0x63, 0xFF}}},
+	{{{189, 140, -4}, 0, {-16, 752}, {0x69, 0x48, 0xFE, 0xFF}}},
+	{{{182, 77, -3}, 0, {-16, 752}, {0x65, 0x4C, 0xFE, 0xFF}}},
+	{{{164, 60, -60}, 0, {-16, 752}, {0x3D, 0x30, 0x9C, 0xFF}}},
+	{{{166, 133, -76}, 0, {-16, 752}, {0x5B, 0x18, 0xAA, 0xFF}}},
+	{{{91, 119, -110}, 0, {-16, 752}, {0x03, 0x11, 0x82, 0xFF}}},
+	{{{45, 49, -84}, 0, {-16, 752}, {0x05, 0x65, 0xB3, 0xFF}}},
+	{{{14, 102, -80}, 0, {-16, 752}, {0xA0, 0xFB, 0xAD, 0xFF}}},
+	{{{-9, 99, -3}, 0, {-16, 752}, {0x83, 0xE7, 0x00, 0xFF}}},
+	{{{28, 55, -2}, 0, {-16, 752}, {0x38, 0x72, 0x06, 0xFF}}},
+	{{{14, 105, 76}, 0, {-16, 752}, {0xA1, 0xFE, 0x54, 0xFF}}},
+	{{{21, 165, 51}, 0, {-16, 752}, {0xAB, 0x47, 0x3D, 0xFF}}},
+	{{{69, 176, 68}, 0, {-16, 752}, {0xE8, 0x5A, 0x56, 0xFF}}},
+	{{{141, 189, 48}, 0, {-16, 752}, {0x32, 0x64, 0x3D, 0xFF}}},
+	{{{57, 203, -4}, 0, {-16, 752}, {0xDC, 0x7A, 0xFE, 0xFF}}},
+	{{{7, 163, -4}, 0, {-16, 752}, {0x93, 0x41, 0xFF, 0xFF}}},
+	{{{20, 163, -57}, 0, {-16, 752}, {0xA9, 0x44, 0xC2, 0xFF}}},
+	{{{68, 174, -79}, 0, {-16, 752}, {0xE7, 0x55, 0xA5, 0xFF}}},
+	{{{141, 187, -55}, 0, {-16, 752}, {0x33, 0x62, 0xC1, 0xFF}}},
+	{{{150, 195, -4}, 0, {-16, 752}, {0x42, 0x6D, 0xFE, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_tri_1[] = {
+	gsSPVertex(theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_vtx_1 + 0, 64, 0),
+	gsSP2Triangles(0, 1, 2, 0, 2, 3, 4, 0),
+	gsSP2Triangles(5, 6, 7, 0, 7, 6, 8, 0),
+	gsSP2Triangles(9, 8, 6, 0, 6, 10, 9, 0),
+	gsSP2Triangles(10, 11, 9, 0, 11, 10, 12, 0),
+	gsSP2Triangles(13, 11, 12, 0, 12, 14, 13, 0),
+	gsSP2Triangles(13, 14, 15, 0, 15, 16, 13, 0),
+	gsSP2Triangles(16, 15, 17, 0, 17, 18, 16, 0),
+	gsSP2Triangles(17, 19, 18, 0, 20, 18, 19, 0),
+	gsSP2Triangles(20, 19, 21, 0, 19, 22, 21, 0),
+	gsSP2Triangles(21, 23, 20, 0, 20, 23, 24, 0),
+	gsSP2Triangles(24, 23, 25, 0, 24, 25, 26, 0),
+	gsSP2Triangles(27, 26, 25, 0, 25, 28, 27, 0),
+	gsSP2Triangles(27, 28, 29, 0, 29, 30, 27, 0),
+	gsSP2Triangles(27, 30, 31, 0, 31, 26, 27, 0),
+	gsSP2Triangles(26, 31, 32, 0, 33, 32, 31, 0),
+	gsSP2Triangles(33, 8, 32, 0, 8, 33, 7, 0),
+	gsSP2Triangles(34, 32, 8, 0, 32, 34, 35, 0),
+	gsSP2Triangles(36, 35, 34, 0, 34, 37, 36, 0),
+	gsSP2Triangles(37, 34, 9, 0, 8, 9, 34, 0),
+	gsSP2Triangles(9, 11, 37, 0, 37, 11, 38, 0),
+	gsSP2Triangles(13, 38, 11, 0, 38, 13, 16, 0),
+	gsSP2Triangles(16, 39, 38, 0, 39, 16, 18, 0),
+	gsSP2Triangles(40, 39, 18, 0, 18, 20, 40, 0),
+	gsSP2Triangles(24, 40, 20, 0, 40, 24, 35, 0),
+	gsSP2Triangles(24, 26, 35, 0, 26, 32, 35, 0),
+	gsSP2Triangles(35, 36, 40, 0, 39, 40, 36, 0),
+	gsSP2Triangles(36, 38, 39, 0, 38, 36, 37, 0),
+	gsSP2Triangles(41, 22, 42, 0, 22, 43, 42, 0),
+	gsSP2Triangles(43, 22, 44, 0, 44, 45, 43, 0),
+	gsSP2Triangles(45, 44, 46, 0, 46, 47, 45, 0),
+	gsSP2Triangles(48, 45, 47, 0, 5, 48, 47, 0),
+	gsSP2Triangles(48, 5, 49, 0, 5, 50, 49, 0),
+	gsSP2Triangles(51, 49, 50, 0, 52, 51, 50, 0),
+	gsSP2Triangles(50, 53, 52, 0, 52, 53, 41, 0),
+	gsSP2Triangles(41, 54, 52, 0, 42, 54, 41, 0),
+	gsSP2Triangles(55, 54, 42, 0, 42, 56, 55, 0),
+	gsSP2Triangles(56, 42, 57, 0, 43, 57, 42, 0),
+	gsSP2Triangles(58, 56, 57, 0, 55, 56, 58, 0),
+	gsSP2Triangles(59, 55, 58, 0, 58, 60, 59, 0),
+	gsSP2Triangles(58, 61, 60, 0, 62, 61, 58, 0),
+	gsSP2Triangles(63, 62, 58, 0, 58, 57, 63, 0),
+	gsSP2Triangles(45, 63, 57, 0, 62, 63, 45, 0),
+	gsSP2Triangles(62, 49, 61, 0, 49, 62, 48, 0),
+	gsSP2Triangles(61, 49, 60, 0, 51, 60, 49, 0),
+	gsSP2Triangles(51, 52, 60, 0, 59, 60, 52, 0),
+	gsSP2Triangles(59, 52, 55, 0, 54, 55, 52, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_vtx_2[10] = {
+	{{{237, -66, 0}, 0, {-16, 1008}, {0x71, 0xC6, 0x01, 0xFF}}},
+	{{{181, -36, -21}, 0, {-16, 1008}, {0x23, 0xEE, 0x87, 0xFF}}},
+	{{{207, 10, -1}, 0, {-16, 1008}, {0x76, 0x2F, 0xFF, 0xFF}}},
+	{{{151, -89, 0}, 0, {-16, 1008}, {0x21, 0x85, 0x02, 0xFF}}},
+	{{{181, -35, 20}, 0, {-16, 1008}, {0x23, 0xF2, 0x79, 0xFF}}},
+	{{{100, -149, 1}, 0, {-16, 1008}, {0xFF, 0x81, 0x02, 0xFF}}},
+	{{{100, -88, 21}, 0, {-16, 1008}, {0xFB, 0xD9, 0x79, 0xFF}}},
+	{{{37, -72, 0}, 0, {-16, 1008}, {0x9E, 0xAF, 0x01, 0xFF}}},
+	{{{151, -90, 0}, 0, {-16, 1008}, {0x60, 0xAC, 0x01, 0xFF}}},
+	{{{100, -89, -20}, 0, {-16, 1008}, {0xFA, 0xD5, 0x89, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_tri_2[] = {
+	gsSPVertex(theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_vtx_2 + 0, 10, 0),
+	gsSP2Triangles(0, 1, 2, 0, 1, 0, 3, 0),
+	gsSP2Triangles(0, 4, 3, 0, 4, 0, 2, 0),
+	gsSP2Triangles(5, 6, 7, 0, 6, 5, 8, 0),
+	gsSP2Triangles(5, 9, 8, 0, 9, 5, 7, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_vtx_3[12] = {
+	{{{106, 45, 87}, 0, {-142, -138}, {0x42, 0x14, 0x6B, 0xFF}}},
+	{{{163, 24, 83}, 0, {-232, 134}, {0x2C, 0x28, 0x70, 0xFF}}},
+	{{{164, 62, 57}, 0, {203, 79}, {0x3E, 0x32, 0x63, 0xFF}}},
+	{{{242, 42, 65}, 0, {-15, 1003}, {0x32, 0x2A, 0x6D, 0xFF}}},
+	{{{266, 59, 37}, 0, {565, 1094}, {0x5A, 0x53, 0x23, 0xFF}}},
+	{{{182, 77, -3}, 0, {692, -47}, {0x65, 0x4C, 0xFE, 0xFF}}},
+	{{{250, 56, -2}, 0, {1000, 913}, {0x4B, 0x67, 0xFE, 0xFF}}},
+	{{{266, 57, -41}, 0, {565, 1094}, {0x59, 0x52, 0xDB, 0xFF}}},
+	{{{164, 60, -60}, 0, {203, 79}, {0x3D, 0x30, 0x9C, 0xFF}}},
+	{{{242, 40, -69}, 0, {-15, 1003}, {0x31, 0x27, 0x92, 0xFF}}},
+	{{{163, 21, -86}, 0, {-232, 134}, {0x2C, 0x28, 0x90, 0xFF}}},
+	{{{106, 43, -89}, 0, {-142, -138}, {0xFD, 0x34, 0x8C, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_tri_3[] = {
+	gsSPVertex(theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_vtx_3 + 0, 12, 0),
+	gsSP2Triangles(0, 1, 2, 0, 2, 1, 3, 0),
+	gsSP2Triangles(3, 4, 2, 0, 2, 4, 5, 0),
+	gsSP2Triangles(6, 5, 4, 0, 6, 7, 5, 0),
+	gsSP2Triangles(8, 5, 7, 0, 8, 7, 9, 0),
+	gsSP2Triangles(9, 10, 8, 0, 10, 11, 8, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_000_displaylist_001_mesh_layer_4_vtx_0[5] = {
+	{{{0, 0, 0}, 0, {-16, 2032}, {0x17, 0x00, 0x7D, 0xFF}}},
+	{{{104, 0, -19}, 0, {1008, 2032}, {0x17, 0x00, 0x7D, 0xFF}}},
+	{{{104, 212, -19}, 0, {1008, -16}, {0x17, 0x00, 0x7D, 0xFF}}},
+	{{{0, 0, 0}, 0, {-16, 2032}, {0x17, 0x00, 0x7D, 0xFF}}},
+	{{{0, 212, 0}, 0, {-16, -16}, {0x17, 0x00, 0x7D, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_000_displaylist_001_mesh_layer_4_tri_0[] = {
+	gsSPVertex(theplayerrolo_yoshi_000_displaylist_001_mesh_layer_4_vtx_0 + 0, 5, 0),
+	gsSP2Triangles(0, 1, 2, 0, 3, 2, 4, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_000_displaylist_001_mesh_layer_4_vtx_1[4] = {
+	{{{-103, 212, 18}, 0, {-16, -16}, {0x17, 0x00, 0x7D, 0xFF}}},
+	{{{0, 0, 0}, 0, {1008, 2032}, {0x17, 0x00, 0x7D, 0xFF}}},
+	{{{0, 212, 0}, 0, {1008, -16}, {0x17, 0x00, 0x7D, 0xFF}}},
+	{{{-103, 0, 19}, 0, {-16, 2032}, {0x17, 0x00, 0x7D, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_000_displaylist_001_mesh_layer_4_tri_1[] = {
+	gsSPVertex(theplayerrolo_yoshi_000_displaylist_001_mesh_layer_4_vtx_1 + 0, 4, 0),
+	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_000_displaylist_002_mesh_layer_4_vtx_0[4] = {
+	{{{0, 0, 0}, 0, {-16, 2032}, {0xE9, 0x00, 0x7D, 0xFF}}},
+	{{{104, 0, 19}, 0, {1008, 2032}, {0xE9, 0x00, 0x7D, 0xFF}}},
+	{{{104, 212, 19}, 0, {1008, -16}, {0xE9, 0x00, 0x7D, 0xFF}}},
+	{{{0, 212, 0}, 0, {-16, -16}, {0xE9, 0x00, 0x7D, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_000_displaylist_002_mesh_layer_4_tri_0[] = {
+	gsSPVertex(theplayerrolo_yoshi_000_displaylist_002_mesh_layer_4_vtx_0 + 0, 4, 0),
+	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_000_displaylist_002_mesh_layer_4_vtx_1[4] = {
+	{{{-103, 212, -18}, 0, {-16, -16}, {0xE9, 0x00, 0x7D, 0xFF}}},
+	{{{-103, 0, -19}, 0, {-16, 2032}, {0xE9, 0x00, 0x7D, 0xFF}}},
+	{{{0, 0, 0}, 0, {1008, 2032}, {0xE9, 0x00, 0x7D, 0xFF}}},
+	{{{0, 212, 0}, 0, {1008, -16}, {0xE9, 0x00, 0x7D, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_000_displaylist_002_mesh_layer_4_tri_1[] = {
+	gsSPVertex(theplayerrolo_yoshi_000_displaylist_002_mesh_layer_4_vtx_1 + 0, 4, 0),
+	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_000_offset_003_mesh_layer_1_vtx_0[20] = {
+	{{{6, -13, -42}, 0, {-16, -16}, {0xDB, 0xE1, 0x8B, 0xFF}}},
+	{{{-8, -9, -27}, 0, {-16, -16}, {0x90, 0xF1, 0xC6, 0xFF}}},
+	{{{-8, 17, -17}, 0, {-16, -16}, {0x92, 0x36, 0xDF, 0xFF}}},
+	{{{5, -42, -5}, 0, {-16, -16}, {0xD8, 0x88, 0xFD, 0xFF}}},
+	{{{57, -36, -5}, 0, {-16, -16}, {0x31, 0x8B, 0xFD, 0xFF}}},
+	{{{58, -13, -34}, 0, {-16, -16}, {0x33, 0xDF, 0x90, 0xFF}}},
+	{{{7, 29, -26}, 0, {-16, -16}, {0xE0, 0x66, 0xBC, 0xFF}}},
+	{{{-8, 16, 10}, 0, {-16, -16}, {0x92, 0x33, 0x25, 0xFF}}},
+	{{{-8, -11, 18}, 0, {-16, -16}, {0x91, 0xEC, 0x3A, 0xFF}}},
+	{{{-9, -26, -5}, 0, {-16, -16}, {0x8E, 0xC8, 0xFD, 0xFF}}},
+	{{{6, -16, 32}, 0, {-16, -16}, {0xDB, 0xD8, 0x73, 0xFF}}},
+	{{{58, -15, 25}, 0, {-16, -16}, {0x34, 0xD8, 0x6D, 0xFF}}},
+	{{{67, -12, 16}, 0, {-16, -16}, {0x6E, 0xE8, 0x3A, 0xFF}}},
+	{{{67, -26, -5}, 0, {-16, -16}, {0x6D, 0xBF, 0xFE, 0xFF}}},
+	{{{68, -10, -25}, 0, {-16, -16}, {0x6E, 0xEF, 0xC2, 0xFF}}},
+	{{{68, 13, -16}, 0, {-16, -16}, {0x6F, 0x32, 0xDD, 0xFF}}},
+	{{{59, 21, -21}, 0, {-16, -16}, {0x37, 0x5F, 0xC0, 0xFF}}},
+	{{{7, 27, 20}, 0, {-16, -16}, {0xDF, 0x60, 0x4C, 0xFF}}},
+	{{{59, 20, 15}, 0, {-16, -16}, {0x37, 0x5A, 0x47, 0xFF}}},
+	{{{68, 12, 9}, 0, {-16, -16}, {0x71, 0x2D, 0x26, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_000_offset_003_mesh_layer_1_tri_0[] = {
+	gsSPVertex(theplayerrolo_yoshi_000_offset_003_mesh_layer_1_vtx_0 + 0, 20, 0),
+	gsSP2Triangles(0, 1, 2, 0, 3, 1, 0, 0),
+	gsSP2Triangles(3, 0, 4, 0, 0, 5, 4, 0),
+	gsSP2Triangles(0, 6, 5, 0, 0, 2, 6, 0),
+	gsSP2Triangles(6, 2, 7, 0, 8, 7, 2, 0),
+	gsSP2Triangles(2, 1, 8, 0, 1, 9, 8, 0),
+	gsSP2Triangles(3, 9, 1, 0, 10, 9, 3, 0),
+	gsSP2Triangles(10, 3, 11, 0, 3, 4, 11, 0),
+	gsSP2Triangles(4, 12, 11, 0, 4, 13, 12, 0),
+	gsSP2Triangles(14, 13, 4, 0, 5, 14, 4, 0),
+	gsSP2Triangles(15, 14, 5, 0, 16, 15, 5, 0),
+	gsSP2Triangles(6, 16, 5, 0, 6, 17, 16, 0),
+	gsSP2Triangles(6, 7, 17, 0, 17, 7, 8, 0),
+	gsSP2Triangles(17, 8, 10, 0, 10, 8, 9, 0),
+	gsSP2Triangles(17, 10, 18, 0, 10, 11, 18, 0),
+	gsSP2Triangles(11, 12, 18, 0, 12, 19, 18, 0),
+	gsSP2Triangles(19, 12, 14, 0, 12, 13, 14, 0),
+	gsSP2Triangles(19, 14, 15, 0, 18, 19, 15, 0),
+	gsSP2Triangles(18, 15, 16, 0, 17, 18, 16, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_000_offset_004_mesh_layer_1_vtx_0[16] = {
+	{{{-2, 21, -21}, 0, {-16, -16}, {0xE0, 0x67, 0xBD, 0xFF}}},
+	{{{-14, 13, -15}, 0, {-16, -16}, {0x96, 0x3D, 0xDD, 0xFF}}},
+	{{{-14, 11, 10}, 0, {-16, -16}, {0x96, 0x37, 0x2B, 0xFF}}},
+	{{{-3, -14, -34}, 0, {-16, -16}, {0xDD, 0xE0, 0x8A, 0xFF}}},
+	{{{46, -14, -30}, 0, {-16, -16}, {0x40, 0xE0, 0x97, 0xFF}}},
+	{{{47, 16, -19}, 0, {-16, -16}, {0x43, 0x59, 0xC4, 0xFF}}},
+	{{{-2, 19, 16}, 0, {-16, -16}, {0xE1, 0x61, 0x4C, 0xFF}}},
+	{{{-15, -13, 17}, 0, {-16, -16}, {0x95, 0xEB, 0x41, 0xFF}}},
+	{{{-15, -27, -4}, 0, {-16, -16}, {0x93, 0xBF, 0xFD, 0xFF}}},
+	{{{-15, -11, -24}, 0, {-16, -16}, {0x94, 0xF1, 0xC0, 0xFF}}},
+	{{{-3, -38, -4}, 0, {-16, -16}, {0xDB, 0x86, 0xFC, 0xFF}}},
+	{{{45, -34, -4}, 0, {-16, -16}, {0x3E, 0x91, 0xFB, 0xFF}}},
+	{{{58, -7, -3}, 0, {-16, -16}, {0x7F, 0xFC, 0x01, 0xFF}}},
+	{{{47, 14, 13}, 0, {-16, -16}, {0x43, 0x53, 0x44, 0xFF}}},
+	{{{-3, -17, 26}, 0, {-16, -16}, {0xDE, 0xD7, 0x73, 0xFF}}},
+	{{{46, -17, 22}, 0, {-16, -16}, {0x40, 0xD8, 0x66, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_000_offset_004_mesh_layer_1_tri_0[] = {
+	gsSPVertex(theplayerrolo_yoshi_000_offset_004_mesh_layer_1_vtx_0 + 0, 16, 0),
+	gsSP2Triangles(0, 1, 2, 0, 3, 1, 0, 0),
+	gsSP2Triangles(3, 0, 4, 0, 0, 5, 4, 0),
+	gsSP2Triangles(0, 6, 5, 0, 0, 2, 6, 0),
+	gsSP2Triangles(6, 2, 7, 0, 8, 7, 2, 0),
+	gsSP2Triangles(8, 2, 1, 0, 9, 8, 1, 0),
+	gsSP2Triangles(3, 9, 1, 0, 10, 9, 3, 0),
+	gsSP2Triangles(10, 3, 11, 0, 3, 4, 11, 0),
+	gsSP2Triangles(4, 12, 11, 0, 5, 12, 4, 0),
+	gsSP2Triangles(13, 12, 5, 0, 6, 13, 5, 0),
+	gsSP2Triangles(6, 14, 13, 0, 6, 7, 14, 0),
+	gsSP2Triangles(14, 7, 8, 0, 14, 8, 10, 0),
+	gsSP2Triangles(10, 8, 9, 0, 14, 10, 15, 0),
+	gsSP2Triangles(10, 11, 15, 0, 11, 12, 15, 0),
+	gsSP2Triangles(15, 12, 13, 0, 14, 15, 13, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_000_displaylist_003_mesh_layer_1_vtx_0[19] = {
+	{{{-11, -28, -35}, 0, {-16, -16}, {0xAC, 0xB4, 0xC6, 0xFF}}},
+	{{{-34, 25, -34}, 0, {-16, -16}, {0x96, 0x05, 0xB9, 0xFF}}},
+	{{{-3, 6, -48}, 0, {-16, -16}, {0xC4, 0xFD, 0x90, 0xFF}}},
+	{{{-40, 41, 5}, 0, {-16, -16}, {0x86, 0x19, 0x19, 0xFF}}},
+	{{{-2, -45, 3}, 0, {-16, -16}, {0xC1, 0x94, 0x15, 0xFF}}},
+	{{{24, -50, 7}, 0, {-16, -16}, {0x06, 0x8A, 0x2F, 0xFF}}},
+	{{{48, -35, -66}, 0, {-16, -16}, {0x1D, 0xB6, 0x9D, 0xFF}}},
+	{{{27, 12, -65}, 0, {-16, -16}, {0xF4, 0x17, 0x84, 0xFF}}},
+	{{{-4, 67, -31}, 0, {-16, -16}, {0xD0, 0x5B, 0xB6, 0xFF}}},
+	{{{-26, 62, 10}, 0, {-16, -16}, {0xAF, 0x55, 0x30, 0xFF}}},
+	{{{0, 5, 45}, 0, {-16, -16}, {0xE3, 0xEF, 0x7A, 0xFF}}},
+	{{{-20, -2, 29}, 0, {-16, -16}, {0xA0, 0xD5, 0x47, 0xFF}}},
+	{{{77, -29, 4}, 0, {-16, -16}, {0x65, 0xBF, 0x29, 0xFF}}},
+	{{{69, -8, -50}, 0, {-16, -16}, {0x69, 0xFD, 0xB9, 0xFF}}},
+	{{{58, 17, -50}, 0, {-16, -16}, {0x47, 0x31, 0xA3, 0xFF}}},
+	{{{23, 58, -40}, 0, {-16, -16}, {0x17, 0x55, 0xA4, 0xFF}}},
+	{{{25, 86, 8}, 0, {-16, -16}, {0x15, 0x79, 0x21, 0xFF}}},
+	{{{54, 30, 44}, 0, {-16, -16}, {0x40, 0x1A, 0x6B, 0xFF}}},
+	{{{68, 42, -18}, 0, {-16, -16}, {0x6B, 0x40, 0xEA, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_000_displaylist_003_mesh_layer_1_tri_0[] = {
+	gsSPVertex(theplayerrolo_yoshi_000_displaylist_003_mesh_layer_1_vtx_0 + 0, 19, 0),
+	gsSP2Triangles(0, 1, 2, 0, 3, 1, 0, 0),
+	gsSP2Triangles(3, 0, 4, 0, 5, 4, 0, 0),
+	gsSP2Triangles(0, 6, 5, 0, 0, 2, 6, 0),
+	gsSP2Triangles(2, 7, 6, 0, 7, 2, 8, 0),
+	gsSP2Triangles(8, 2, 1, 0, 9, 8, 1, 0),
+	gsSP2Triangles(1, 3, 9, 0, 3, 10, 9, 0),
+	gsSP2Triangles(3, 11, 10, 0, 4, 11, 3, 0),
+	gsSP2Triangles(10, 11, 4, 0, 4, 5, 10, 0),
+	gsSP2Triangles(5, 12, 10, 0, 6, 12, 5, 0),
+	gsSP2Triangles(6, 13, 12, 0, 7, 13, 6, 0),
+	gsSP2Triangles(7, 14, 13, 0, 15, 14, 7, 0),
+	gsSP2Triangles(7, 8, 15, 0, 16, 15, 8, 0),
+	gsSP2Triangles(8, 9, 16, 0, 10, 16, 9, 0),
+	gsSP2Triangles(10, 17, 16, 0, 12, 17, 10, 0),
+	gsSP2Triangles(12, 18, 17, 0, 13, 18, 12, 0),
+	gsSP2Triangles(14, 18, 13, 0, 14, 15, 18, 0),
+	gsSP2Triangles(16, 18, 15, 0, 17, 18, 16, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_002_switch_option_right_hand_open_mesh_layer_1_vtx_0[24] = {
+	{{{115, 87, -21}, 0, {-16, -16}, {0x4C, 0x5F, 0x22, 0xFF}}},
+	{{{52, 107, -20}, 0, {-16, -16}, {0xF0, 0x7E, 0xF8, 0xFF}}},
+	{{{60, 47, 31}, 0, {-16, -16}, {0x14, 0x28, 0x77, 0xFF}}},
+	{{{113, 83, -48}, 0, {-16, -16}, {0x33, 0x41, 0x9F, 0xFF}}},
+	{{{140, 38, -4}, 0, {-16, -16}, {0x74, 0xF7, 0x34, 0xFF}}},
+	{{{68, -25, 17}, 0, {-16, -16}, {0x43, 0xC1, 0x58, 0xFF}}},
+	{{{-3, 16, 40}, 0, {-16, -16}, {0xDE, 0x0D, 0x7A, 0xFF}}},
+	{{{-28, 62, -6}, 0, {-16, -16}, {0xAC, 0x5C, 0x17, 0xFF}}},
+	{{{-3, 47, -46}, 0, {-16, -16}, {0xF5, 0x41, 0x94, 0xFF}}},
+	{{{62, 70, -38}, 0, {-16, -16}, {0xF6, 0x16, 0x83, 0xFF}}},
+	{{{130, 31, -45}, 0, {-16, -16}, {0x50, 0xD8, 0xA6, 0xFF}}},
+	{{{75, -12, -29}, 0, {-16, -16}, {0x64, 0xE3, 0xB8, 0xFF}}},
+	{{{75, -63, -41}, 0, {-16, -16}, {0x4B, 0xA4, 0xD4, 0xFF}}},
+	{{{20, -47, 17}, 0, {-16, -16}, {0xFF, 0x9F, 0x52, 0xFF}}},
+	{{{-3, -44, 12}, 0, {-16, -16}, {0xBD, 0xA3, 0x37, 0xFF}}},
+	{{{-22, 2, 26}, 0, {-16, -16}, {0x9F, 0xE4, 0x4C, 0xFF}}},
+	{{{-40, 40, -6}, 0, {-16, -16}, {0x85, 0x16, 0x18, 0xFF}}},
+	{{{-22, 32, -60}, 0, {-16, -16}, {0xDB, 0x1E, 0x8B, 0xFF}}},
+	{{{-5, -5, -50}, 0, {-16, -16}, {0xDF, 0xE2, 0x89, 0xFF}}},
+	{{{59, -27, -55}, 0, {-16, -16}, {0x2D, 0x03, 0x89, 0xFF}}},
+	{{{50, 8, -40}, 0, {-16, -16}, {0x34, 0x1D, 0x90, 0xFF}}},
+	{{{15, -50, -40}, 0, {-16, -16}, {0xD8, 0x9D, 0xBB, 0xFF}}},
+	{{{-11, -38, -29}, 0, {-16, -16}, {0xA4, 0xB2, 0xD9, 0xFF}}},
+	{{{-35, 15, -41}, 0, {-16, -16}, {0x8F, 0xE4, 0xCE, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_002_switch_option_right_hand_open_mesh_layer_1_tri_0[] = {
+	gsSPVertex(theplayerrolo_yoshi_002_switch_option_right_hand_open_mesh_layer_1_vtx_0 + 0, 24, 0),
+	gsSP2Triangles(0, 1, 2, 0, 1, 0, 3, 0),
+	gsSP2Triangles(0, 4, 3, 0, 4, 0, 2, 0),
+	gsSP2Triangles(5, 4, 2, 0, 5, 2, 6, 0),
+	gsSP2Triangles(6, 2, 1, 0, 6, 1, 7, 0),
+	gsSP2Triangles(8, 7, 1, 0, 1, 9, 8, 0),
+	gsSP2Triangles(3, 9, 1, 0, 9, 3, 10, 0),
+	gsSP2Triangles(3, 4, 10, 0, 10, 4, 5, 0),
+	gsSP2Triangles(11, 10, 5, 0, 12, 11, 5, 0),
+	gsSP2Triangles(12, 5, 13, 0, 13, 5, 6, 0),
+	gsSP2Triangles(14, 13, 6, 0, 6, 15, 14, 0),
+	gsSP2Triangles(16, 15, 6, 0, 16, 6, 7, 0),
+	gsSP2Triangles(16, 7, 17, 0, 7, 8, 17, 0),
+	gsSP2Triangles(18, 17, 8, 0, 19, 18, 8, 0),
+	gsSP2Triangles(19, 8, 20, 0, 8, 9, 20, 0),
+	gsSP2Triangles(20, 9, 11, 0, 9, 10, 11, 0),
+	gsSP2Triangles(19, 20, 11, 0, 19, 11, 12, 0),
+	gsSP2Triangles(12, 21, 19, 0, 13, 21, 12, 0),
+	gsSP2Triangles(14, 21, 13, 0, 14, 22, 21, 0),
+	gsSP2Triangles(23, 22, 14, 0, 14, 16, 23, 0),
+	gsSP2Triangles(14, 15, 16, 0, 17, 23, 16, 0),
+	gsSP2Triangles(23, 17, 18, 0, 22, 23, 18, 0),
+	gsSP2Triangles(22, 18, 21, 0, 21, 18, 19, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_000_offset_006_mesh_layer_1_vtx_0[20] = {
+	{{{58, 17, 27}, 0, {-16, -16}, {0x36, 0x59, 0x48, 0xFF}}},
+	{{{67, 10, 21}, 0, {-16, -16}, {0x6F, 0x32, 0x25, 0xFF}}},
+	{{{67, 11, -4}, 0, {-16, -16}, {0x6F, 0x33, 0xDF, 0xFF}}},
+	{{{67, -14, 28}, 0, {-16, -16}, {0x6E, 0xE8, 0x3B, 0xFF}}},
+	{{{57, -17, 37}, 0, {-16, -16}, {0x32, 0xD8, 0x6D, 0xFF}}},
+	{{{7, 25, 32}, 0, {-16, -16}, {0xE0, 0x60, 0x4C, 0xFF}}},
+	{{{7, 27, -13}, 0, {-16, -16}, {0xE0, 0x68, 0xBE, 0xFF}}},
+	{{{58, 19, -9}, 0, {-16, -16}, {0x37, 0x60, 0xC2, 0xFF}}},
+	{{{67, -12, -13}, 0, {-16, -16}, {0x6E, 0xEE, 0xC3, 0xFF}}},
+	{{{66, -28, 6}, 0, {-16, -16}, {0x6F, 0xC3, 0xFA, 0xFF}}},
+	{{{57, -38, 6}, 0, {-16, -16}, {0x33, 0x8C, 0xFA, 0xFF}}},
+	{{{57, -14, -22}, 0, {-16, -16}, {0x32, 0xE3, 0x8F, 0xFF}}},
+	{{{5, -44, 5}, 0, {-16, -16}, {0xD8, 0x88, 0xF8, 0xFF}}},
+	{{{6, -19, 44}, 0, {-16, -16}, {0xDC, 0xD5, 0x72, 0xFF}}},
+	{{{-8, 14, 22}, 0, {-16, -16}, {0x93, 0x35, 0x26, 0xFF}}},
+	{{{-8, 15, -5}, 0, {-16, -16}, {0x93, 0x38, 0xDE, 0xFF}}},
+	{{{-9, -10, -15}, 0, {-16, -16}, {0x91, 0xF5, 0xC4, 0xFF}}},
+	{{{6, -15, -30}, 0, {-16, -16}, {0xDD, 0xE2, 0x8A, 0xFF}}},
+	{{{-9, -28, 6}, 0, {-16, -16}, {0x8F, 0xC6, 0xFB, 0xFF}}},
+	{{{-9, -13, 30}, 0, {-16, -16}, {0x91, 0xEE, 0x3C, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_000_offset_006_mesh_layer_1_tri_0[] = {
+	gsSPVertex(theplayerrolo_yoshi_000_offset_006_mesh_layer_1_vtx_0 + 0, 20, 0),
+	gsSP2Triangles(0, 1, 2, 0, 3, 1, 0, 0),
+	gsSP2Triangles(4, 3, 0, 0, 4, 0, 5, 0),
+	gsSP2Triangles(0, 6, 5, 0, 0, 7, 6, 0),
+	gsSP2Triangles(0, 2, 7, 0, 7, 2, 8, 0),
+	gsSP2Triangles(8, 2, 9, 0, 2, 3, 9, 0),
+	gsSP2Triangles(2, 1, 3, 0, 10, 9, 3, 0),
+	gsSP2Triangles(8, 9, 10, 0, 11, 8, 10, 0),
+	gsSP2Triangles(11, 10, 12, 0, 10, 13, 12, 0),
+	gsSP2Triangles(10, 4, 13, 0, 10, 3, 4, 0),
+	gsSP2Triangles(4, 5, 13, 0, 5, 14, 13, 0),
+	gsSP2Triangles(15, 14, 5, 0, 6, 15, 5, 0),
+	gsSP2Triangles(16, 15, 6, 0, 17, 16, 6, 0),
+	gsSP2Triangles(7, 17, 6, 0, 7, 11, 17, 0),
+	gsSP2Triangles(7, 8, 11, 0, 11, 12, 17, 0),
+	gsSP2Triangles(12, 18, 17, 0, 19, 18, 12, 0),
+	gsSP2Triangles(13, 19, 12, 0, 14, 19, 13, 0),
+	gsSP2Triangles(19, 14, 15, 0, 19, 15, 16, 0),
+	gsSP2Triangles(16, 18, 19, 0, 18, 16, 17, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_000_offset_007_mesh_layer_1_vtx_0[16] = {
+	{{{-2, -18, 38}, 0, {-16, -16}, {0xDC, 0xD6, 0x72, 0xFF}}},
+	{{{-14, -14, 28}, 0, {-16, -16}, {0x93, 0xED, 0x3E, 0xFF}}},
+	{{{-3, -39, 6}, 0, {-16, -16}, {0xD8, 0x88, 0xF9, 0xFF}}},
+	{{{-13, 10, 21}, 0, {-16, -16}, {0x95, 0x36, 0x29, 0xFF}}},
+	{{{-1, 18, 28}, 0, {-16, -16}, {0xDF, 0x60, 0x4D, 0xFF}}},
+	{{{47, -17, 34}, 0, {-16, -16}, {0x41, 0xDA, 0x66, 0xFF}}},
+	{{{46, -36, 6}, 0, {-16, -16}, {0x3D, 0x91, 0xFA, 0xFF}}},
+	{{{47, -15, -19}, 0, {-16, -16}, {0x40, 0xE3, 0x96, 0xFF}}},
+	{{{-2, -15, -23}, 0, {-16, -16}, {0xDD, 0xE3, 0x8A, 0xFF}}},
+	{{{-14, -28, 6}, 0, {-16, -16}, {0x91, 0xC2, 0xFA, 0xFF}}},
+	{{{-14, -12, -13}, 0, {-16, -16}, {0x94, 0xF2, 0xBF, 0xFF}}},
+	{{{-13, 12, -4}, 0, {-16, -16}, {0x97, 0x3D, 0xDA, 0xFF}}},
+	{{{-1, 20, -9}, 0, {-16, -16}, {0xE1, 0x68, 0xBE, 0xFF}}},
+	{{{48, 13, 25}, 0, {-16, -16}, {0x44, 0x53, 0x44, 0xFF}}},
+	{{{59, -8, 7}, 0, {-16, -16}, {0x7F, 0xFD, 0xFE, 0xFF}}},
+	{{{48, 15, -7}, 0, {-16, -16}, {0x43, 0x5B, 0xC5, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_000_offset_007_mesh_layer_1_tri_0[] = {
+	gsSPVertex(theplayerrolo_yoshi_000_offset_007_mesh_layer_1_vtx_0 + 0, 16, 0),
+	gsSP2Triangles(0, 1, 2, 0, 3, 1, 0, 0),
+	gsSP2Triangles(4, 3, 0, 0, 5, 4, 0, 0),
+	gsSP2Triangles(6, 5, 0, 0, 6, 0, 2, 0),
+	gsSP2Triangles(7, 6, 2, 0, 7, 2, 8, 0),
+	gsSP2Triangles(2, 9, 8, 0, 1, 9, 2, 0),
+	gsSP2Triangles(9, 1, 3, 0, 10, 9, 3, 0),
+	gsSP2Triangles(10, 3, 11, 0, 11, 3, 4, 0),
+	gsSP2Triangles(12, 11, 4, 0, 13, 12, 4, 0),
+	gsSP2Triangles(5, 13, 4, 0, 5, 14, 13, 0),
+	gsSP2Triangles(6, 14, 5, 0, 7, 14, 6, 0),
+	gsSP2Triangles(15, 14, 7, 0, 15, 7, 8, 0),
+	gsSP2Triangles(15, 8, 12, 0, 8, 10, 12, 0),
+	gsSP2Triangles(9, 10, 8, 0, 10, 11, 12, 0),
+	gsSP2Triangles(13, 14, 15, 0, 13, 15, 12, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_000_displaylist_004_mesh_layer_1_vtx_0[21] = {
+	{{{-27, 47, -5}, 0, {-16, -16}, {0xBA, 0x5F, 0xD0, 0xFF}}},
+	{{{-45, 28, -2}, 0, {-16, -16}, {0x8D, 0x2B, 0xE1, 0xFF}}},
+	{{{-44, 19, 17}, 0, {-16, -16}, {0xB0, 0x57, 0x30, 0xFF}}},
+	{{{-3, -2, -37}, 0, {-16, -16}, {0xED, 0xF7, 0x83, 0xFF}}},
+	{{{19, 67, -1}, 0, {-16, -16}, {0x17, 0x7A, 0xE4, 0xFF}}},
+	{{{-9, 49, 31}, 0, {-16, -16}, {0xD2, 0x5B, 0x4C, 0xFF}}},
+	{{{-42, 12, 32}, 0, {-16, -16}, {0x96, 0x09, 0x45, 0xFF}}},
+	{{{-9, -5, 46}, 0, {-16, -16}, {0xC6, 0xFE, 0x71, 0xFF}}},
+	{{{-31, -13, 32}, 0, {-16, -16}, {0x9A, 0xD3, 0x3D, 0xFF}}},
+	{{{-29, -11, -23}, 0, {-16, -16}, {0xA6, 0xDC, 0xAF, 0xFF}}},
+	{{{-14, -49, -2}, 0, {-16, -16}, {0xC3, 0x95, 0xE1, 0xFF}}},
+	{{{16, -53, -5}, 0, {-16, -16}, {0x09, 0x8C, 0xCC, 0xFF}}},
+	{{{63, -36, 0}, 0, {-16, -16}, {0x65, 0xBF, 0xD7, 0xFF}}},
+	{{{46, 18, -33}, 0, {-16, -16}, {0x45, 0x1C, 0x99, 0xFF}}},
+	{{{57, 27, 22}, 0, {-16, -16}, {0x6B, 0x3E, 0x1C, 0xFF}}},
+	{{{15, 41, 41}, 0, {-16, -16}, {0x14, 0x52, 0x5F, 0xFF}}},
+	{{{18, -1, 62}, 0, {-16, -16}, {0xF3, 0x15, 0x7D, 0xFF}}},
+	{{{35, -43, 62}, 0, {-16, -16}, {0x1A, 0xB3, 0x61, 0xFF}}},
+	{{{-21, -36, 32}, 0, {-16, -16}, {0xAD, 0xB3, 0x39, 0xFF}}},
+	{{{56, -19, 49}, 0, {-16, -16}, {0x67, 0xF9, 0x49, 0xFF}}},
+	{{{46, 3, 49}, 0, {-16, -16}, {0x45, 0x2D, 0x61, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_000_displaylist_004_mesh_layer_1_tri_0[] = {
+	gsSPVertex(theplayerrolo_yoshi_000_displaylist_004_mesh_layer_1_vtx_0 + 0, 21, 0),
+	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
+	gsSP2Triangles(0, 4, 3, 0, 4, 0, 5, 0),
+	gsSP2Triangles(5, 0, 6, 0, 0, 2, 6, 0),
+	gsSP2Triangles(6, 7, 5, 0, 7, 6, 8, 0),
+	gsSP2Triangles(8, 6, 9, 0, 9, 6, 1, 0),
+	gsSP2Triangles(3, 9, 1, 0, 10, 9, 3, 0),
+	gsSP2Triangles(3, 11, 10, 0, 3, 12, 11, 0),
+	gsSP2Triangles(3, 13, 12, 0, 4, 13, 3, 0),
+	gsSP2Triangles(4, 14, 13, 0, 15, 14, 4, 0),
+	gsSP2Triangles(5, 15, 4, 0, 15, 5, 16, 0),
+	gsSP2Triangles(5, 7, 16, 0, 17, 16, 7, 0),
+	gsSP2Triangles(17, 7, 18, 0, 7, 8, 18, 0),
+	gsSP2Triangles(18, 8, 9, 0, 10, 18, 9, 0),
+	gsSP2Triangles(18, 10, 11, 0, 11, 17, 18, 0),
+	gsSP2Triangles(11, 12, 17, 0, 12, 19, 17, 0),
+	gsSP2Triangles(12, 14, 19, 0, 13, 14, 12, 0),
+	gsSP2Triangles(19, 14, 20, 0, 14, 15, 20, 0),
+	gsSP2Triangles(20, 15, 16, 0, 19, 20, 16, 0),
+	gsSP1Triangle(17, 19, 16, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_002_switch_option_left_hand_open_mesh_layer_1_vtx_0[24] = {
+	{{{129, 30, 34}, 0, {-16, -16}, {0x51, 0xDD, 0x5B, 0xFF}}},
+	{{{114, 79, 33}, 0, {-16, -16}, {0x39, 0x46, 0x5A, 0xFF}}},
+	{{{67, 67, 27}, 0, {-16, -16}, {0xFD, 0x21, 0x7B, 0xFF}}},
+	{{{137, 34, -4}, 0, {-16, -16}, {0x73, 0xF0, 0xCB, 0xFF}}},
+	{{{69, -26, -18}, 0, {-16, -16}, {0x3E, 0xB9, 0xAB, 0xFF}}},
+	{{{78, -9, 23}, 0, {-16, -16}, {0x68, 0xE6, 0x45, 0xFF}}},
+	{{{56, 10, 35}, 0, {-16, -16}, {0x3D, 0x24, 0x69, 0xFF}}},
+	{{{8, 48, 40}, 0, {-16, -16}, {0xFD, 0x4A, 0x67, 0xFF}}},
+	{{{57, 101, 8}, 0, {-16, -16}, {0xF3, 0x7E, 0xFE, 0xFF}}},
+	{{{116, 81, 8}, 0, {-16, -16}, {0x4E, 0x5A, 0xD4, 0xFF}}},
+	{{{63, 41, -36}, 0, {-16, -16}, {0x11, 0x1D, 0x86, 0xFF}}},
+	{{{3, 12, -38}, 0, {-16, -16}, {0xD7, 0x03, 0x88, 0xFF}}},
+	{{{24, -45, -14}, 0, {-16, -16}, {0xF7, 0x99, 0xB6, 0xFF}}},
+	{{{78, -56, 40}, 0, {-16, -16}, {0x4C, 0xA7, 0x31, 0xFF}}},
+	{{{63, -21, 51}, 0, {-16, -16}, {0x35, 0x0C, 0x73, 0xFF}}},
+	{{{5, -1, 48}, 0, {-16, -16}, {0xE2, 0xED, 0x7A, 0xFF}}},
+	{{{-9, 36, 54}, 0, {-16, -16}, {0xE2, 0x2A, 0x74, 0xFF}}},
+	{{{-17, 60, 3}, 0, {-16, -16}, {0xAE, 0x5E, 0xE7, 0xFF}}},
+	{{{-29, 40, 4}, 0, {-16, -16}, {0x85, 0x1A, 0xEB, 0xFF}}},
+	{{{-14, 2, -23}, 0, {-16, -16}, {0x99, 0xDF, 0xBD, 0xFF}}},
+	{{{3, -41, -8}, 0, {-16, -16}, {0xB6, 0xA2, 0xD5, 0xFF}}},
+	{{{22, -45, 41}, 0, {-16, -16}, {0xD8, 0xA4, 0x4E, 0xFF}}},
+	{{{-2, -32, 30}, 0, {-16, -16}, {0xA1, 0xBA, 0x30, 0xFF}}},
+	{{{-22, 18, 39}, 0, {-16, -16}, {0x91, 0xEB, 0x39, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_002_switch_option_left_hand_open_mesh_layer_1_tri_0[] = {
+	gsSPVertex(theplayerrolo_yoshi_002_switch_option_left_hand_open_mesh_layer_1_vtx_0 + 0, 24, 0),
+	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
+	gsSP2Triangles(4, 3, 0, 0, 4, 0, 5, 0),
+	gsSP2Triangles(5, 0, 2, 0, 5, 2, 6, 0),
+	gsSP2Triangles(6, 2, 7, 0, 7, 2, 8, 0),
+	gsSP2Triangles(8, 2, 1, 0, 1, 9, 8, 0),
+	gsSP2Triangles(1, 3, 9, 0, 10, 9, 3, 0),
+	gsSP2Triangles(10, 3, 4, 0, 11, 10, 4, 0),
+	gsSP2Triangles(11, 4, 12, 0, 12, 4, 13, 0),
+	gsSP2Triangles(4, 5, 13, 0, 13, 5, 14, 0),
+	gsSP2Triangles(5, 6, 14, 0, 6, 7, 14, 0),
+	gsSP2Triangles(7, 15, 14, 0, 7, 16, 15, 0),
+	gsSP2Triangles(16, 7, 17, 0, 8, 17, 7, 0),
+	gsSP2Triangles(17, 8, 11, 0, 8, 10, 11, 0),
+	gsSP2Triangles(10, 8, 9, 0, 17, 11, 18, 0),
+	gsSP2Triangles(11, 19, 18, 0, 20, 19, 11, 0),
+	gsSP2Triangles(11, 12, 20, 0, 12, 21, 20, 0),
+	gsSP2Triangles(13, 21, 12, 0, 14, 21, 13, 0),
+	gsSP2Triangles(14, 15, 21, 0, 21, 15, 22, 0),
+	gsSP2Triangles(15, 23, 22, 0, 15, 16, 23, 0),
+	gsSP2Triangles(18, 23, 16, 0, 16, 17, 18, 0),
+	gsSP2Triangles(19, 23, 18, 0, 19, 22, 23, 0),
+	gsSP2Triangles(22, 19, 20, 0, 21, 22, 20, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_004_switch_option_left_hand_peace_mesh_layer_1_vtx_0[45] = {
+	{{{182, -18, -22}, 0, {-16, -16}, {0x7A, 0x09, 0x22, 0xFF}}},
+	{{{178, 14, -15}, 0, {-16, -16}, {0x7A, 0x0B, 0x22, 0xFF}}},
+	{{{167, 6, 27}, 0, {-16, -16}, {0x49, 0xF3, 0x67, 0xFF}}},
+	{{{169, -21, 23}, 0, {-16, -16}, {0x47, 0xF8, 0x69, 0xFF}}},
+	{{{105, -37, 16}, 0, {-16, -16}, {0x42, 0x97, 0x19, 0xFF}}},
+	{{{102, 9, 33}, 0, {-16, -16}, {0x4F, 0x09, 0x63, 0xFF}}},
+	{{{92, -6, 60}, 0, {-16, -16}, {0x48, 0x03, 0x69, 0xFF}}},
+	{{{85, 54, 27}, 0, {-16, -16}, {0x1A, 0x4F, 0x60, 0xFF}}},
+	{{{150, 60, 28}, 0, {-16, -16}, {0xFC, 0x13, 0x7D, 0xFF}}},
+	{{{131, 83, 23}, 0, {-16, -16}, {0xFC, 0x17, 0x7D, 0xFF}}},
+	{{{40, 55, 52}, 0, {-16, -16}, {0xF7, 0x48, 0x68, 0xFF}}},
+	{{{52, 92, -1}, 0, {-16, -16}, {0x07, 0x7D, 0xED, 0xFF}}},
+	{{{85, 68, -10}, 0, {-16, -16}, {0x02, 0x70, 0xC4, 0xFF}}},
+	{{{135, 97, -5}, 0, {-16, -16}, {0xC3, 0x67, 0x2A, 0xFF}}},
+	{{{131, 83, 23}, 0, {-16, -16}, {0xC4, 0x67, 0x2C, 0xFF}}},
+	{{{91, 19, -42}, 0, {-16, -16}, {0x07, 0x0A, 0x82, 0xFF}}},
+	{{{135, 97, -5}, 0, {-16, -16}, {0x06, 0x33, 0x8C, 0xFF}}},
+	{{{159, 67, -11}, 0, {-16, -16}, {0x17, 0x2A, 0x8A, 0xFF}}},
+	{{{24, 6, -46}, 0, {-16, -16}, {0xDF, 0xF9, 0x85, 0xFF}}},
+	{{{97, -29, -23}, 0, {-16, -16}, {0x1A, 0xA8, 0xA8, 0xFF}}},
+	{{{182, -18, -22}, 0, {-16, -16}, {0x1E, 0x07, 0x85, 0xFF}}},
+	{{{178, 14, -15}, 0, {-16, -16}, {0x27, 0x20, 0x8B, 0xFF}}},
+	{{{52, -59, -8}, 0, {-16, -16}, {0x03, 0x8A, 0xD1, 0xFF}}},
+	{{{23, -54, -2}, 0, {-16, -16}, {0xC0, 0x96, 0xE3, 0xFF}}},
+	{{{39, -37, 60}, 0, {-16, -16}, {0xE7, 0xBC, 0x68, 0xFF}}},
+	{{{90, -43, 45}, 0, {-16, -16}, {0x3D, 0xA6, 0x41, 0xFF}}},
+	{{{169, -21, 23}, 0, {-16, -16}, {0x15, 0x83, 0xF6, 0xFF}}},
+	{{{182, -18, -22}, 0, {-16, -16}, {0x10, 0x82, 0xFE, 0xFF}}},
+	{{{7, 33, 47}, 0, {-16, -16}, {0xC9, 0x2E, 0x69, 0xFF}}},
+	{{{-5, 66, -4}, 0, {-16, -16}, {0xAF, 0x5D, 0xE2, 0xFF}}},
+	{{{-20, 42, -2}, 0, {-16, -16}, {0x87, 0x1D, 0xE8, 0xFF}}},
+	{{{2, -4, -28}, 0, {-16, -16}, {0xA0, 0xD7, 0xB8, 0xFF}}},
+	{{{13, -37, 41}, 0, {-16, -16}, {0xAA, 0xB5, 0x37, 0xFF}}},
+	{{{-15, 22, 42}, 0, {-16, -16}, {0x9A, 0x0C, 0x4B, 0xFF}}},
+	{{{159, 67, -11}, 0, {-16, -16}, {0x5E, 0x4B, 0x29, 0xFF}}},
+	{{{135, 97, -5}, 0, {-16, -16}, {0x61, 0x44, 0x2E, 0xFF}}},
+	{{{131, 83, 23}, 0, {-16, -16}, {0x5D, 0x4C, 0x28, 0xFF}}},
+	{{{150, 60, 28}, 0, {-16, -16}, {0x5A, 0x53, 0x22, 0xFF}}},
+	{{{110, 17, 2}, 0, {-16, -16}, {0x77, 0x2C, 0x03, 0xFF}}},
+	{{{102, 9, 33}, 0, {-16, -16}, {0x6E, 0x30, 0x2A, 0xFF}}},
+	{{{167, 6, 27}, 0, {-16, -16}, {0x0C, 0x7B, 0x1E, 0xFF}}},
+	{{{150, 60, 28}, 0, {-16, -16}, {0x5B, 0xA8, 0x03, 0xFF}}},
+	{{{159, 67, -11}, 0, {-16, -16}, {0x59, 0xA6, 0xF5, 0xFF}}},
+	{{{91, 19, -42}, 0, {-16, -16}, {0x70, 0x25, 0xD1, 0xFF}}},
+	{{{178, 14, -15}, 0, {-16, -16}, {0x0B, 0x7D, 0x13, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_004_switch_option_left_hand_peace_mesh_layer_1_tri_0[] = {
+	gsSPVertex(theplayerrolo_yoshi_004_switch_option_left_hand_peace_mesh_layer_1_vtx_0 + 0, 45, 0),
+	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
+	gsSP2Triangles(4, 3, 2, 0, 4, 2, 5, 0),
+	gsSP2Triangles(4, 5, 6, 0, 5, 7, 6, 0),
+	gsSP2Triangles(7, 5, 8, 0, 8, 9, 7, 0),
+	gsSP2Triangles(6, 7, 10, 0, 10, 7, 11, 0),
+	gsSP2Triangles(11, 7, 12, 0, 12, 7, 13, 0),
+	gsSP2Triangles(7, 14, 13, 0, 11, 12, 15, 0),
+	gsSP2Triangles(16, 15, 12, 0, 15, 16, 17, 0),
+	gsSP2Triangles(11, 15, 18, 0, 18, 15, 19, 0),
+	gsSP2Triangles(20, 19, 15, 0, 15, 21, 20, 0),
+	gsSP2Triangles(22, 18, 19, 0, 18, 22, 23, 0),
+	gsSP2Triangles(22, 24, 23, 0, 24, 22, 25, 0),
+	gsSP2Triangles(4, 25, 22, 0, 4, 22, 19, 0),
+	gsSP2Triangles(19, 26, 4, 0, 26, 19, 27, 0),
+	gsSP2Triangles(25, 4, 6, 0, 25, 6, 24, 0),
+	gsSP2Triangles(24, 6, 10, 0, 24, 10, 28, 0),
+	gsSP2Triangles(10, 29, 28, 0, 10, 11, 29, 0),
+	gsSP2Triangles(29, 11, 18, 0, 29, 18, 30, 0),
+	gsSP2Triangles(18, 31, 30, 0, 23, 31, 18, 0),
+	gsSP2Triangles(23, 32, 31, 0, 24, 32, 23, 0),
+	gsSP2Triangles(32, 24, 28, 0, 33, 32, 28, 0),
+	gsSP2Triangles(30, 33, 28, 0, 28, 29, 30, 0),
+	gsSP2Triangles(31, 33, 30, 0, 33, 31, 32, 0),
+	gsSP2Triangles(34, 35, 36, 0, 36, 37, 34, 0),
+	gsSP2Triangles(38, 39, 40, 0, 41, 39, 38, 0),
+	gsSP2Triangles(41, 38, 42, 0, 42, 38, 43, 0),
+	gsSP2Triangles(44, 43, 38, 0, 38, 40, 44, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_005_switch_option_left_hand_cap_mesh_layer_1_vtx_0[19] = {
+	{{{-11, 26, 39}, 0, {-16, -16}, {0x94, 0x04, 0x43, 0xFF}}},
+	{{{24, 5, 55}, 0, {-16, -16}, {0xC0, 0xF9, 0x6E, 0xFF}}},
+	{{{24, 74, 38}, 0, {-16, -16}, {0xCE, 0x59, 0x4B, 0xFF}}},
+	{{{16, -35, 39}, 0, {-16, -16}, {0xAB, 0xB2, 0x35, 0xFF}}},
+	{{{26, -52, -5}, 0, {-16, -16}, {0xC1, 0x96, 0xE3, 0xFF}}},
+	{{{8, -2, -32}, 0, {-16, -16}, {0xA2, 0xD8, 0xB5, 0xFF}}},
+	{{{-15, 48, -5}, 0, {-16, -16}, {0x88, 0x1E, 0xE2, 0xFF}}},
+	{{{1, 71, -9}, 0, {-16, -16}, {0xB2, 0x59, 0xD2, 0xFF}}},
+	{{{60, 98, -5}, 0, {-16, -16}, {0x18, 0x79, 0xE3, 0xFF}}},
+	{{{55, 64, 50}, 0, {-16, -16}, {0x15, 0x51, 0x60, 0xFF}}},
+	{{{58, 10, 76}, 0, {-16, -16}, {0xF1, 0x13, 0x7D, 0xFF}}},
+	{{{81, -44, 76}, 0, {-16, -16}, {0x19, 0xB2, 0x61, 0xFF}}},
+	{{{56, -57, -9}, 0, {-16, -16}, {0x07, 0x8C, 0xCD, 0xFF}}},
+	{{{31, 8, -50}, 0, {-16, -16}, {0xE6, 0xF5, 0x84, 0xFF}}},
+	{{{94, 34, -45}, 0, {-16, -16}, {0x45, 0x1C, 0x99, 0xFF}}},
+	{{{108, 45, 25}, 0, {-16, -16}, {0x6C, 0x3D, 0x1C, 0xFF}}},
+	{{{94, 15, 60}, 0, {-16, -16}, {0x44, 0x2D, 0x62, 0xFF}}},
+	{{{106, -14, 60}, 0, {-16, -16}, {0x67, 0xF9, 0x4A, 0xFF}}},
+	{{{116, -35, -4}, 0, {-16, -16}, {0x65, 0xBF, 0xD6, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_005_switch_option_left_hand_cap_mesh_layer_1_tri_0[] = {
+	gsSPVertex(theplayerrolo_yoshi_005_switch_option_left_hand_cap_mesh_layer_1_vtx_0 + 0, 19, 0),
+	gsSP2Triangles(0, 1, 2, 0, 1, 0, 3, 0),
+	gsSP2Triangles(0, 4, 3, 0, 4, 0, 5, 0),
+	gsSP2Triangles(0, 6, 5, 0, 7, 6, 0, 0),
+	gsSP2Triangles(2, 7, 0, 0, 8, 7, 2, 0),
+	gsSP2Triangles(2, 9, 8, 0, 9, 2, 10, 0),
+	gsSP2Triangles(2, 1, 10, 0, 11, 10, 1, 0),
+	gsSP2Triangles(11, 1, 3, 0, 12, 11, 3, 0),
+	gsSP2Triangles(3, 4, 12, 0, 13, 12, 4, 0),
+	gsSP2Triangles(4, 5, 13, 0, 13, 5, 6, 0),
+	gsSP2Triangles(7, 13, 6, 0, 7, 8, 13, 0),
+	gsSP2Triangles(8, 14, 13, 0, 8, 15, 14, 0),
+	gsSP2Triangles(9, 15, 8, 0, 15, 9, 16, 0),
+	gsSP2Triangles(16, 9, 10, 0, 17, 16, 10, 0),
+	gsSP2Triangles(11, 17, 10, 0, 18, 17, 11, 0),
+	gsSP2Triangles(12, 18, 11, 0, 13, 18, 12, 0),
+	gsSP2Triangles(13, 14, 18, 0, 14, 15, 18, 0),
+	gsSP2Triangles(18, 15, 17, 0, 17, 15, 16, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_005_switch_option_left_hand_cap_mesh_layer_1_vtx_1[48] = {
+	{{{291, -52, 35}, 0, {810, 26}, {0x69, 0xF7, 0xB9, 0xFF}}},
+	{{{322, -52, 177}, 0, {126, 263}, {0x7E, 0xF7, 0x0B, 0xFF}}},
+	{{{293, -104, 195}, 0, {133, 802}, {0x64, 0xB7, 0x1A, 0xFF}}},
+	{{{249, -138, 61}, 0, {766, 1025}, {0x49, 0xA5, 0xCE, 0xFF}}},
+	{{{189, -52, -34}, 0, {1460, 236}, {0x28, 0xF8, 0x88, 0xFF}}},
+	{{{160, -104, -16}, 0, {1453, 893}, {0x11, 0xB9, 0x98, 0xFF}}},
+	{{{249, -138, 61}, 0, {810, 26}, {0x49, 0xA5, 0xCE, 0xFF}}},
+	{{{293, -104, 195}, 0, {126, 263}, {0x64, 0xB7, 0x1A, 0xFF}}},
+	{{{246, -138, 225}, 0, {133, 802}, {0x2C, 0x9A, 0x3E, 0xFF}}},
+	{{{173, -187, 109}, 0, {766, 1025}, {0x02, 0x81, 0xFA, 0xFF}}},
+	{{{160, -104, -16}, 0, {1460, 236}, {0x11, 0xB9, 0x98, 0xFF}}},
+	{{{113, -138, 14}, 0, {1453, 893}, {0xD9, 0x9D, 0xBA, 0xFF}}},
+	{{{173, -187, 109}, 0, {810, 26}, {0x02, 0x81, 0xFA, 0xFF}}},
+	{{{246, -138, 225}, 0, {126, 263}, {0x2C, 0x9A, 0x3E, 0xFF}}},
+	{{{186, -104, 262}, 0, {133, 802}, {0xF0, 0xB5, 0x66, 0xFF}}},
+	{{{84, -138, 165}, 0, {766, 1025}, {0xB6, 0xA2, 0x2A, 0xFF}}},
+	{{{113, -138, 14}, 0, {1460, 236}, {0xD9, 0x9D, 0xBA, 0xFF}}},
+	{{{53, -104, 51}, 0, {1453, 893}, {0x9D, 0xB7, 0xDE, 0xFF}}},
+	{{{84, -138, 165}, 0, {810, 832}, {0xB6, 0xA2, 0x2A, 0xFF}}},
+	{{{186, -104, 262}, 0, {126, 788}, {0xF0, 0xB5, 0x66, 0xFF}}},
+	{{{157, -52, 281}, 0, {133, 250}, {0xD6, 0xF8, 0x78, 0xFF}}},
+	{{{43, -52, 191}, 0, {766, 26}, {0x93, 0xF7, 0x40, 0xFF}}},
+	{{{53, -104, 51}, 0, {1460, 816}, {0x9D, 0xB7, 0xDE, 0xFF}}},
+	{{{24, -52, 70}, 0, {1453, 159}, {0x83, 0xF8, 0xED, 0xFF}}},
+	{{{43, -52, 191}, 0, {810, 26}, {0x93, 0xF7, 0x40, 0xFF}}},
+	{{{157, -52, 281}, 0, {126, 263}, {0xD6, 0xF8, 0x78, 0xFF}}},
+	{{{186, 31, 262}, 0, {133, 802}, {0xEF, 0x44, 0x6A, 0xFF}}},
+	{{{84, 65, 165}, 0, {766, 1025}, {0xB0, 0x58, 0x2E, 0xFF}}},
+	{{{24, -52, 70}, 0, {1460, 236}, {0x83, 0xF8, 0xED, 0xFF}}},
+	{{{53, 31, 51}, 0, {1453, 893}, {0x99, 0x42, 0xDD, 0xFF}}},
+	{{{84, 65, 165}, 0, {810, 26}, {0xB0, 0x58, 0x2E, 0xFF}}},
+	{{{186, 31, 262}, 0, {126, 263}, {0xEF, 0x44, 0x6A, 0xFF}}},
+	{{{246, 65, 225}, 0, {133, 802}, {0x2E, 0x62, 0x42, 0xFF}}},
+	{{{173, 114, 109}, 0, {782, 883}, {0x02, 0x7F, 0xFA, 0xFF}}},
+	{{{53, 31, 51}, 0, {1460, 236}, {0x99, 0x42, 0xDD, 0xFF}}},
+	{{{113, 65, 14}, 0, {1453, 893}, {0xD7, 0x5F, 0xB7, 0xFF}}},
+	{{{173, 114, 109}, 0, {810, 1025}, {0x02, 0x7F, 0xFA, 0xFF}}},
+	{{{246, 65, 225}, 0, {126, 788}, {0x2E, 0x62, 0x42, 0xFF}}},
+	{{{293, 31, 195}, 0, {133, 250}, {0x69, 0x42, 0x1C, 0xFF}}},
+	{{{249, 65, 61}, 0, {766, 26}, {0x4E, 0x54, 0xCA, 0xFF}}},
+	{{{113, 65, 14}, 0, {1460, 816}, {0xD7, 0x5F, 0xB7, 0xFF}}},
+	{{{160, 31, -16}, 0, {1453, 159}, {0x11, 0x40, 0x94, 0xFF}}},
+	{{{249, 65, 61}, 0, {820, 26}, {0x4E, 0x54, 0xCA, 0xFF}}},
+	{{{293, 31, 195}, 0, {133, 159}, {0x69, 0x42, 0x1C, 0xFF}}},
+	{{{322, -52, 177}, 0, {126, 816}, {0x7E, 0xF7, 0x0B, 0xFF}}},
+	{{{291, -52, 35}, 0, {775, 1025}, {0x69, 0xF7, 0xB9, 0xFF}}},
+	{{{160, 31, -16}, 0, {1453, 250}, {0x11, 0x40, 0x94, 0xFF}}},
+	{{{189, -52, -34}, 0, {1460, 788}, {0x28, 0xF8, 0x88, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_005_switch_option_left_hand_cap_mesh_layer_1_tri_1[] = {
+	gsSPVertex(theplayerrolo_yoshi_005_switch_option_left_hand_cap_mesh_layer_1_vtx_1 + 0, 48, 0),
+	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
+	gsSP2Triangles(4, 0, 3, 0, 4, 3, 5, 0),
+	gsSP2Triangles(6, 7, 8, 0, 6, 8, 9, 0),
+	gsSP2Triangles(10, 6, 9, 0, 10, 9, 11, 0),
+	gsSP2Triangles(12, 13, 14, 0, 12, 14, 15, 0),
+	gsSP2Triangles(16, 12, 15, 0, 16, 15, 17, 0),
+	gsSP2Triangles(18, 19, 20, 0, 18, 20, 21, 0),
+	gsSP2Triangles(22, 18, 21, 0, 22, 21, 23, 0),
+	gsSP2Triangles(24, 25, 26, 0, 24, 26, 27, 0),
+	gsSP2Triangles(28, 24, 27, 0, 28, 27, 29, 0),
+	gsSP2Triangles(30, 31, 32, 0, 30, 32, 33, 0),
+	gsSP2Triangles(34, 30, 33, 0, 34, 33, 35, 0),
+	gsSP2Triangles(36, 37, 38, 0, 36, 38, 39, 0),
+	gsSP2Triangles(40, 36, 39, 0, 40, 39, 41, 0),
+	gsSP2Triangles(42, 43, 44, 0, 42, 44, 45, 0),
+	gsSP2Triangles(46, 42, 45, 0, 46, 45, 47, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_005_switch_option_left_hand_cap_mesh_layer_1_vtx_2[26] = {
+	{{{87, -52, -27}, 0, {702, 681}, {0xC0, 0xF7, 0x93, 0xFF}}},
+	{{{189, -52, -34}, 0, {1248, 798}, {0x28, 0xF8, 0x88, 0xFF}}},
+	{{{160, -104, -16}, 0, {1190, 317}, {0x11, 0xB9, 0x98, 0xFF}}},
+	{{{160, -104, -16}, 0, {984, 1143}, {0x11, 0xB9, 0x98, 0xFF}}},
+	{{{113, -138, 14}, 0, {1248, 798}, {0xD9, 0x9D, 0xBA, 0xFF}}},
+	{{{113, -138, 14}, 0, {559, 1226}, {0xD9, 0x9D, 0xBA, 0xFF}}},
+	{{{53, -104, 51}, 0, {984, 1143}, {0x9D, 0xB7, 0xDE, 0xFF}}},
+	{{{53, -104, 51}, 0, {189, 1063}, {0x9D, 0xB7, 0xDE, 0xFF}}},
+	{{{24, -52, 70}, 0, {559, 1226}, {0x83, 0xF8, 0xED, 0xFF}}},
+	{{{24, -52, 70}, 0, {0, 434}, {0x83, 0xF8, 0xED, 0xFF}}},
+	{{{53, 31, 51}, 0, {186, 1060}, {0x99, 0x42, 0xDD, 0xFF}}},
+	{{{53, 31, 51}, 0, {360, 22}, {0x99, 0x42, 0xDD, 0xFF}}},
+	{{{113, 65, 14}, 0, {25, 454}, {0xD7, 0x5F, 0xB7, 0xFF}}},
+	{{{113, 65, 14}, 0, {746, -6}, {0xD7, 0x5F, 0xB7, 0xFF}}},
+	{{{160, 31, -16}, 0, {361, 18}, {0x11, 0x40, 0x94, 0xFF}}},
+	{{{160, 31, -16}, 0, {1190, 317}, {0x11, 0x40, 0x94, 0xFF}}},
+	{{{189, -52, -34}, 0, {746, -6}, {0x28, 0xF8, 0x88, 0xFF}}},
+	{{{322, -52, 177}, 0, {1190, 317}, {0x7E, 0xF7, 0x0B, 0xFF}}},
+	{{{272, -52, 266}, 0, {702, 681}, {0x47, 0xF7, 0x69, 0xFF}}},
+	{{{293, -104, 195}, 0, {1248, 798}, {0x64, 0xB7, 0x1A, 0xFF}}},
+	{{{293, 31, 195}, 0, {746, -6}, {0x69, 0x42, 0x1C, 0xFF}}},
+	{{{246, 65, 225}, 0, {401, 19}, {0x2E, 0x62, 0x42, 0xFF}}},
+	{{{186, 31, 262}, 0, {25, 454}, {0xEF, 0x44, 0x6A, 0xFF}}},
+	{{{157, -52, 281}, 0, {189, 1063}, {0xD6, 0xF8, 0x78, 0xFF}}},
+	{{{186, -104, 262}, 0, {559, 1226}, {0xF0, 0xB5, 0x66, 0xFF}}},
+	{{{246, -138, 225}, 0, {984, 1143}, {0x2C, 0x9A, 0x3E, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_005_switch_option_left_hand_cap_mesh_layer_1_tri_2[] = {
+	gsSPVertex(theplayerrolo_yoshi_005_switch_option_left_hand_cap_mesh_layer_1_vtx_2 + 0, 26, 0),
+	gsSP2Triangles(0, 1, 2, 0, 0, 3, 4, 0),
+	gsSP2Triangles(0, 5, 6, 0, 0, 7, 8, 0),
+	gsSP2Triangles(0, 9, 10, 0, 0, 11, 12, 0),
+	gsSP2Triangles(0, 13, 14, 0, 0, 15, 16, 0),
+	gsSP2Triangles(17, 18, 19, 0, 20, 18, 17, 0),
+	gsSP2Triangles(21, 18, 20, 0, 22, 18, 21, 0),
+	gsSP2Triangles(23, 18, 22, 0, 24, 18, 23, 0),
+	gsSP2Triangles(25, 18, 24, 0, 19, 18, 25, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_006_switch_option_left_hand_wing_cap_mesh_layer_1_vtx_0[48] = {
+	{{{280, -47, 7}, 0, {810, 26}, {0x69, 0xF7, 0xB9, 0xFF}}},
+	{{{311, -47, 148}, 0, {126, 263}, {0x7E, 0xF7, 0x0B, 0xFF}}},
+	{{{282, -98, 166}, 0, {133, 802}, {0x64, 0xB7, 0x1A, 0xFF}}},
+	{{{239, -133, 32}, 0, {766, 1025}, {0x49, 0xA5, 0xCE, 0xFF}}},
+	{{{179, -47, -63}, 0, {1460, 236}, {0x28, 0xF8, 0x88, 0xFF}}},
+	{{{150, -98, -45}, 0, {1453, 893}, {0x11, 0xB9, 0x98, 0xFF}}},
+	{{{239, -133, 32}, 0, {810, 26}, {0x49, 0xA5, 0xCE, 0xFF}}},
+	{{{282, -98, 166}, 0, {126, 263}, {0x64, 0xB7, 0x1A, 0xFF}}},
+	{{{235, -133, 196}, 0, {133, 802}, {0x2C, 0x9A, 0x3E, 0xFF}}},
+	{{{162, -182, 80}, 0, {766, 1025}, {0x02, 0x81, 0xFA, 0xFF}}},
+	{{{150, -98, -45}, 0, {1460, 236}, {0x11, 0xB9, 0x98, 0xFF}}},
+	{{{102, -133, -15}, 0, {1453, 893}, {0xD9, 0x9D, 0xBA, 0xFF}}},
+	{{{162, -182, 80}, 0, {810, 26}, {0x02, 0x81, 0xFA, 0xFF}}},
+	{{{235, -133, 196}, 0, {126, 263}, {0x2C, 0x9A, 0x3E, 0xFF}}},
+	{{{175, -98, 233}, 0, {133, 802}, {0xF0, 0xB5, 0x66, 0xFF}}},
+	{{{74, -133, 136}, 0, {766, 1025}, {0xB6, 0xA2, 0x2A, 0xFF}}},
+	{{{102, -133, -15}, 0, {1460, 236}, {0xD9, 0x9D, 0xBA, 0xFF}}},
+	{{{43, -98, 22}, 0, {1453, 893}, {0x9D, 0xB7, 0xDE, 0xFF}}},
+	{{{74, -133, 136}, 0, {810, 832}, {0xB6, 0xA2, 0x2A, 0xFF}}},
+	{{{175, -98, 233}, 0, {126, 788}, {0xF0, 0xB5, 0x66, 0xFF}}},
+	{{{146, -47, 252}, 0, {133, 250}, {0xD6, 0xF8, 0x78, 0xFF}}},
+	{{{32, -47, 162}, 0, {766, 26}, {0x93, 0xF7, 0x40, 0xFF}}},
+	{{{43, -98, 22}, 0, {1460, 816}, {0x9D, 0xB7, 0xDE, 0xFF}}},
+	{{{14, -47, 41}, 0, {1453, 159}, {0x83, 0xF8, 0xED, 0xFF}}},
+	{{{32, -47, 162}, 0, {810, 26}, {0x93, 0xF7, 0x40, 0xFF}}},
+	{{{146, -47, 252}, 0, {126, 263}, {0xD6, 0xF8, 0x78, 0xFF}}},
+	{{{175, 36, 233}, 0, {133, 802}, {0xEF, 0x44, 0x6A, 0xFF}}},
+	{{{74, 71, 136}, 0, {766, 1025}, {0xB0, 0x58, 0x2E, 0xFF}}},
+	{{{14, -47, 41}, 0, {1460, 236}, {0x83, 0xF8, 0xED, 0xFF}}},
+	{{{43, 36, 22}, 0, {1453, 893}, {0x99, 0x42, 0xDD, 0xFF}}},
+	{{{74, 71, 136}, 0, {810, 26}, {0xB0, 0x58, 0x2E, 0xFF}}},
+	{{{175, 36, 233}, 0, {126, 263}, {0xEF, 0x44, 0x6A, 0xFF}}},
+	{{{235, 71, 196}, 0, {133, 802}, {0x2E, 0x62, 0x42, 0xFF}}},
+	{{{162, 119, 80}, 0, {782, 883}, {0x02, 0x7F, 0xFA, 0xFF}}},
+	{{{43, 36, 22}, 0, {1460, 236}, {0x99, 0x42, 0xDD, 0xFF}}},
+	{{{102, 71, -15}, 0, {1453, 893}, {0xD7, 0x5F, 0xB7, 0xFF}}},
+	{{{162, 119, 80}, 0, {810, 1025}, {0x02, 0x7F, 0xFA, 0xFF}}},
+	{{{235, 71, 196}, 0, {126, 788}, {0x2E, 0x62, 0x42, 0xFF}}},
+	{{{282, 36, 166}, 0, {133, 250}, {0x69, 0x42, 0x1C, 0xFF}}},
+	{{{239, 71, 32}, 0, {766, 26}, {0x4E, 0x54, 0xCA, 0xFF}}},
+	{{{102, 71, -15}, 0, {1460, 816}, {0xD7, 0x5F, 0xB7, 0xFF}}},
+	{{{150, 36, -45}, 0, {1453, 159}, {0x11, 0x40, 0x94, 0xFF}}},
+	{{{239, 71, 32}, 0, {820, 26}, {0x4E, 0x54, 0xCA, 0xFF}}},
+	{{{282, 36, 166}, 0, {133, 159}, {0x69, 0x42, 0x1C, 0xFF}}},
+	{{{311, -47, 148}, 0, {126, 816}, {0x7E, 0xF7, 0x0B, 0xFF}}},
+	{{{280, -47, 7}, 0, {775, 1025}, {0x69, 0xF7, 0xB9, 0xFF}}},
+	{{{150, 36, -45}, 0, {1453, 250}, {0x11, 0x40, 0x94, 0xFF}}},
+	{{{179, -47, -63}, 0, {1460, 788}, {0x28, 0xF8, 0x88, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_006_switch_option_left_hand_wing_cap_mesh_layer_1_tri_0[] = {
+	gsSPVertex(theplayerrolo_yoshi_006_switch_option_left_hand_wing_cap_mesh_layer_1_vtx_0 + 0, 48, 0),
+	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
+	gsSP2Triangles(4, 0, 3, 0, 4, 3, 5, 0),
+	gsSP2Triangles(6, 7, 8, 0, 6, 8, 9, 0),
+	gsSP2Triangles(10, 6, 9, 0, 10, 9, 11, 0),
+	gsSP2Triangles(12, 13, 14, 0, 12, 14, 15, 0),
+	gsSP2Triangles(16, 12, 15, 0, 16, 15, 17, 0),
+	gsSP2Triangles(18, 19, 20, 0, 18, 20, 21, 0),
+	gsSP2Triangles(22, 18, 21, 0, 22, 21, 23, 0),
+	gsSP2Triangles(24, 25, 26, 0, 24, 26, 27, 0),
+	gsSP2Triangles(28, 24, 27, 0, 28, 27, 29, 0),
+	gsSP2Triangles(30, 31, 32, 0, 30, 32, 33, 0),
+	gsSP2Triangles(34, 30, 33, 0, 34, 33, 35, 0),
+	gsSP2Triangles(36, 37, 38, 0, 36, 38, 39, 0),
+	gsSP2Triangles(40, 36, 39, 0, 40, 39, 41, 0),
+	gsSP2Triangles(42, 43, 44, 0, 42, 44, 45, 0),
+	gsSP2Triangles(46, 42, 45, 0, 46, 45, 47, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_006_switch_option_left_hand_wing_cap_mesh_layer_1_vtx_1[26] = {
+	{{{76, -47, -56}, 0, {702, 681}, {0xC0, 0xF7, 0x93, 0xFF}}},
+	{{{179, -47, -63}, 0, {1248, 798}, {0x28, 0xF8, 0x88, 0xFF}}},
+	{{{150, -98, -45}, 0, {1190, 317}, {0x11, 0xB9, 0x98, 0xFF}}},
+	{{{150, -98, -45}, 0, {984, 1143}, {0x11, 0xB9, 0x98, 0xFF}}},
+	{{{102, -133, -15}, 0, {1248, 798}, {0xD9, 0x9D, 0xBA, 0xFF}}},
+	{{{102, -133, -15}, 0, {559, 1226}, {0xD9, 0x9D, 0xBA, 0xFF}}},
+	{{{43, -98, 22}, 0, {984, 1143}, {0x9D, 0xB7, 0xDE, 0xFF}}},
+	{{{43, -98, 22}, 0, {189, 1063}, {0x9D, 0xB7, 0xDE, 0xFF}}},
+	{{{14, -47, 41}, 0, {559, 1226}, {0x83, 0xF8, 0xED, 0xFF}}},
+	{{{14, -47, 41}, 0, {0, 434}, {0x83, 0xF8, 0xED, 0xFF}}},
+	{{{43, 36, 22}, 0, {186, 1060}, {0x99, 0x42, 0xDD, 0xFF}}},
+	{{{43, 36, 22}, 0, {360, 22}, {0x99, 0x42, 0xDD, 0xFF}}},
+	{{{102, 71, -15}, 0, {25, 454}, {0xD7, 0x5F, 0xB7, 0xFF}}},
+	{{{102, 71, -15}, 0, {746, -6}, {0xD7, 0x5F, 0xB7, 0xFF}}},
+	{{{150, 36, -45}, 0, {361, 18}, {0x11, 0x40, 0x94, 0xFF}}},
+	{{{150, 36, -45}, 0, {1190, 317}, {0x11, 0x40, 0x94, 0xFF}}},
+	{{{179, -47, -63}, 0, {746, -6}, {0x28, 0xF8, 0x88, 0xFF}}},
+	{{{311, -47, 148}, 0, {1190, 317}, {0x7E, 0xF7, 0x0B, 0xFF}}},
+	{{{261, -47, 237}, 0, {702, 681}, {0x47, 0xF7, 0x69, 0xFF}}},
+	{{{282, -98, 166}, 0, {1248, 798}, {0x64, 0xB7, 0x1A, 0xFF}}},
+	{{{282, 36, 166}, 0, {746, -6}, {0x69, 0x42, 0x1C, 0xFF}}},
+	{{{235, 71, 196}, 0, {401, 19}, {0x2E, 0x62, 0x42, 0xFF}}},
+	{{{175, 36, 233}, 0, {25, 454}, {0xEF, 0x44, 0x6A, 0xFF}}},
+	{{{146, -47, 252}, 0, {189, 1063}, {0xD6, 0xF8, 0x78, 0xFF}}},
+	{{{175, -98, 233}, 0, {559, 1226}, {0xF0, 0xB5, 0x66, 0xFF}}},
+	{{{235, -133, 196}, 0, {984, 1143}, {0x2C, 0x9A, 0x3E, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_006_switch_option_left_hand_wing_cap_mesh_layer_1_tri_1[] = {
+	gsSPVertex(theplayerrolo_yoshi_006_switch_option_left_hand_wing_cap_mesh_layer_1_vtx_1 + 0, 26, 0),
+	gsSP2Triangles(0, 1, 2, 0, 0, 3, 4, 0),
+	gsSP2Triangles(0, 5, 6, 0, 0, 7, 8, 0),
+	gsSP2Triangles(0, 9, 10, 0, 0, 11, 12, 0),
+	gsSP2Triangles(0, 13, 14, 0, 0, 15, 16, 0),
+	gsSP2Triangles(17, 18, 19, 0, 20, 18, 17, 0),
+	gsSP2Triangles(21, 18, 20, 0, 22, 18, 21, 0),
+	gsSP2Triangles(23, 18, 22, 0, 24, 18, 23, 0),
+	gsSP2Triangles(25, 18, 24, 0, 19, 18, 25, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_006_switch_option_left_hand_wing_cap_mesh_layer_1_vtx_2[19] = {
+	{{{-11, 26, 39}, 0, {-16, -16}, {0x94, 0x04, 0x43, 0xFF}}},
+	{{{24, 5, 55}, 0, {-16, -16}, {0xC0, 0xF9, 0x6E, 0xFF}}},
+	{{{24, 74, 38}, 0, {-16, -16}, {0xCE, 0x59, 0x4B, 0xFF}}},
+	{{{16, -35, 39}, 0, {-16, -16}, {0xAB, 0xB2, 0x35, 0xFF}}},
+	{{{26, -52, -5}, 0, {-16, -16}, {0xC1, 0x96, 0xE3, 0xFF}}},
+	{{{8, -2, -32}, 0, {-16, -16}, {0xA2, 0xD8, 0xB5, 0xFF}}},
+	{{{-15, 48, -5}, 0, {-16, -16}, {0x88, 0x1E, 0xE2, 0xFF}}},
+	{{{1, 71, -9}, 0, {-16, -16}, {0xB2, 0x59, 0xD2, 0xFF}}},
+	{{{60, 98, -5}, 0, {-16, -16}, {0x18, 0x79, 0xE3, 0xFF}}},
+	{{{55, 64, 50}, 0, {-16, -16}, {0x15, 0x51, 0x60, 0xFF}}},
+	{{{58, 10, 76}, 0, {-16, -16}, {0xF1, 0x13, 0x7D, 0xFF}}},
+	{{{81, -44, 76}, 0, {-16, -16}, {0x19, 0xB2, 0x61, 0xFF}}},
+	{{{56, -57, -9}, 0, {-16, -16}, {0x07, 0x8C, 0xCD, 0xFF}}},
+	{{{31, 8, -50}, 0, {-16, -16}, {0xE6, 0xF5, 0x84, 0xFF}}},
+	{{{94, 34, -45}, 0, {-16, -16}, {0x45, 0x1C, 0x99, 0xFF}}},
+	{{{108, 45, 25}, 0, {-16, -16}, {0x6C, 0x3D, 0x1C, 0xFF}}},
+	{{{94, 15, 60}, 0, {-16, -16}, {0x44, 0x2D, 0x62, 0xFF}}},
+	{{{106, -14, 60}, 0, {-16, -16}, {0x67, 0xF9, 0x4A, 0xFF}}},
+	{{{116, -35, -4}, 0, {-16, -16}, {0x65, 0xBF, 0xD6, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_006_switch_option_left_hand_wing_cap_mesh_layer_1_tri_2[] = {
+	gsSPVertex(theplayerrolo_yoshi_006_switch_option_left_hand_wing_cap_mesh_layer_1_vtx_2 + 0, 19, 0),
+	gsSP2Triangles(0, 1, 2, 0, 1, 0, 3, 0),
+	gsSP2Triangles(3, 0, 4, 0, 5, 4, 0, 0),
+	gsSP2Triangles(0, 6, 5, 0, 7, 6, 0, 0),
+	gsSP2Triangles(2, 7, 0, 0, 8, 7, 2, 0),
+	gsSP2Triangles(2, 9, 8, 0, 9, 2, 10, 0),
+	gsSP2Triangles(2, 1, 10, 0, 11, 10, 1, 0),
+	gsSP2Triangles(11, 1, 3, 0, 12, 11, 3, 0),
+	gsSP2Triangles(3, 4, 12, 0, 13, 12, 4, 0),
+	gsSP2Triangles(4, 5, 13, 0, 13, 5, 6, 0),
+	gsSP2Triangles(7, 13, 6, 0, 7, 8, 13, 0),
+	gsSP2Triangles(8, 14, 13, 0, 8, 15, 14, 0),
+	gsSP2Triangles(9, 15, 8, 0, 15, 9, 16, 0),
+	gsSP2Triangles(16, 9, 10, 0, 17, 16, 10, 0),
+	gsSP2Triangles(11, 17, 10, 0, 18, 17, 11, 0),
+	gsSP2Triangles(12, 18, 11, 0, 13, 18, 12, 0),
+	gsSP2Triangles(13, 14, 18, 0, 14, 15, 18, 0),
+	gsSP2Triangles(18, 15, 17, 0, 17, 15, 16, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_006_switch_option_left_hand_wing_cap_wings_mesh_layer_4_vtx_0[8] = {
+	{{{178, -177, 128}, 0, {-16, 2032}, {0xA8, 0xB3, 0xCF, 0xFF}}},
+	{{{319, -248, -14}, 0, {-16, -16}, {0xA8, 0xB3, 0xCF, 0xFF}}},
+	{{{349, -325, 53}, 0, {1008, -16}, {0xA8, 0xB3, 0xCF, 0xFF}}},
+	{{{207, -253, 195}, 0, {1008, 2032}, {0xA8, 0xB3, 0xCF, 0xFF}}},
+	{{{414, 206, 82}, 0, {1008, -16}, {0xBD, 0x65, 0xD8, 0xFF}}},
+	{{{368, 146, 7}, 0, {-16, -16}, {0xBD, 0x65, 0xD9, 0xFF}}},
+	{{{212, 96, 143}, 0, {-16, 2032}, {0xBD, 0x65, 0xD9, 0xFF}}},
+	{{{258, 156, 218}, 0, {1008, 2032}, {0xBD, 0x65, 0xD8, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_006_switch_option_left_hand_wing_cap_wings_mesh_layer_4_tri_0[] = {
+	gsSPVertex(theplayerrolo_yoshi_006_switch_option_left_hand_wing_cap_wings_mesh_layer_4_vtx_0 + 0, 8, 0),
+	gsSP2Triangles(0, 1, 2, 0, 3, 0, 2, 0),
+	gsSP2Triangles(4, 5, 6, 0, 4, 6, 7, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_006_switch_option_left_hand_wing_cap_wings_mesh_layer_4_vtx_1[8] = {
+	{{{368, 146, 7}, 0, {1008, -16}, {0xBD, 0x65, 0xD9, 0xFF}}},
+	{{{166, 37, 68}, 0, {-16, 2032}, {0xBE, 0x65, 0xD9, 0xFF}}},
+	{{{212, 96, 143}, 0, {1008, 2032}, {0xBD, 0x65, 0xD9, 0xFF}}},
+	{{{322, 87, -67}, 0, {-16, -16}, {0xBE, 0x65, 0xD9, 0xFF}}},
+	{{{178, -177, 128}, 0, {1008, 2032}, {0xA8, 0xB3, 0xCF, 0xFF}}},
+	{{{149, -100, 60}, 0, {-16, 2032}, {0xA8, 0xB3, 0xCF, 0xFF}}},
+	{{{319, -248, -14}, 0, {1008, -16}, {0xA8, 0xB3, 0xCF, 0xFF}}},
+	{{{290, -171, -81}, 0, {-16, -16}, {0xA8, 0xB3, 0xCE, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_006_switch_option_left_hand_wing_cap_wings_mesh_layer_4_tri_1[] = {
+	gsSPVertex(theplayerrolo_yoshi_006_switch_option_left_hand_wing_cap_wings_mesh_layer_4_vtx_1 + 0, 8, 0),
+	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
+	gsSP2Triangles(4, 5, 6, 0, 5, 7, 6, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_000_offset_009_mesh_layer_1_vtx_0[17] = {
+	{{{9, 26, 23}, 0, {-16, -16}, {0x9D, 0x3E, 0x32, 0xFF}}},
+	{{{3, 1, 7}, 0, {-16, -16}, {0x81, 0xF7, 0xFE, 0xFF}}},
+	{{{12, -7, 34}, 0, {-16, -16}, {0xA5, 0xE3, 0x53, 0xFF}}},
+	{{{10, 26, -9}, 0, {-16, -16}, {0xA0, 0x3E, 0xC9, 0xFF}}},
+	{{{22, 33, -13}, 0, {-16, -16}, {0xE2, 0x63, 0xB6, 0xFF}}},
+	{{{21, 33, 28}, 0, {-16, -16}, {0xE0, 0x63, 0x49, 0xFF}}},
+	{{{24, -9, 41}, 0, {-16, -16}, {0xEB, 0xD9, 0x77, 0xFF}}},
+	{{{13, -28, 8}, 0, {-16, -16}, {0xAA, 0xA3, 0x00, 0xFF}}},
+	{{{13, -7, -19}, 0, {-16, -16}, {0xA8, 0xDF, 0xAA, 0xFF}}},
+	{{{25, -9, -25}, 0, {-16, -16}, {0xEE, 0xD9, 0x89, 0xFF}}},
+	{{{73, 31, -8}, 0, {-16, -16}, {0x3B, 0x5C, 0xC0, 0xFF}}},
+	{{{73, 31, 24}, 0, {-16, -16}, {0x3A, 0x5D, 0x41, 0xFF}}},
+	{{{75, -2, 34}, 0, {-16, -16}, {0x43, 0xE6, 0x69, 0xFF}}},
+	{{{77, -23, 8}, 0, {-16, -16}, {0x4A, 0x99, 0x00, 0xFF}}},
+	{{{26, -34, 8}, 0, {-16, -16}, {0xF3, 0x82, 0x00, 0xFF}}},
+	{{{76, -2, -18}, 0, {-16, -16}, {0x44, 0xE5, 0x98, 0xFF}}},
+	{{{89, 8, 8}, 0, {-16, -16}, {0x7F, 0x0A, 0x01, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_000_offset_009_mesh_layer_1_tri_0[] = {
+	gsSPVertex(theplayerrolo_yoshi_000_offset_009_mesh_layer_1_vtx_0 + 0, 17, 0),
+	gsSP2Triangles(0, 1, 2, 0, 3, 1, 0, 0),
+	gsSP2Triangles(4, 3, 0, 0, 4, 0, 5, 0),
+	gsSP2Triangles(5, 0, 6, 0, 0, 2, 6, 0),
+	gsSP2Triangles(6, 2, 7, 0, 2, 1, 7, 0),
+	gsSP2Triangles(7, 1, 8, 0, 8, 1, 3, 0),
+	gsSP2Triangles(9, 8, 3, 0, 9, 3, 4, 0),
+	gsSP2Triangles(9, 4, 10, 0, 4, 5, 10, 0),
+	gsSP2Triangles(5, 11, 10, 0, 5, 6, 11, 0),
+	gsSP2Triangles(6, 12, 11, 0, 13, 12, 6, 0),
+	gsSP2Triangles(6, 14, 13, 0, 6, 7, 14, 0),
+	gsSP2Triangles(14, 7, 9, 0, 7, 8, 9, 0),
+	gsSP2Triangles(14, 9, 13, 0, 9, 15, 13, 0),
+	gsSP2Triangles(10, 15, 9, 0, 10, 16, 15, 0),
+	gsSP2Triangles(11, 16, 10, 0, 12, 16, 11, 0),
+	gsSP2Triangles(13, 16, 12, 0, 15, 16, 13, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_000_offset_010_mesh_layer_1_vtx_0[12] = {
+	{{{5, 34, 29}, 0, {-16, -16}, {0xC4, 0x5C, 0x40, 0xFF}}},
+	{{{46, -6, 44}, 0, {-16, -16}, {0x39, 0xDB, 0x6B, 0xFF}}},
+	{{{49, 34, 32}, 0, {-16, -16}, {0x40, 0x57, 0x43, 0xFF}}},
+	{{{3, -3, 40}, 0, {-16, -16}, {0xBF, 0xE3, 0x69, 0xFF}}},
+	{{{-11, 7, 10}, 0, {-16, -16}, {0x81, 0x06, 0xFE, 0xFF}}},
+	{{{6, 34, -7}, 0, {-16, -16}, {0xC7, 0x5C, 0xBE, 0xFF}}},
+	{{{49, 34, -9}, 0, {-16, -16}, {0x42, 0x57, 0xBF, 0xFF}}},
+	{{{58, 4, 11}, 0, {-16, -16}, {0x7F, 0xF9, 0x01, 0xFF}}},
+	{{{46, -32, 11}, 0, {-16, -16}, {0x36, 0x8D, 0x00, 0xFF}}},
+	{{{2, -25, 11}, 0, {-16, -16}, {0xBA, 0x96, 0x00, 0xFF}}},
+	{{{3, -3, -18}, 0, {-16, -16}, {0xC0, 0xE2, 0x97, 0xFF}}},
+	{{{47, -6, -22}, 0, {-16, -16}, {0x3B, 0xDB, 0x95, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_000_offset_010_mesh_layer_1_tri_0[] = {
+	gsSPVertex(theplayerrolo_yoshi_000_offset_010_mesh_layer_1_vtx_0 + 0, 12, 0),
+	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
+	gsSP2Triangles(0, 4, 3, 0, 5, 4, 0, 0),
+	gsSP2Triangles(6, 5, 0, 0, 0, 2, 6, 0),
+	gsSP2Triangles(2, 7, 6, 0, 1, 7, 2, 0),
+	gsSP2Triangles(8, 7, 1, 0, 9, 8, 1, 0),
+	gsSP2Triangles(1, 3, 9, 0, 3, 4, 9, 0),
+	gsSP2Triangles(9, 4, 10, 0, 10, 4, 5, 0),
+	gsSP2Triangles(11, 10, 5, 0, 5, 6, 11, 0),
+	gsSP2Triangles(6, 7, 11, 0, 11, 7, 8, 0),
+	gsSP2Triangles(9, 11, 8, 0, 9, 10, 11, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_000_offset_011_mesh_layer_1_vtx_0[20] = {
+	{{{44, -36, -9}, 0, {-16, 1008}, {0x73, 0x12, 0xCE, 0xFF}}},
+	{{{42, -36, 42}, 0, {-16, 1008}, {0x22, 0xC0, 0x69, 0xFF}}},
+	{{{40, -53, 45}, 0, {-16, 1008}, {0x3B, 0xAC, 0x4B, 0xFF}}},
+	{{{0, -20, 47}, 0, {-16, 1008}, {0xF7, 0xF9, 0x7F, 0xFF}}},
+	{{{110, -9, 54}, 0, {-16, 1008}, {0x58, 0xD4, 0x50, 0xFF}}},
+	{{{69, -45, 32}, 0, {-16, 1008}, {0x15, 0x8A, 0x2B, 0xFF}}},
+	{{{70, -46, -3}, 0, {-16, 1008}, {0x16, 0x8C, 0xD2, 0xFF}}},
+	{{{2, -21, -23}, 0, {-16, 1008}, {0xF9, 0xEF, 0x82, 0xFF}}},
+	{{{112, -9, -21}, 0, {-16, 1008}, {0x5D, 0xD1, 0xB7, 0xFF}}},
+	{{{24, 30, -43}, 0, {-16, 1008}, {0x05, 0x02, 0x81, 0xFF}}},
+	{{{-43, -4, -14}, 0, {-16, 1008}, {0xA0, 0x10, 0xAE, 0xFF}}},
+	{{{-51, -19, -17}, 0, {-16, 1008}, {0x9D, 0xE2, 0xB7, 0xFF}}},
+	{{{-1, -37, -28}, 0, {-16, 1008}, {0xE9, 0xBD, 0x97, 0xFF}}},
+	{{{42, -53, -19}, 0, {-16, 1008}, {0x40, 0xB3, 0xB2, 0xFF}}},
+	{{{-3, -36, 51}, 0, {-16, 1008}, {0xE5, 0xBC, 0x68, 0xFF}}},
+	{{{-45, -4, 37}, 0, {-16, 1008}, {0x9D, 0x0C, 0x4E, 0xFF}}},
+	{{{-51, 58, 55}, 0, {-16, 1008}, {0xA1, 0x24, 0x4C, 0xFF}}},
+	{{{21, 31, 70}, 0, {-16, 1008}, {0x01, 0x03, 0x7F, 0xFF}}},
+	{{{-52, -18, 40}, 0, {-16, 1008}, {0x9A, 0xE1, 0x45, 0xFF}}},
+	{{{-49, 57, -30}, 0, {-16, 1008}, {0xA5, 0x24, 0xAF, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_000_offset_011_mesh_layer_1_tri_0[] = {
+	gsSPVertex(theplayerrolo_yoshi_000_offset_011_mesh_layer_1_vtx_0 + 0, 20, 0),
+	gsSP2Triangles(0, 1, 2, 0, 2, 1, 3, 0),
+	gsSP2Triangles(4, 3, 1, 0, 1, 5, 4, 0),
+	gsSP2Triangles(6, 5, 1, 0, 1, 7, 6, 0),
+	gsSP2Triangles(7, 8, 6, 0, 7, 9, 8, 0),
+	gsSP2Triangles(9, 7, 10, 0, 11, 10, 7, 0),
+	gsSP2Triangles(7, 12, 11, 0, 12, 7, 13, 0),
+	gsSP2Triangles(0, 13, 7, 0, 2, 13, 0, 0),
+	gsSP2Triangles(13, 2, 14, 0, 3, 14, 2, 0),
+	gsSP2Triangles(14, 3, 15, 0, 16, 15, 3, 0),
+	gsSP2Triangles(3, 17, 16, 0, 4, 17, 3, 0),
+	gsSP2Triangles(10, 15, 16, 0, 15, 10, 11, 0),
+	gsSP2Triangles(11, 18, 15, 0, 18, 11, 12, 0),
+	gsSP2Triangles(12, 14, 18, 0, 14, 12, 13, 0),
+	gsSP2Triangles(15, 18, 14, 0, 8, 4, 5, 0),
+	gsSP2Triangles(5, 6, 8, 0, 16, 19, 10, 0),
+	gsSP1Triangle(10, 19, 9, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_000_offset_011_mesh_layer_1_vtx_1[36] = {
+	{{{110, -9, 54}, 0, {-16, 1008}, {0x58, 0xD4, 0x50, 0xFF}}},
+	{{{110, 8, 52}, 0, {1008, 1008}, {0x59, 0x40, 0x3F, 0xFF}}},
+	{{{23, 40, 66}, 0, {1008, -16}, {0x23, 0x61, 0x4B, 0xFF}}},
+	{{{23, 40, 66}, 0, {-16, 1008}, {0x23, 0x61, 0x4B, 0xFF}}},
+	{{{21, 31, 70}, 0, {1008, 1008}, {0x01, 0x03, 0x7F, 0xFF}}},
+	{{{110, -9, 54}, 0, {1008, -16}, {0x58, 0xD4, 0x50, 0xFF}}},
+	{{{110, 8, 52}, 0, {-16, 1008}, {0x59, 0x40, 0x3F, 0xFF}}},
+	{{{110, -9, 54}, 0, {1008, 1008}, {0x58, 0xD4, 0x50, 0xFF}}},
+	{{{112, -9, -21}, 0, {1008, -16}, {0x5D, 0xD1, 0xB7, 0xFF}}},
+	{{{111, 7, -19}, 0, {1008, 1008}, {0x5E, 0x3E, 0xC5, 0xFF}}},
+	{{{25, 39, -40}, 0, {1008, -16}, {0x24, 0x5F, 0xB4, 0xFF}}},
+	{{{25, 39, -40}, 0, {-16, 1008}, {0x24, 0x5F, 0xB4, 0xFF}}},
+	{{{23, 40, 66}, 0, {1008, 1008}, {0x23, 0x61, 0x4B, 0xFF}}},
+	{{{110, 8, 52}, 0, {1008, -16}, {0x59, 0x40, 0x3F, 0xFF}}},
+	{{{112, -9, -21}, 0, {-16, 1008}, {0x5D, 0xD1, 0xB7, 0xFF}}},
+	{{{111, 7, -19}, 0, {-16, 1008}, {0x5E, 0x3E, 0xC5, 0xFF}}},
+	{{{112, -9, -21}, 0, {1008, 1008}, {0x5D, 0xD1, 0xB7, 0xFF}}},
+	{{{24, 30, -43}, 0, {1008, -16}, {0x05, 0x02, 0x81, 0xFF}}},
+	{{{-51, 58, 55}, 0, {-16, 1008}, {0xA1, 0x24, 0x4C, 0xFF}}},
+	{{{-43, 65, 52}, 0, {1008, 1008}, {0xEB, 0x71, 0x36, 0xFF}}},
+	{{{-42, 64, -27}, 0, {1008, -16}, {0xED, 0x71, 0xC9, 0xFF}}},
+	{{{-42, 64, -27}, 0, {-16, 1008}, {0xED, 0x71, 0xC9, 0xFF}}},
+	{{{-49, 57, -30}, 0, {1008, 1008}, {0xA5, 0x24, 0xAF, 0xFF}}},
+	{{{-51, 58, 55}, 0, {1008, -16}, {0xA1, 0x24, 0x4C, 0xFF}}},
+	{{{-43, 65, 52}, 0, {-16, 1008}, {0xEB, 0x71, 0x36, 0xFF}}},
+	{{{-51, 58, 55}, 0, {1008, 1008}, {0xA1, 0x24, 0x4C, 0xFF}}},
+	{{{21, 31, 70}, 0, {1008, -16}, {0x01, 0x03, 0x7F, 0xFF}}},
+	{{{21, 31, 70}, 0, {-16, 1008}, {0x01, 0x03, 0x7F, 0xFF}}},
+	{{{-43, 65, 52}, 0, {1008, -16}, {0xEB, 0x71, 0x36, 0xFF}}},
+	{{{24, 30, -43}, 0, {-16, 1008}, {0x05, 0x02, 0x81, 0xFF}}},
+	{{{25, 39, -40}, 0, {1008, 1008}, {0x24, 0x5F, 0xB4, 0xFF}}},
+	{{{111, 7, -19}, 0, {1008, -16}, {0x5E, 0x3E, 0xC5, 0xFF}}},
+	{{{-49, 57, -30}, 0, {-16, 1008}, {0xA5, 0x24, 0xAF, 0xFF}}},
+	{{{-42, 64, -27}, 0, {1008, 1008}, {0xED, 0x71, 0xC9, 0xFF}}},
+	{{{24, 30, -43}, 0, {1008, 1008}, {0x05, 0x02, 0x81, 0xFF}}},
+	{{{-49, 57, -30}, 0, {1008, -16}, {0xA5, 0x24, 0xAF, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_000_offset_011_mesh_layer_1_tri_1[] = {
+	gsSPVertex(theplayerrolo_yoshi_000_offset_011_mesh_layer_1_vtx_1 + 0, 36, 0),
+	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
+	gsSP2Triangles(6, 7, 8, 0, 6, 9, 10, 0),
+	gsSP2Triangles(11, 12, 13, 0, 14, 9, 13, 0),
+	gsSP2Triangles(15, 16, 17, 0, 18, 19, 20, 0),
+	gsSP2Triangles(21, 22, 23, 0, 24, 25, 26, 0),
+	gsSP2Triangles(21, 19, 2, 0, 27, 12, 28, 0),
+	gsSP2Triangles(29, 30, 31, 0, 32, 33, 10, 0),
+	gsSP2Triangles(3, 30, 20, 0, 11, 34, 35, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_000_offset_012_mesh_layer_1_vtx_0[17] = {
+	{{{75, 0, -35}, 0, {-16, -16}, {0x42, 0xE8, 0x96, 0xFF}}},
+	{{{89, 9, -9}, 0, {-16, -16}, {0x7F, 0x0B, 0xFF, 0xFF}}},
+	{{{77, -22, -9}, 0, {-16, -16}, {0x4B, 0x99, 0xFD, 0xFF}}},
+	{{{72, 33, -24}, 0, {-16, -16}, {0x38, 0x5F, 0xC1, 0xFF}}},
+	{{{24, -7, -41}, 0, {-16, -16}, {0xEB, 0xDC, 0x88, 0xFF}}},
+	{{{27, -34, -9}, 0, {-16, -16}, {0xF6, 0x81, 0xFE, 0xFF}}},
+	{{{25, -9, 24}, 0, {-16, -16}, {0xEF, 0xD5, 0x76, 0xFF}}},
+	{{{76, -2, 17}, 0, {-16, -16}, {0x45, 0xE3, 0x67, 0xFF}}},
+	{{{73, 32, 8}, 0, {-16, -16}, {0x3A, 0x5C, 0x42, 0xFF}}},
+	{{{20, 34, -27}, 0, {-16, -16}, {0xE0, 0x64, 0xB9, 0xFF}}},
+	{{{8, 27, -23}, 0, {-16, -16}, {0x9D, 0x3E, 0xCE, 0xFF}}},
+	{{{12, -6, -34}, 0, {-16, -16}, {0xA6, 0xE2, 0xAC, 0xFF}}},
+	{{{13, -28, -9}, 0, {-16, -16}, {0xAB, 0xA2, 0xFE, 0xFF}}},
+	{{{12, -8, 18}, 0, {-16, -16}, {0xA9, 0xDB, 0x55, 0xFF}}},
+	{{{9, 25, 9}, 0, {-16, -16}, {0x9E, 0x39, 0x39, 0xFF}}},
+	{{{21, 33, 13}, 0, {-16, -16}, {0xE1, 0x60, 0x4D, 0xFF}}},
+	{{{3, 2, -7}, 0, {-16, -16}, {0x81, 0xF5, 0x02, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_000_offset_012_mesh_layer_1_tri_0[] = {
+	gsSPVertex(theplayerrolo_yoshi_000_offset_012_mesh_layer_1_vtx_0 + 0, 17, 0),
+	gsSP2Triangles(0, 1, 2, 0, 3, 1, 0, 0),
+	gsSP2Triangles(3, 0, 4, 0, 4, 0, 2, 0),
+	gsSP2Triangles(2, 5, 4, 0, 2, 6, 5, 0),
+	gsSP2Triangles(2, 7, 6, 0, 2, 1, 7, 0),
+	gsSP2Triangles(7, 1, 8, 0, 8, 1, 3, 0),
+	gsSP2Triangles(8, 3, 9, 0, 3, 4, 9, 0),
+	gsSP2Triangles(4, 10, 9, 0, 4, 11, 10, 0),
+	gsSP2Triangles(12, 11, 4, 0, 5, 12, 4, 0),
+	gsSP2Triangles(6, 12, 5, 0, 6, 13, 12, 0),
+	gsSP2Triangles(14, 13, 6, 0, 15, 14, 6, 0),
+	gsSP2Triangles(8, 15, 6, 0, 6, 7, 8, 0),
+	gsSP2Triangles(8, 9, 15, 0, 9, 10, 15, 0),
+	gsSP2Triangles(10, 14, 15, 0, 10, 16, 14, 0),
+	gsSP2Triangles(11, 16, 10, 0, 12, 16, 11, 0),
+	gsSP2Triangles(13, 16, 12, 0, 14, 16, 13, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_000_offset_013_mesh_layer_1_vtx_0[12] = {
+	{{{47, -6, 20}, 0, {-16, -16}, {0x3A, 0xD8, 0x6A, 0xFF}}},
+	{{{49, 35, 8}, 0, {-16, -16}, {0x40, 0x56, 0x44, 0xFF}}},
+	{{{6, 34, 7}, 0, {-16, -16}, {0xC6, 0x5A, 0x45, 0xFF}}},
+	{{{60, 5, -12}, 0, {-16, -16}, {0x7F, 0xF8, 0x00, 0xFF}}},
+	{{{45, -31, -14}, 0, {-16, -16}, {0x33, 0x8C, 0xFC, 0xFF}}},
+	{{{2, -24, -12}, 0, {-16, -16}, {0xBA, 0x96, 0xFF, 0xFF}}},
+	{{{3, -2, 17}, 0, {-16, -16}, {0xC0, 0xE0, 0x69, 0xFF}}},
+	{{{-10, 9, -12}, 0, {-16, -16}, {0x81, 0x08, 0x02, 0xFF}}},
+	{{{6, 35, -29}, 0, {-16, -16}, {0xC6, 0x5F, 0xC3, 0xFF}}},
+	{{{49, 35, -32}, 0, {-16, -16}, {0x40, 0x58, 0xBF, 0xFF}}},
+	{{{46, -5, -46}, 0, {-16, -16}, {0x37, 0xDD, 0x93, 0xFF}}},
+	{{{3, 0, -41}, 0, {-16, -16}, {0xBC, 0xE7, 0x97, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_000_offset_013_mesh_layer_1_tri_0[] = {
+	gsSPVertex(theplayerrolo_yoshi_000_offset_013_mesh_layer_1_vtx_0 + 0, 12, 0),
+	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
+	gsSP2Triangles(4, 3, 0, 0, 4, 0, 5, 0),
+	gsSP2Triangles(0, 6, 5, 0, 2, 6, 0, 0),
+	gsSP2Triangles(2, 7, 6, 0, 8, 7, 2, 0),
+	gsSP2Triangles(8, 2, 1, 0, 1, 9, 8, 0),
+	gsSP2Triangles(1, 3, 9, 0, 9, 3, 10, 0),
+	gsSP2Triangles(10, 3, 4, 0, 10, 4, 5, 0),
+	gsSP2Triangles(5, 11, 10, 0, 5, 7, 11, 0),
+	gsSP2Triangles(6, 7, 5, 0, 11, 7, 8, 0),
+	gsSP2Triangles(10, 11, 8, 0, 9, 10, 8, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_000_displaylist_005_mesh_layer_1_vtx_0[36] = {
+	{{{23, 40, 41}, 0, {-16, 1008}, {0x23, 0x61, 0x4B, 0xFF}}},
+	{{{25, 39, -65}, 0, {1008, 1008}, {0x24, 0x5F, 0xB4, 0xFF}}},
+	{{{-42, 64, -53}, 0, {1008, -16}, {0xED, 0x71, 0xC9, 0xFF}}},
+	{{{21, 31, 45}, 0, {1008, 1008}, {0x01, 0x03, 0x7F, 0xFF}}},
+	{{{110, -9, 28}, 0, {1008, -16}, {0x58, 0xD4, 0x50, 0xFF}}},
+	{{{21, 31, 45}, 0, {-16, 1008}, {0x01, 0x03, 0x7F, 0xFF}}},
+	{{{23, 40, 41}, 0, {1008, 1008}, {0x23, 0x61, 0x4B, 0xFF}}},
+	{{{-43, 65, 27}, 0, {1008, -16}, {0xEB, 0x71, 0x36, 0xFF}}},
+	{{{25, 39, -65}, 0, {-16, 1008}, {0x24, 0x5F, 0xB4, 0xFF}}},
+	{{{110, 8, 26}, 0, {1008, -16}, {0x59, 0x40, 0x3F, 0xFF}}},
+	{{{-42, 64, -53}, 0, {-16, 1008}, {0xED, 0x71, 0xC9, 0xFF}}},
+	{{{-43, 65, 27}, 0, {1008, 1008}, {0xEB, 0x71, 0x36, 0xFF}}},
+	{{{23, 40, 41}, 0, {1008, -16}, {0x23, 0x61, 0x4B, 0xFF}}},
+	{{{110, -9, 28}, 0, {-16, 1008}, {0x58, 0xD4, 0x50, 0xFF}}},
+	{{{110, 8, 26}, 0, {1008, 1008}, {0x59, 0x40, 0x3F, 0xFF}}},
+	{{{24, 30, -69}, 0, {-16, 1008}, {0x05, 0x02, 0x81, 0xFF}}},
+	{{{111, 7, -45}, 0, {1008, -16}, {0x5E, 0x3E, 0xC5, 0xFF}}},
+	{{{24, 30, -69}, 0, {1008, 1008}, {0x05, 0x02, 0x81, 0xFF}}},
+	{{{-49, 57, -56}, 0, {1008, -16}, {0xA5, 0x24, 0xAF, 0xFF}}},
+	{{{-49, 57, -56}, 0, {-16, 1008}, {0xA5, 0x24, 0xAF, 0xFF}}},
+	{{{-42, 64, -53}, 0, {1008, 1008}, {0xED, 0x71, 0xC9, 0xFF}}},
+	{{{25, 39, -65}, 0, {1008, -16}, {0x24, 0x5F, 0xB4, 0xFF}}},
+	{{{110, 8, 26}, 0, {-16, 1008}, {0x59, 0x40, 0x3F, 0xFF}}},
+	{{{111, 7, -45}, 0, {1008, 1008}, {0x5E, 0x3E, 0xC5, 0xFF}}},
+	{{{-49, 57, -56}, 0, {1008, 1008}, {0xA5, 0x24, 0xAF, 0xFF}}},
+	{{{-51, 58, 29}, 0, {1008, -16}, {0xA1, 0x24, 0x4C, 0xFF}}},
+	{{{-51, 58, 29}, 0, {-16, 1008}, {0xA1, 0x24, 0x4C, 0xFF}}},
+	{{{111, 7, -45}, 0, {-16, 1008}, {0x5E, 0x3E, 0xC5, 0xFF}}},
+	{{{112, -9, -46}, 0, {1008, 1008}, {0x5D, 0xD1, 0xB7, 0xFF}}},
+	{{{24, 30, -69}, 0, {1008, -16}, {0x05, 0x02, 0x81, 0xFF}}},
+	{{{112, -9, -46}, 0, {-16, 1008}, {0x5D, 0xD1, 0xB7, 0xFF}}},
+	{{{-43, 65, 27}, 0, {-16, 1008}, {0xEB, 0x71, 0x36, 0xFF}}},
+	{{{-51, 58, 29}, 0, {1008, 1008}, {0xA1, 0x24, 0x4C, 0xFF}}},
+	{{{21, 31, 45}, 0, {1008, -16}, {0x01, 0x03, 0x7F, 0xFF}}},
+	{{{110, -9, 28}, 0, {1008, 1008}, {0x58, 0xD4, 0x50, 0xFF}}},
+	{{{112, -9, -46}, 0, {1008, -16}, {0x5D, 0xD1, 0xB7, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_000_displaylist_005_mesh_layer_1_tri_0[] = {
+	gsSPVertex(theplayerrolo_yoshi_000_displaylist_005_mesh_layer_1_vtx_0 + 0, 36, 0),
+	gsSP2Triangles(0, 1, 2, 0, 0, 3, 4, 0),
+	gsSP2Triangles(5, 6, 7, 0, 8, 6, 9, 0),
+	gsSP2Triangles(10, 11, 12, 0, 13, 14, 12, 0),
+	gsSP2Triangles(15, 1, 16, 0, 8, 17, 18, 0),
+	gsSP2Triangles(19, 20, 21, 0, 22, 23, 21, 0),
+	gsSP2Triangles(10, 24, 25, 0, 26, 11, 2, 0),
+	gsSP2Triangles(27, 28, 29, 0, 30, 23, 9, 0),
+	gsSP2Triangles(31, 32, 33, 0, 22, 34, 35, 0),
+	gsSPEndDisplayList(),
+};
+
+Vtx theplayerrolo_yoshi_000_displaylist_005_mesh_layer_1_vtx_1[20] = {
+	{{{-51, 58, 29}, 0, {-16, 1008}, {0xA1, 0x24, 0x4C, 0xFF}}},
+	{{{-49, 57, -56}, 0, {-16, 1008}, {0xA5, 0x24, 0xAF, 0xFF}}},
+	{{{-43, -4, -39}, 0, {-16, 1008}, {0xA0, 0x10, 0xAE, 0xFF}}},
+	{{{24, 30, -69}, 0, {-16, 1008}, {0x05, 0x02, 0x81, 0xFF}}},
+	{{{2, -21, -49}, 0, {-16, 1008}, {0xF9, 0xEF, 0x82, 0xFF}}},
+	{{{112, -9, -46}, 0, {-16, 1008}, {0x5D, 0xD1, 0xB7, 0xFF}}},
+	{{{70, -46, -28}, 0, {-16, 1008}, {0x16, 0x8C, 0xD2, 0xFF}}},
+	{{{69, -45, 7}, 0, {-16, 1008}, {0x15, 0x8A, 0x2B, 0xFF}}},
+	{{{110, -9, 28}, 0, {-16, 1008}, {0x58, 0xD4, 0x50, 0xFF}}},
+	{{{42, -36, 16}, 0, {-16, 1008}, {0x22, 0xC0, 0x69, 0xFF}}},
+	{{{0, -20, 22}, 0, {-16, 1008}, {0xF7, 0xF9, 0x7F, 0xFF}}},
+	{{{21, 31, 45}, 0, {-16, 1008}, {0x01, 0x03, 0x7F, 0xFF}}},
+	{{{-45, -4, 12}, 0, {-16, 1008}, {0x9D, 0x0C, 0x4E, 0xFF}}},
+	{{{-51, -19, -43}, 0, {-16, 1008}, {0x9D, 0xE2, 0xB7, 0xFF}}},
+	{{{-1, -37, -53}, 0, {-16, 1008}, {0xE9, 0xBD, 0x97, 0xFF}}},
+	{{{42, -53, -45}, 0, {-16, 1008}, {0x40, 0xB3, 0xB2, 0xFF}}},
+	{{{44, -36, -34}, 0, {-16, 1008}, {0x73, 0x12, 0xCE, 0xFF}}},
+	{{{40, -53, 20}, 0, {-16, 1008}, {0x3B, 0xAC, 0x4B, 0xFF}}},
+	{{{-3, -36, 26}, 0, {-16, 1008}, {0xE5, 0xBC, 0x68, 0xFF}}},
+	{{{-52, -18, 15}, 0, {-16, 1008}, {0x9A, 0xE1, 0x45, 0xFF}}},
+};
+
+Gfx theplayerrolo_yoshi_000_displaylist_005_mesh_layer_1_tri_1[] = {
+	gsSPVertex(theplayerrolo_yoshi_000_displaylist_005_mesh_layer_1_vtx_1 + 0, 20, 0),
+	gsSP2Triangles(0, 1, 2, 0, 2, 1, 3, 0),
+	gsSP2Triangles(3, 4, 2, 0, 4, 3, 5, 0),
+	gsSP2Triangles(4, 5, 6, 0, 7, 6, 5, 0),
+	gsSP2Triangles(5, 8, 7, 0, 9, 7, 8, 0),
+	gsSP2Triangles(8, 10, 9, 0, 8, 11, 10, 0),
+	gsSP2Triangles(10, 11, 0, 0, 0, 12, 10, 0),
+	gsSP2Triangles(2, 12, 0, 0, 12, 2, 13, 0),
+	gsSP2Triangles(13, 2, 4, 0, 4, 14, 13, 0),
+	gsSP2Triangles(14, 4, 15, 0, 16, 15, 4, 0),
+	gsSP2Triangles(17, 15, 16, 0, 16, 9, 17, 0),
+	gsSP2Triangles(17, 9, 10, 0, 10, 18, 17, 0),
+	gsSP2Triangles(18, 10, 12, 0, 12, 19, 18, 0),
+	gsSP2Triangles(13, 19, 12, 0, 19, 13, 14, 0),
+	gsSP2Triangles(14, 18, 19, 0, 18, 14, 15, 0),
+	gsSP2Triangles(15, 17, 18, 0, 6, 7, 9, 0),
+	gsSP1Triangle(9, 4, 6, 0),
+	gsSPEndDisplayList(),
+};
+
+
+Gfx mat_theplayerrolo_yoshi_TorsoMiddle[] = {
+	gsSPCopyLightsPlayerPart(SHIRT),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT, TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT),
+	gsDPSetAlphaDither(G_AD_NOISE),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, theplayerrolo_yoshi_BlazikenTShirt64_rgba16),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadBlock(7, 0, 0, 4095, 128),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 6, 0, G_TX_CLAMP | G_TX_NOMIRROR, 6, 0),
+	gsDPSetTileSize(0, 0, 0, 252, 252),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_revert_theplayerrolo_yoshi_TorsoMiddle[] = {
+	gsDPPipeSync(),
+	gsDPSetAlphaDither(G_AD_DISABLE),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_theplayerrolo_yoshi_metal_v3_001[] = {
+	gsSPSetGeometryMode(G_TEXTURE_GEN),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(0, 0, 0, TEXEL0, 0, 0, 0, ENVIRONMENT, 0, 0, 0, TEXEL0, 0, 0, 0, ENVIRONMENT),
+	gsDPSetAlphaDither(G_AD_NOISE),
+	gsSPTexture(4032, 1984, 0, 0, 1),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, theplayerrolo_yoshi_metal_rgba16),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadBlock(7, 0, 0, 2047, 128),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
+	gsDPSetTileSize(0, 0, 0, 252, 124),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_revert_theplayerrolo_yoshi_metal_v3_001[] = {
+	gsSPClearGeometryMode(G_TEXTURE_GEN),
+	gsDPPipeSync(),
+	gsDPSetAlphaDither(G_AD_DISABLE),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_theplayerrolo_yoshi_body_v3[] = {
+	gsSPCopyLightsPlayerPart(SKIN),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
+	gsDPSetAlphaDither(G_AD_NOISE),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_revert_theplayerrolo_yoshi_body_v3[] = {
+	gsDPPipeSync(),
+	gsDPSetAlphaDither(G_AD_DISABLE),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_theplayerrolo_yoshi_hair_v3_001[] = {
+	gsSPCopyLightsPlayerPart(CAP),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT, TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT),
+	gsDPSetAlphaDither(G_AD_NOISE),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, theplayerrolo_yoshi_Shell_rgba16),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadBlock(7, 0, 0, 1023, 256),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 8, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
+	gsDPSetTileSize(0, 0, 0, 124, 124),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_revert_theplayerrolo_yoshi_hair_v3_001[] = {
+	gsDPPipeSync(),
+	gsDPSetAlphaDither(G_AD_DISABLE),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_theplayerrolo_yoshi_SFOTHEggMiddle[] = {
+	gsSPSetLights1(theplayerrolo_yoshi_SFOTHEggMiddle_lights),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT, TEXEL0, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT),
+	gsDPSetAlphaDither(G_AD_NOISE),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, theplayerrolo_yoshi_SFOTHEggMiddle_rgba16),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadBlock(7, 0, 0, 1583, 171),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 12, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 6, 0, G_TX_CLAMP | G_TX_NOMIRROR, 6, 0),
+	gsDPSetTileSize(0, 0, 0, 188, 128),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_revert_theplayerrolo_yoshi_SFOTHEggMiddle[] = {
+	gsDPPipeSync(),
+	gsDPSetAlphaDither(G_AD_DISABLE),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_theplayerrolo_yoshi_SFOTHEggTop[] = {
+	gsSPSetLights1(theplayerrolo_yoshi_SFOTHEggTop_lights),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT, TEXEL0, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT),
+	gsDPSetAlphaDither(G_AD_NOISE),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, theplayerrolo_yoshi_SFOTHEggTop_rgba16),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadBlock(7, 0, 0, 1599, 205),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 10, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 6, 0, G_TX_CLAMP | G_TX_NOMIRROR, 6, 0),
+	gsDPSetTileSize(0, 0, 0, 156, 156),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_revert_theplayerrolo_yoshi_SFOTHEggTop[] = {
+	gsDPPipeSync(),
+	gsDPSetAlphaDither(G_AD_DISABLE),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_theplayerrolo_yoshi_face_1___eye_half_v3_001[] = {
+	gsSPCopyLightsPlayerPart(SKIN),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT, TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT),
+	gsDPSetAlphaDither(G_AD_NOISE),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, theplayerrolo_yoshi_Blink1_rgba16),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadBlock(7, 0, 0, 1023, 256),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 8, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0),
+	gsDPSetTileSize(0, 0, 0, 124, 124),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_revert_theplayerrolo_yoshi_face_1___eye_half_v3_001[] = {
+	gsDPPipeSync(),
+	gsDPSetAlphaDither(G_AD_DISABLE),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_theplayerrolo_yoshi_face_2___eye_closed_v3_001[] = {
+	gsSPCopyLightsPlayerPart(SKIN),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT, TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT),
+	gsDPSetAlphaDither(G_AD_NOISE),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, theplayerrolo_yoshi_Blink2_rgba16),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadBlock(7, 0, 0, 1023, 256),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 8, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0),
+	gsDPSetTileSize(0, 0, 0, 124, 124),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_revert_theplayerrolo_yoshi_face_2___eye_closed_v3_001[] = {
+	gsDPPipeSync(),
+	gsDPSetAlphaDither(G_AD_DISABLE),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_theplayerrolo_yoshi_saturn_eyes[] = {
+	gsSPCopyLightsPlayerPart(SKIN),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT, TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT),
+	gsDPSetAlphaDither(G_AD_NOISE),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, theplayerrolo_yoshi_saturn_eyes_rgba16),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadBlock(7, 0, 0, 1023, 256),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 8, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0),
+	gsDPSetTileSize(0, 0, 0, 124, 124),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_revert_theplayerrolo_yoshi_saturn_eyes[] = {
+	gsDPPipeSync(),
+	gsDPSetAlphaDither(G_AD_DISABLE),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_theplayerrolo_yoshi_face_7___eye_X_v3_001[] = {
+	gsSPCopyLightsPlayerPart(SKIN),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT, TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT),
+	gsDPSetAlphaDither(G_AD_NOISE),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, theplayerrolo_yoshi_DeadEyes_rgba16),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadBlock(7, 0, 0, 1023, 256),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 8, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0),
+	gsDPSetTileSize(0, 0, 0, 124, 124),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_revert_theplayerrolo_yoshi_face_7___eye_X_v3_001[] = {
+	gsDPPipeSync(),
+	gsDPSetAlphaDither(G_AD_DISABLE),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_theplayerrolo_yoshi_gloves_v3_001[] = {
+	gsSPCopyLightsPlayerPart(GLOVES),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
+	gsDPSetAlphaDither(G_AD_NOISE),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_revert_theplayerrolo_yoshi_gloves_v3_001[] = {
+	gsDPPipeSync(),
+	gsDPSetAlphaDither(G_AD_DISABLE),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_theplayerrolo_yoshi_Nostrils[] = {
+	gsSPCopyLightsPlayerPart(SKIN),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT, TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT),
+	gsDPSetAlphaDither(G_AD_NOISE),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, theplayerrolo_yoshi_Nostrils_rgba16),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadBlock(7, 0, 0, 575, 342),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 6, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0),
+	gsDPSetTileSize(0, 0, 0, 92, 92),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_revert_theplayerrolo_yoshi_Nostrils[] = {
+	gsDPPipeSync(),
+	gsDPSetAlphaDither(G_AD_DISABLE),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_theplayerrolo_yoshi_Spines[] = {
+	gsSPCopyLightsPlayerPart(EMBLEM),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
+	gsDPSetAlphaDither(G_AD_NOISE),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_revert_theplayerrolo_yoshi_Spines[] = {
+	gsDPPipeSync(),
+	gsDPSetAlphaDither(G_AD_DISABLE),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_theplayerrolo_yoshi_face_0___eye_open_v3_001[] = {
+	gsSPCopyLightsPlayerPart(SKIN),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT, TEXEL0, SHADE, TEXEL0_ALPHA, SHADE, 0, 0, 0, ENVIRONMENT),
+	gsDPSetAlphaDither(G_AD_NOISE),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, theplayerrolo_yoshi_Eyes_rgba16),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadBlock(7, 0, 0, 1023, 256),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 8, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0),
+	gsDPSetTileSize(0, 0, 0, 124, 124),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_revert_theplayerrolo_yoshi_face_0___eye_open_v3_001[] = {
+	gsDPPipeSync(),
+	gsDPSetAlphaDither(G_AD_DISABLE),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_theplayerrolo_yoshi_wing_2_v3_001[] = {
+	gsSPClearGeometryMode(G_CULL_BACK),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(0, 0, 0, TEXEL0, TEXEL0, 0, ENVIRONMENT, 0, 0, 0, 0, TEXEL0, TEXEL0, 0, ENVIRONMENT, 0),
+	gsDPSetAlphaDither(G_AD_NOISE),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, theplayerrolo_yoshi_wing_2_rgba16),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadBlock(7, 0, 0, 2047, 256),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 8, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0),
+	gsDPSetTileSize(0, 0, 0, 124, 252),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_revert_theplayerrolo_yoshi_wing_2_v3_001[] = {
+	gsSPSetGeometryMode(G_CULL_BACK),
+	gsDPPipeSync(),
+	gsDPSetAlphaDither(G_AD_DISABLE),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_theplayerrolo_yoshi_wing_1_v3_001[] = {
+	gsSPClearGeometryMode(G_CULL_BACK),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(0, 0, 0, TEXEL0, TEXEL0, 0, ENVIRONMENT, 0, 0, 0, 0, TEXEL0, TEXEL0, 0, ENVIRONMENT, 0),
+	gsDPSetAlphaDither(G_AD_NOISE),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, theplayerrolo_yoshi_wing1_rgba16),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadBlock(7, 0, 0, 2047, 256),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 8, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0),
+	gsDPSetTileSize(0, 0, 0, 124, 252),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_revert_theplayerrolo_yoshi_wing_1_v3_001[] = {
+	gsSPSetGeometryMode(G_CULL_BACK),
+	gsDPPipeSync(),
+	gsDPSetAlphaDither(G_AD_DISABLE),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_theplayerrolo_yoshi_cap_v3[] = {
+	gsSPCopyLightsPlayerPart(HAIR),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
+	gsDPSetAlphaDither(G_AD_NOISE),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_revert_theplayerrolo_yoshi_cap_v3[] = {
+	gsDPPipeSync(),
+	gsDPSetAlphaDither(G_AD_DISABLE),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_theplayerrolo_yoshi_shoes_v3_001[] = {
+	gsSPCopyLightsPlayerPart(SHOES),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
+	gsDPSetAlphaDither(G_AD_NOISE),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_revert_theplayerrolo_yoshi_shoes_v3_001[] = {
+	gsDPPipeSync(),
+	gsDPSetAlphaDither(G_AD_DISABLE),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_offset_mesh_layer_1[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_TorsoMiddle),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_TorsoMiddle),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_offset_mesh_layer_1_mat_override_metal_v3_001_0[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_metal_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_metal_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_offset_001_skinned_mesh_layer_1[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_body_v3),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_001_skinned_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_body_v3),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_offset_001_skinned_mesh_layer_1_mat_override_metal_v3_001_0[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_metal_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_001_skinned_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_metal_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_offset_001_mesh_layer_1[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_body_v3),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_001_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_body_v3),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_hair_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_001_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_hair_v3_001),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_body_v3),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_001_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_body_v3),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_TorsoMiddle),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_001_mesh_layer_1_tri_3),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_TorsoMiddle),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_offset_001_mesh_layer_1_mat_override_metal_v3_001_0[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_metal_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_001_mesh_layer_1_tri_0),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_001_mesh_layer_1_tri_1),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_001_mesh_layer_1_tri_2),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_001_mesh_layer_1_tri_3),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_metal_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_displaylist_mesh_layer_1[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_SFOTHEggMiddle),
+	gsSPDisplayList(theplayerrolo_yoshi_000_displaylist_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_SFOTHEggMiddle),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_SFOTHEggTop),
+	gsSPDisplayList(theplayerrolo_yoshi_000_displaylist_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_SFOTHEggTop),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_displaylist_mesh_layer_1_mat_override_metal_v3_001_0[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_metal_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_000_displaylist_mesh_layer_1_tri_0),
+	gsSPDisplayList(theplayerrolo_yoshi_000_displaylist_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_metal_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_displaylist_mesh_layer_1_mat_override_face_1___eye_half_v3_001_1[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_SFOTHEggMiddle),
+	gsSPDisplayList(theplayerrolo_yoshi_000_displaylist_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_SFOTHEggMiddle),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_SFOTHEggTop),
+	gsSPDisplayList(theplayerrolo_yoshi_000_displaylist_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_SFOTHEggTop),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_displaylist_mesh_layer_1_mat_override_face_2___eye_closed_v3_001_2[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_SFOTHEggMiddle),
+	gsSPDisplayList(theplayerrolo_yoshi_000_displaylist_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_SFOTHEggMiddle),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_SFOTHEggTop),
+	gsSPDisplayList(theplayerrolo_yoshi_000_displaylist_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_SFOTHEggTop),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_displaylist_mesh_layer_1_mat_override_saturn_eyes_3[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_SFOTHEggMiddle),
+	gsSPDisplayList(theplayerrolo_yoshi_000_displaylist_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_SFOTHEggMiddle),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_SFOTHEggTop),
+	gsSPDisplayList(theplayerrolo_yoshi_000_displaylist_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_SFOTHEggTop),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_displaylist_mesh_layer_1_mat_override_face_7___eye_X_v3_001_4[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_SFOTHEggMiddle),
+	gsSPDisplayList(theplayerrolo_yoshi_000_displaylist_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_SFOTHEggMiddle),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_SFOTHEggTop),
+	gsSPDisplayList(theplayerrolo_yoshi_000_displaylist_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_SFOTHEggTop),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_gloves_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_gloves_v3_001),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_Nostrils),
+	gsSPDisplayList(theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_Nostrils),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_Spines),
+	gsSPDisplayList(theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_Spines),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_face_0___eye_open_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_tri_3),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_face_0___eye_open_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_mat_override_metal_v3_001_0[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_metal_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_tri_0),
+	gsSPDisplayList(theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_tri_1),
+	gsSPDisplayList(theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_tri_2),
+	gsSPDisplayList(theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_tri_3),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_metal_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_mat_override_face_1___eye_half_v3_001_1[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_gloves_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_gloves_v3_001),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_Nostrils),
+	gsSPDisplayList(theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_Nostrils),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_Spines),
+	gsSPDisplayList(theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_Spines),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_face_1___eye_half_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_tri_3),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_face_1___eye_half_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_mat_override_face_2___eye_closed_v3_001_2[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_gloves_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_gloves_v3_001),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_Nostrils),
+	gsSPDisplayList(theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_Nostrils),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_Spines),
+	gsSPDisplayList(theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_Spines),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_face_2___eye_closed_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_tri_3),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_face_2___eye_closed_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_mat_override_face_7___eye_X_v3_001_3[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_gloves_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_gloves_v3_001),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_Nostrils),
+	gsSPDisplayList(theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_Nostrils),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_Spines),
+	gsSPDisplayList(theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_Spines),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_face_7___eye_X_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_002_switch_option_head__no_cap__mesh_layer_1_tri_3),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_face_7___eye_X_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_displaylist_001_mesh_layer_4[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_wing_2_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_000_displaylist_001_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_wing_2_v3_001),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_wing_1_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_000_displaylist_001_mesh_layer_4_tri_1),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_wing_1_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_displaylist_001_mesh_layer_4_mat_override_metal_v3_001_0[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_wing_2_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_000_displaylist_001_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_wing_2_v3_001),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_wing_1_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_000_displaylist_001_mesh_layer_4_tri_1),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_wing_1_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_displaylist_002_mesh_layer_4[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_wing_2_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_000_displaylist_002_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_wing_2_v3_001),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_wing_1_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_000_displaylist_002_mesh_layer_4_tri_1),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_wing_1_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_displaylist_002_mesh_layer_4_mat_override_metal_v3_001_0[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_wing_2_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_000_displaylist_002_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_wing_2_v3_001),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_wing_1_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_000_displaylist_002_mesh_layer_4_tri_1),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_wing_1_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_offset_003_mesh_layer_1[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_body_v3),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_003_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_body_v3),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_offset_003_mesh_layer_1_mat_override_metal_v3_001_0[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_metal_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_003_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_metal_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_offset_004_mesh_layer_1[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_body_v3),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_004_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_body_v3),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_offset_004_mesh_layer_1_mat_override_metal_v3_001_0[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_metal_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_004_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_metal_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_displaylist_003_mesh_layer_1[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_body_v3),
+	gsSPDisplayList(theplayerrolo_yoshi_000_displaylist_003_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_body_v3),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_displaylist_003_mesh_layer_1_mat_override_metal_v3_001_0[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_metal_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_000_displaylist_003_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_metal_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_002_switch_option_right_hand_open_mesh_layer_1[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_body_v3),
+	gsSPDisplayList(theplayerrolo_yoshi_002_switch_option_right_hand_open_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_body_v3),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_002_switch_option_right_hand_open_mesh_layer_1_mat_override_metal_v3_001_0[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_metal_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_002_switch_option_right_hand_open_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_metal_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_offset_006_mesh_layer_1[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_body_v3),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_006_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_body_v3),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_offset_006_mesh_layer_1_mat_override_metal_v3_001_0[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_metal_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_006_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_metal_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_offset_007_mesh_layer_1[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_body_v3),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_007_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_body_v3),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_offset_007_mesh_layer_1_mat_override_metal_v3_001_0[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_metal_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_007_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_metal_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_displaylist_004_mesh_layer_1[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_body_v3),
+	gsSPDisplayList(theplayerrolo_yoshi_000_displaylist_004_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_body_v3),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_displaylist_004_mesh_layer_1_mat_override_metal_v3_001_0[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_metal_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_000_displaylist_004_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_metal_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_002_switch_option_left_hand_open_mesh_layer_1[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_body_v3),
+	gsSPDisplayList(theplayerrolo_yoshi_002_switch_option_left_hand_open_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_body_v3),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_002_switch_option_left_hand_open_mesh_layer_1_mat_override_metal_v3_001_0[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_metal_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_002_switch_option_left_hand_open_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_metal_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_004_switch_option_left_hand_peace_mesh_layer_1[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_body_v3),
+	gsSPDisplayList(theplayerrolo_yoshi_004_switch_option_left_hand_peace_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_body_v3),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_004_switch_option_left_hand_peace_mesh_layer_1_mat_override_metal_v3_001_0[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_metal_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_004_switch_option_left_hand_peace_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_metal_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_005_switch_option_left_hand_cap_mesh_layer_1[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_body_v3),
+	gsSPDisplayList(theplayerrolo_yoshi_005_switch_option_left_hand_cap_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_body_v3),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_SFOTHEggMiddle),
+	gsSPDisplayList(theplayerrolo_yoshi_005_switch_option_left_hand_cap_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_SFOTHEggMiddle),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_SFOTHEggTop),
+	gsSPDisplayList(theplayerrolo_yoshi_005_switch_option_left_hand_cap_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_SFOTHEggTop),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_005_switch_option_left_hand_cap_mesh_layer_1_mat_override_metal_v3_001_0[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_metal_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_005_switch_option_left_hand_cap_mesh_layer_1_tri_0),
+	gsSPDisplayList(theplayerrolo_yoshi_005_switch_option_left_hand_cap_mesh_layer_1_tri_1),
+	gsSPDisplayList(theplayerrolo_yoshi_005_switch_option_left_hand_cap_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_metal_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_006_switch_option_left_hand_wing_cap_mesh_layer_1[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_SFOTHEggMiddle),
+	gsSPDisplayList(theplayerrolo_yoshi_006_switch_option_left_hand_wing_cap_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_SFOTHEggMiddle),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_SFOTHEggTop),
+	gsSPDisplayList(theplayerrolo_yoshi_006_switch_option_left_hand_wing_cap_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_SFOTHEggTop),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_body_v3),
+	gsSPDisplayList(theplayerrolo_yoshi_006_switch_option_left_hand_wing_cap_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_body_v3),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_006_switch_option_left_hand_wing_cap_mesh_layer_1_mat_override_metal_v3_001_0[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_metal_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_006_switch_option_left_hand_wing_cap_mesh_layer_1_tri_0),
+	gsSPDisplayList(theplayerrolo_yoshi_006_switch_option_left_hand_wing_cap_mesh_layer_1_tri_1),
+	gsSPDisplayList(theplayerrolo_yoshi_006_switch_option_left_hand_wing_cap_mesh_layer_1_tri_2),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_metal_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_006_switch_option_left_hand_wing_cap_wings_mesh_layer_4[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_wing_2_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_006_switch_option_left_hand_wing_cap_wings_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_wing_2_v3_001),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_wing_1_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_006_switch_option_left_hand_wing_cap_wings_mesh_layer_4_tri_1),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_wing_1_v3_001),
+	gsDPPipeSync(),
+	gsSPSetGeometryMode(G_LIGHTING),
+	gsSPClearGeometryMode(G_TEXTURE_GEN),
+	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
+	gsSPTexture(65535, 65535, 0, 0, 0),
+	gsDPSetEnvColor(255, 255, 255, 255),
+	gsDPSetAlphaCompare(G_AC_NONE),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_006_switch_option_left_hand_wing_cap_wings_mesh_layer_4_mat_override_metal_v3_001_0[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_wing_2_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_006_switch_option_left_hand_wing_cap_wings_mesh_layer_4_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_wing_2_v3_001),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_wing_1_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_006_switch_option_left_hand_wing_cap_wings_mesh_layer_4_tri_1),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_wing_1_v3_001),
+	gsDPPipeSync(),
+	gsSPSetGeometryMode(G_LIGHTING),
+	gsSPClearGeometryMode(G_TEXTURE_GEN),
+	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
+	gsSPTexture(65535, 65535, 0, 0, 0),
+	gsDPSetEnvColor(255, 255, 255, 255),
+	gsDPSetAlphaCompare(G_AC_NONE),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_offset_009_mesh_layer_1[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_body_v3),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_009_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_body_v3),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_offset_009_mesh_layer_1_mat_override_metal_v3_001_0[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_metal_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_009_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_metal_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_offset_010_mesh_layer_1[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_body_v3),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_010_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_body_v3),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_offset_010_mesh_layer_1_mat_override_metal_v3_001_0[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_metal_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_010_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_metal_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_offset_011_mesh_layer_1[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_cap_v3),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_011_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_cap_v3),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_shoes_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_011_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_shoes_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_offset_011_mesh_layer_1_mat_override_metal_v3_001_0[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_metal_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_011_mesh_layer_1_tri_0),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_011_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_metal_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_offset_012_mesh_layer_1[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_body_v3),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_012_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_body_v3),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_offset_012_mesh_layer_1_mat_override_metal_v3_001_0[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_metal_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_012_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_metal_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_offset_013_mesh_layer_1[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_body_v3),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_013_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_body_v3),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_offset_013_mesh_layer_1_mat_override_metal_v3_001_0[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_metal_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_000_offset_013_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_metal_v3_001),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_displaylist_005_mesh_layer_1[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_shoes_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_000_displaylist_005_mesh_layer_1_tri_0),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_shoes_v3_001),
+	gsSPDisplayList(mat_theplayerrolo_yoshi_cap_v3),
+	gsSPDisplayList(theplayerrolo_yoshi_000_displaylist_005_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_cap_v3),
+	gsDPPipeSync(),
+	gsSPSetGeometryMode(G_LIGHTING),
+	gsSPClearGeometryMode(G_TEXTURE_GEN),
+	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
+	gsSPTexture(65535, 65535, 0, 0, 0),
+	gsDPSetEnvColor(255, 255, 255, 255),
+	gsDPSetAlphaCompare(G_AC_NONE),
+	gsSPEndDisplayList(),
+};
+
+Gfx theplayerrolo_yoshi_000_displaylist_005_mesh_layer_1_mat_override_metal_v3_001_0[] = {
+	gsSPDisplayList(mat_theplayerrolo_yoshi_metal_v3_001),
+	gsSPDisplayList(theplayerrolo_yoshi_000_displaylist_005_mesh_layer_1_tri_0),
+	gsSPDisplayList(theplayerrolo_yoshi_000_displaylist_005_mesh_layer_1_tri_1),
+	gsSPDisplayList(mat_revert_theplayerrolo_yoshi_metal_v3_001),
+	gsDPPipeSync(),
+	gsSPSetGeometryMode(G_LIGHTING),
+	gsSPClearGeometryMode(G_TEXTURE_GEN),
+	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
+	gsSPTexture(65535, 65535, 0, 0, 0),
+	gsDPSetEnvColor(255, 255, 255, 255),
+	gsDPSetAlphaCompare(G_AC_NONE),
+	gsSPEndDisplayList(),
+};
+

@@ -9,7 +9,7 @@
 ]]
 
 -- Replace Mod Name with your Character/Pack name.
-local TEXT_MOD_NAME = "Custom Character"
+local TEXT_MOD_NAME = "ThePlayerRolo Pack"
 
 -- Stops mod from loading if Character Select isn't on, Does not need to be touched
 if not _G.charSelectExists then
@@ -31,10 +31,10 @@ end
     Ex: life-icon.png -> squis
 ]]
 
-local E_MODEL_CHAR =      smlua_model_util_get_id("custom_model_geo")      -- Located in "actors"
--- local E_MODEL_CHAR_STAR = smlua_model_util_get_id("custom_model_star_geo") -- Located in "actors"
+local E_MODEL_THEPLAYERROLO_YOSHI =      smlua_model_util_get_id("theplayerrolo_yoshi_geo")      -- Located in "actors"
+-- local E_MODEL_THEPLAYERROLO_YOSHI_STAR = smlua_model_util_get_id("custom_model_star_geo") -- Located in "actors"
 
-local TEX_CHAR_LIFE_ICON = get_texture_info("exclamation-icon") -- Located in "textures"
+local TEX_THEPLAYERROLO_LIFE_ICON = get_texture_info("exclamation-icon") -- Located in "textures"
 -- local TEX_CHAR_STAR_ICON = get_texture_info("exclamation-icon") -- Located in "textures"
 
 -- All sound files are located in "sound" folder
@@ -84,23 +84,23 @@ local VOICETABLE_CHAR = {
 
 -- All Located in "actors" folder
 -- (Models do not exist in template)
---[[
-local CAPTABLE_CHAR = {
-    normal = smlua_model_util_get_id("FILENAME_geo"),
-    wing = smlua_model_util_get_id("FILENAME_geo"),
-    metal = smlua_model_util_get_id("FILENAME_geo"),
-}
-]]
 
-local PALETTE_CHAR = {
+local CAPTABLE_THEPLAYERROLO = {
+    normal = smlua_model_util_get_id("theplayerrolo_ncap_geo"),
+    wing = smlua_model_util_get_id("theplayerrolo_wcap_geo"),
+    metal = smlua_model_util_get_id("theplayerrolo_mcap_geo"),
+}
+
+
+local PALETTE_THEPLAYERROLO_YOSHI = {
     [PANTS]  = "ffffff",
-    [SHIRT]  = "ffffff",
-    [GLOVES] = "ffffff",
-    [SHOES]  = "ffffff",
-    [HAIR]   = "ffffff",
-    [SKIN]   = "ffffff",
-    [CAP]    = "ffffff",
-	[EMBLEM] = "ffffff"
+    [SHIRT]  = "1B2A35", --Black
+    [GLOVES] = "ffffff", -- White 
+    [SHOES]  = "717171", --Grey
+    [HAIR]   = "F4CC43", --Yellow
+    [SKIN]   = "C4281C", --Red
+    [CAP]    = "1B2A35", --Black (Shell)
+	[EMBLEM] = "1B2A35"  --Black (Spines)
 }
 
 -- All Located in "textures" folder
@@ -136,31 +136,31 @@ local CSloaded = false
 local function on_character_select_load()
     -- Adds the custom character to the Character Select Menu
     CT_CHAR = _G.charSelect.character_add(
-        "Custom Character", -- Character Name
-        "Description/Info", -- Description
-        "Mod Creator Name", -- Credits
-        "ffaaaa",           -- Menu Color
-        E_MODEL_CHAR,       -- Character Model
+        "ThePlayerRolo (Yoshi)", -- Character Name
+        "Its a me, a Yoshi!", -- Description
+        "ThePlayerRolo, Models Resource", -- Credits
+        "C4281C",           -- Menu Color
+        E_MODEL_THEPLAYERROLO_YOSHI,       -- Character Model
         CT_MARIO,           -- Override Character
-        TEX_CHAR_LIFE_ICON, -- Life Icon
+        TEX_THEPLAYERROLO_LIFE_ICON, -- Life Icon
         1,                  -- Camera Scale
         0                   -- Vertical Offset
     )
 
     -- Adds cap models to your character
     -- (Models do not exist in template)
-    -- _G.charSelect.character_add_caps(E_MODEL_CHAR, CAPTABLE_CHAR)
+     _G.charSelect.character_add_caps(E_MODEL_THEPLAYERROLO_YOSHI, CAPTABLE_THEPLAYERROLO)
 
     -- Adds a voice to your character
     -- (Sounds do not exist in template)
-    -- _G.charSelect.character_add_voice(E_MODEL_CHAR, VOICETABLE_CHAR)
+    -- _G.charSelect.character_add_voice(E_MODEL_THEPLAYERROLO_YOSHI, VOICETABLE_CHAR)
 
     -- Adds a celebration star to your character
     -- (Models do not exist in template)
-    --_G.charSelect.character_add_celebration_star(E_MODEL_CHAR, E_MODEL_CHAR_STAR, TEX_CHAR_STAR_ICON)
+    --_G.charSelect.character_add_celebration_star(E_MODEL_THEPLAYERROLO_YOSHI, E_MODEL_THEPLAYERROLO_YOSHI_STAR, TEX_CHAR_STAR_ICON)
 
     -- Adds a palette to your character
-    _G.charSelect.character_add_palette_preset(E_MODEL_CHAR, PALETTE_CHAR)
+    _G.charSelect.character_add_palette_preset(E_MODEL_THEPLAYERROLO_YOSHI, PALETTE_THEPLAYERROLO_YOSHI)
 
     -- Adds a health meter to your character
     -- (Textures do not exist in template)
