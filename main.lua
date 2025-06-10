@@ -1,4 +1,4 @@
--- name: [CS] Character Select Template
+-- name: [CS] ThePlayerRolo
 -- description: Write mod description here!\n\nMade by: You!\n\n\\#ff7777\\This Pack requires Character Select\nto use as a Library!
 
 --[[
