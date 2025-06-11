@@ -55,6 +55,7 @@ extern const GeoLayout theplayerrolo_yoshi_002_switch_opt0_001_switch_opt0_000_s
 extern const GeoLayout theplayerrolo_yoshi_002_switch_opt0_001_switch_opt0_000_switch_opt0_000_switch_001_opt7[];
 extern const GeoLayout theplayerrolo_yoshi_geo[];
 extern Lights1 theplayerrolo_yoshi_TorsoMiddle_lights;
+extern Lights1 theplayerrolo_yoshi_metal_v3_001_lights;
 extern Lights1 theplayerrolo_yoshi_body_v3_lights;
 extern Lights1 theplayerrolo_yoshi_hair_v3_001_lights;
 extern Lights1 theplayerrolo_yoshi_SFOTHEggMiddle_lights;
@@ -70,7 +71,8 @@ extern Lights1 theplayerrolo_yoshi_face_0___eye_open_v3_001_lights;
 extern Lights1 theplayerrolo_yoshi_cap_v3_lights;
 extern Lights1 theplayerrolo_yoshi_shoes_v3_001_lights;
 extern u8 theplayerrolo_yoshi_BlazikenTShirt64_rgba16[];
-extern u8 theplayerrolo_yoshi_metal_rgba16[];
+extern u8 theplayerrolo_yoshi_Metal_Shade_rgba16[];
+extern u8 theplayerrolo_yoshi_Metal_Light_rgba16[];
 extern u8 theplayerrolo_yoshi_Shell_rgba16[];
 extern u8 theplayerrolo_yoshi_SFOTHEggMiddle_rgba16[];
 extern u8 theplayerrolo_yoshi_SFOTHEggTop_rgba16[];

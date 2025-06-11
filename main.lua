@@ -34,7 +34,7 @@ end
 local E_MODEL_THEPLAYERROLO_YOSHI =      smlua_model_util_get_id("theplayerrolo_yoshi_geo")      -- Located in "actors"
 -- local E_MODEL_THEPLAYERROLO_YOSHI_STAR = smlua_model_util_get_id("custom_model_star_geo") -- Located in "actors"
 
-local TEX_THEPLAYERROLO_LIFE_ICON = get_texture_info("exclamation-icon") -- Located in "textures"
+local TEX_THEPLAYERROLO_LIFE_ICON = get_texture_info("ThePlayerRoloYoshiIcon") -- Located in "textures"
 -- local TEX_CHAR_STAR_ICON = get_texture_info("exclamation-icon") -- Located in "textures"
 
 -- All sound files are located in "sound" folder
@@ -92,6 +92,7 @@ local CAPTABLE_THEPLAYERROLO = {
 }
 
 
+
 local PALETTE_THEPLAYERROLO_YOSHI = {
     [PANTS]  = "ffffff",
     [SHIRT]  = "1B2A35", --Black
@@ -135,7 +136,7 @@ local HEALTH_METER_CHAR = {
 local CSloaded = false
 local function on_character_select_load()
     -- Adds the custom character to the Character Select Menu
-    CT_CHAR = _G.charSelect.character_add(
+    CT_PLAYERROLO = _G.charSelect.character_add(
         "ThePlayerRolo (Yoshi)", -- Character Name
         "Its a me, a Yoshi!", -- Description
         "ThePlayerRolo, Models Resource", -- Credits
@@ -168,7 +169,7 @@ local function on_character_select_load()
 
     -- Adds credits to the credits menu
     _G.charSelect.credit_add(TEXT_MOD_NAME, "You", "Pack")
-
+    _G.charSelect.character_hook_moveset(CT_PLAYERROLO, HOOK_MARIO_UPDATE, rolo_update)
     CSloaded = true
 end
 

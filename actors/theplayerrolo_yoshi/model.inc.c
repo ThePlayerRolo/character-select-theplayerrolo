@@ -2,6 +2,10 @@ Lights1 theplayerrolo_yoshi_TorsoMiddle_lights = gdSPDefLights1(
 	0x8, 0xF, 0x15,
 	0x1B, 0x2A, 0x35, 0x28, 0x28, 0x28);
 
+Lights1 theplayerrolo_yoshi_metal_v3_001_lights = gdSPDefLights1(
+	0xFF, 0x0, 0x0,
+	0x0, 0x0, 0x0, 0x28, 0x28, 0x28);
+
 Lights1 theplayerrolo_yoshi_body_v3_lights = gdSPDefLights1(
 	0x60, 0xE, 0x8,
 	0xC4, 0x28, 0x1C, 0x28, 0x28, 0x28);
@@ -62,8 +66,12 @@ Texture theplayerrolo_yoshi_BlazikenTShirt64_rgba16[] = {
 	#include "actors/theplayerrolo_yoshi/BlazikenTShirt64.rgba16.inc.c"
 };
 
-Texture theplayerrolo_yoshi_metal_rgba16[] = {
-	#include "actors/theplayerrolo_yoshi/metal.rgba16.inc.c"
+Texture theplayerrolo_yoshi_Metal_Shade_rgba16[] = {
+	#include "actors/theplayerrolo_yoshi/Metal_Shade.rgba16.inc.c"
+};
+
+Texture theplayerrolo_yoshi_Metal_Light_rgba16[] = {
+	#include "actors/theplayerrolo_yoshi/Metal_Light.rgba16.inc.c"
 };
 
 Texture theplayerrolo_yoshi_Shell_rgba16[] = {
@@ -1851,15 +1859,23 @@ Gfx mat_revert_theplayerrolo_yoshi_TorsoMiddle[] = {
 
 Gfx mat_theplayerrolo_yoshi_metal_v3_001[] = {
 	gsSPSetGeometryMode(G_TEXTURE_GEN),
+	gsSPLight(&theplayerrolo_yoshi_metal_v3_001_lights.l, 1),
+    gsSPLight(&theplayerrolo_yoshi_metal_v3_001_lights.a, 2),
+    gsSPCopyLightEXT(2, 13),
 	gsDPPipeSync(),
-	gsDPSetCombineLERP(0, 0, 0, TEXEL0, 0, 0, 0, ENVIRONMENT, 0, 0, 0, TEXEL0, 0, 0, 0, ENVIRONMENT),
+	gsDPSetCombineLERP(TEXEL0, 0, SHADE, TEXEL1, 0, 0, 0, ENVIRONMENT, TEXEL0, 0, SHADE, TEXEL1, 0, 0, 0, ENVIRONMENT),
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsSPTexture(4032, 1984, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, theplayerrolo_yoshi_metal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, theplayerrolo_yoshi_Metal_Shade_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
 	gsDPSetTileSize(0, 0, 0, 252, 124),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, theplayerrolo_yoshi_Metal_Light_rgba16),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 512, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadBlock(6, 0, 0, 2047, 128),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 512, 1, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
+	gsDPSetTileSize(1, 0, 0, 252, 124),
 	gsSPEndDisplayList(),
 };
 
