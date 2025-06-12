@@ -32,27 +32,49 @@ local function iceDaggerCheck(m)
     return m.action & ACT_FLAG_STATIONARY ~= 0 and m.health > 0 and gPlayerSyncTable[0].SWORD_ENERGY >= 1;
 end
 
+function ground_pound_dive(m)
+    if m.action  ==  ACT_GROUND_POUND then
+        if (m.controller.buttonPressed & B_BUTTON) ~= 0 then 
+            set_mario_action(m, ACT_DIVE, 0);
+            m.vel.y = 30.0;
+            m.forwardVel = 40.0;
+            m.faceAngle.y = m.intendedYaw;
+            return false;
+        end
+    end 
+end
+
+function ground_pound_jump(m)
+    if m.action  ==  ACT_GROUND_POUND_LAND then
+        if (m.controller.buttonPressed & A_BUTTON) ~= 0 then
+            m.vel.y = 30.0;
+            m.faceAngle.y = m.intendedYaw;
+            return set_mario_action(m, ACT_TRIPLE_JUMP, 0);
+        end
+    end 
+end
 
 
 -- Based on CoinStores check.
-local function RoloSwordEnergyEarn(m,o,interactType)
+local function RoloSwordEnergyEarnPassive(m,o,interactType)
     if m.playerIndex ~= 0 then 
         return
     else
          if interactType == INTERACT_COIN and (o.oDamageOrCoinValue > 0) then
             gPlayerSyncTable[0].SWORD_ENERGY = gPlayerSyncTable[0].SWORD_ENERGY +  (o.oDamageOrCoinValue / 40);
          end
-         -- (m.flags & MARIO_METAL_CAP)  ~= 0 
-         if interactType == INTERACT_BOUNCE_TOP and (o.oDamageOrCoinValue > 0) then
-            if determine_interaction(m,o) == INT_FAST_ATTACK_OR_SHELL  or determine_interaction(m,o) == INT_PUNCH then
-                gPlayerSyncTable[0].SWORD_ENERGY = gPlayerSyncTable[0].SWORD_ENERGY +  0.1;
-            end
-            if  (m.flags & ACT_FLAG_INVULNERABLE) ~= 0  or (m.flags & MARIO_METAL_CAP)  ~= 0 then
-            gPlayerSyncTable[0].SWORD_ENERGY = gPlayerSyncTable[0].SWORD_ENERGY +  0.1;
-            end
-         end
-         if interactType == INTERACT_STAR_OR_KEY then
+         if interactType == INTERACT_STAR_OR_KEY or obj_is_mushroom_1up(o) then
             gPlayerSyncTable[0].SWORD_ENERGY = gPlayerSyncTable[0].SWORD_ENERGY + 1;
+         end
+    end
+end
+
+function RoloSwordEnergyEarnAttack(m, o, interationID)
+    if m.playerIndex ~= 0 then
+        return
+    else
+         if o.oDamageOrCoinValue > 0 then
+            gPlayerSyncTable[0].SWORD_ENERGY = gPlayerSyncTable[0].SWORD_ENERGY +  0.05; 
          end
     end
 end
@@ -68,8 +90,11 @@ function rolo_update(m)
             set_mario_action(m, ACT_ICEDAGGER, 0); 
         end
      end
+    ground_pound_dive(m);
+    ground_pound_jump(m);
 end
 
 
 hook_mario_action(ACT_ICEDAGGER, act_icedagger)
-hook_event(HOOK_ON_INTERACT, RoloSwordEnergyEarn)
+hook_event(HOOK_ON_INTERACT, RoloSwordEnergyEarnPassive)
+hook_event(HOOK_ON_ATTACK_OBJECT, RoloSwordEnergyEarnAttack)

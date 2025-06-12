@@ -117,19 +117,10 @@ local function on_character_select_load()
         1,                  -- Camera Scale
         0                   -- Vertical Offset
     )
-
      _G.charSelect.character_add_caps(E_MODEL_THEPLAYERROLO_YOSHI, CAPTABLE_THEPLAYERROLO)
-
-
-
     -- _G.charSelect.character_add_voice(E_MODEL_THEPLAYERROLO_YOSHI, VOICETABLE_CHAR)
-
-
     _G.charSelect.character_add_palette_preset(E_MODEL_THEPLAYERROLO_YOSHI, PALETTE_THEPLAYERROLO_YOSHI)
-
-
     -- _G.charSelect.character_add_health_meter(CT_CHAR, HEALTH_METER_CHAR)
-
     _G.charSelect.credit_add(TEXT_MOD_NAME, "You", "Pack")
     _G.charSelect.character_hook_moveset(CT_PLAYERROLO, HOOK_MARIO_UPDATE, rolo_update)
     CSloaded = true
