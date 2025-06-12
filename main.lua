@@ -1,41 +1,21 @@
 -- name: [CS] ThePlayerRolo
 -- description: Write mod description here!\n\nMade by: You!\n\n\\#ff7777\\This Pack requires Character Select\nto use as a Library!
 
---[[
-    API Documentation for Character Select can be found below:
-    https://github.com/Squishy6094/character-select-coop/wiki/API-Documentation
 
-    Use this if you're curious on how anything here works >v<
-]]
 
--- Replace Mod Name with your Character/Pack name.
 local TEXT_MOD_NAME = "ThePlayerRolo Pack"
+ICEDAGGER_HEAL_ANIM = 'IceDaggerHeal'
+E_MODEL_BT_HEALEFFECT1 = smlua_model_util_get_id("BTHealthEffect1_geo")
+ICEDAGGER_SOUND = audio_sample_load("IceDaggerHeal.ogg");
 
--- Stops mod from loading if Character Select isn't on, Does not need to be touched
 if not _G.charSelectExists then
     djui_popup_create("\\#ffffdc\\\n"..TEXT_MOD_NAME.."\nRequires the Character Select Mod\nto use as a Library!\n\nPlease turn on the Character Select Mod\nand Restart the Room!", 6)
     return 0
 end
 
---[[
-    Everything from here down is character data, and is loaded at the end of the file
-
-    Note that most things here are noted out via use of '--', if there is any
-    functionality you'd want to use then remove the '--' in front of the functions.
-
-    If needbe, Replace CHAR in the tables with your character's name
-    Ex: E_MODEL_CHAR -> E_MODEL_SQUISHY
-
-    Ensure all file naming is unique from other mods.
-    Prefixing your files with your character's name should work fine
-    Ex: life-icon.png -> squis
-]]
-
 local E_MODEL_THEPLAYERROLO_YOSHI =      smlua_model_util_get_id("theplayerrolo_yoshi_geo")      -- Located in "actors"
--- local E_MODEL_THEPLAYERROLO_YOSHI_STAR = smlua_model_util_get_id("custom_model_star_geo") -- Located in "actors"
 
 local TEX_THEPLAYERROLO_LIFE_ICON = get_texture_info("ThePlayerRoloYoshiIcon") -- Located in "textures"
--- local TEX_CHAR_STAR_ICON = get_texture_info("exclamation-icon") -- Located in "textures"
 
 -- All sound files are located in "sound" folder
 -- Remember to include the file extention in the name
@@ -82,16 +62,12 @@ local VOICETABLE_CHAR = {
 	[CHAR_SOUND_MAMA_MIA] = 'LeaveLevel.ogg' -- Booted out of level
 }
 
--- All Located in "actors" folder
--- (Models do not exist in template)
 
 local CAPTABLE_THEPLAYERROLO = {
     normal = smlua_model_util_get_id("theplayerrolo_ncap_geo"),
     wing = smlua_model_util_get_id("theplayerrolo_wcap_geo"),
     metal = smlua_model_util_get_id("theplayerrolo_mcap_geo"),
 }
-
-
 
 local PALETTE_THEPLAYERROLO_YOSHI = {
     [PANTS]  = "ffffff",
@@ -125,13 +101,7 @@ local HEALTH_METER_CHAR = {
 }
 ]]
 
---[[
-    Everything from here down where the data is applied
 
-    Note that nothing here other than the 'character_add' function
-    is required for a custom character, if you don't have the assets
-    then feel free to remove the function from the functions below
-]]
 
 local CSloaded = false
 local function on_character_select_load()
@@ -148,34 +118,23 @@ local function on_character_select_load()
         0                   -- Vertical Offset
     )
 
-    -- Adds cap models to your character
-    -- (Models do not exist in template)
      _G.charSelect.character_add_caps(E_MODEL_THEPLAYERROLO_YOSHI, CAPTABLE_THEPLAYERROLO)
 
-    -- Adds a voice to your character
-    -- (Sounds do not exist in template)
+
+
     -- _G.charSelect.character_add_voice(E_MODEL_THEPLAYERROLO_YOSHI, VOICETABLE_CHAR)
 
-    -- Adds a celebration star to your character
-    -- (Models do not exist in template)
-    --_G.charSelect.character_add_celebration_star(E_MODEL_THEPLAYERROLO_YOSHI, E_MODEL_THEPLAYERROLO_YOSHI_STAR, TEX_CHAR_STAR_ICON)
 
-    -- Adds a palette to your character
     _G.charSelect.character_add_palette_preset(E_MODEL_THEPLAYERROLO_YOSHI, PALETTE_THEPLAYERROLO_YOSHI)
 
-    -- Adds a health meter to your character
-    -- (Textures do not exist in template)
+
     -- _G.charSelect.character_add_health_meter(CT_CHAR, HEALTH_METER_CHAR)
 
-    -- Adds credits to the credits menu
     _G.charSelect.credit_add(TEXT_MOD_NAME, "You", "Pack")
     _G.charSelect.character_hook_moveset(CT_PLAYERROLO, HOOK_MARIO_UPDATE, rolo_update)
     CSloaded = true
 end
 
--- Character Voice hooks
--- You will likely not need to care about these
--- Will soon be overhauled
 
 _G.charSelect.config_character_sounds()
 
