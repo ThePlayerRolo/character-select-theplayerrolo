@@ -13,7 +13,7 @@ if not _G.charSelectExists then
     return 0
 end
 
-local E_MODEL_THEPLAYERROLO_YOSHI =      smlua_model_util_get_id("theplayerrolo_yoshi_geo")      -- Located in "actors"
+local E_MODEL_THEPLAYERROLO_YOSHI = smlua_model_util_get_id("theplayerrolo_yoshi_geo")      -- Located in "actors"
 
 local TEX_THEPLAYERROLO_LIFE_ICON = get_texture_info("ThePlayerRoloYoshiIcon") -- Located in "textures"
 

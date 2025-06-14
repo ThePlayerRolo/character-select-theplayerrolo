@@ -4,18 +4,24 @@ ACT_ICEDAGGER = allocate_mario_action(ACT_GROUP_STATIONARY | ACT_FLAG_ALLOW_FIRS
 
 gPlayerSyncTable[0].ICEDAGGER_TIMER = 0;
 gPlayerSyncTable[0].ICEDAGGER_DEBOUNCE = false;
-gPlayerSyncTable[0].SWORD_ENERGY = 0;
+gPlayerSyncTable[0].SWORD_ENERGY = 2;
 
 function act_icedagger(m)
     m.forwardVel = 0.0;
     m.vel.y = 0.0;
-    m.marioBodyState.handState = 5;
+    if gPlayerSyncTable[0].ICEDAGGER_TIMER < 30 then
+        m.marioBodyState.handState = 5;        
+    else
+        m.marioBodyState.handState = 1; 
+    end
+
     m.marioObj.header.gfx.angle.y = m.area.camera.yaw
     m.marioObj.header.gfx.animInfo.animAccel = 98303
     smlua_anim_util_set_animation(m.marioObj, ICEDAGGER_HEAL_ANIM)
 
     if gPlayerSyncTable[0].ICEDAGGER_TIMER >= 30 and gPlayerSyncTable[0].ICEDAGGER_DEBOUNCE == false then
         m.health = m.health + (4 << 8)
+        spawn_sync_object(id_bhvBTHealthEffect1, E_MODEL_BT_HEALEFFECT1, m.pos.x, m.pos.y + 100, m.pos.z, nil)
         gPlayerSyncTable[0].ICEDAGGER_DEBOUNCE = true;
     end
 
@@ -57,6 +63,7 @@ end
 
 -- Based on CoinStores check.
 local function RoloSwordEnergyEarnPassive(m,o,interactType)
+    if (CT_PLAYERROLO == _G.charSelect.character_get_current_number())  then
     if m.playerIndex ~= 0 then 
         return
     else
@@ -68,8 +75,10 @@ local function RoloSwordEnergyEarnPassive(m,o,interactType)
          end
     end
 end
+end
 
 function RoloSwordEnergyEarnAttack(m, o, interationID)
+    if (CT_PLAYERROLO == _G.charSelect.character_get_current_number())  then
     if m.playerIndex ~= 0 then
         return
     else
@@ -78,12 +87,12 @@ function RoloSwordEnergyEarnAttack(m, o, interationID)
          end
     end
 end
+end
 
 function rolo_update(m)
     if (m.controller.buttonPressed & X_BUTTON) ~= 0 then
         if iceDaggerCheck(m) then
             gPlayerSyncTable[0].SWORD_ENERGY = gPlayerSyncTable[0].SWORD_ENERGY - 1;
-            spawn_sync_object(id_bhvBTHealthEffect1, E_MODEL_BT_HEALEFFECT1, m.pos.x, m.pos.y + 100, m.pos.z, nil)
             gPlayerSyncTable[0].ICEDAGGER_TIMER = 0;
             gPlayerSyncTable[0].ICEDAGGER_DEBOUNCE = false;
             audio_sample_play(ICEDAGGER_SOUND, gMarioStates[0].pos, 1);
